@@ -51,9 +51,7 @@ const Header = () => {
                                 <li className=' pb-[20px] lg:pt-[60px]'>
                                     <span className='font-semibold text-[#002550] text-lg'>Blogs</span>
                                 </li>
-                                <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#002550] text-lg'>Home</span>
-                                </li>
+
 
                             </div>
 
