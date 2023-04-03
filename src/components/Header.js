@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
             <div className=' shadow-md z-50 w-full  relative top-0 left-0'>
-                <div className=' md:flex justify-between px-5 lg:px-20 items-center bg-white'>
+                <div className=' md:flex justify-between px-5 py-2 lg:px-20 items-center bg-white'>
 
                     <div className='relative lg:flex-basis-1/4 lg:py-2 '>
                         <a href='/' class=" ">
@@ -23,35 +23,36 @@ const Header = () => {
 
 
                     {/* mobile icon  */}
-                    <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-4 cursor-pointer lg:hidden'>
+                    <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-5 cursor-pointer lg:hidden'>
                         <ion-icon name={open ? 'close' : 'menu'}><BiMenuAltLeft /> </ion-icon>
                     </div>
 
 
 
-                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[60px]' : 'top-[-280px]'}`}>
+                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[70px]' : 'top-[-290px]'}`}>
 
                         <div className="lg:flex  lg:justify-around">
                             <div className='lg:flex gap-6 lg:justify-between'>
 
-                                <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Home</span>
+                                <li className=' pb-[20px] lg:pt-[60px] relative'>
+                                    <span className='font-semibold text-[#002550] text-lg'>Home</span>
+                                    <div className=' border-2 rounded-full h-[2px] w-[50px] hidden lg:block border-[#002550] absolute -bottom-4'></div>
                                 </li>
 
                                 <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Our Offerings</span>
+                                    <span className='font-semibold text-[#002550] text-lg'>Our Offerings</span>
                                 </li>
                                 <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Our Team</span>
+                                    <span className='font-semibold text-[#002550] text-lg'>Our Team</span>
                                 </li>
                                 <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Contact Us</span>
+                                    <span className='font-semibold text-[#002550] text-lg'>Contact Us</span>
                                 </li>
                                 <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Blogs</span>
+                                    <span className='font-semibold text-[#002550] text-lg'>Blogs</span>
                                 </li>
                                 <li className=' pb-[20px] lg:pt-[60px]'>
-                                    <span className='font-semibold text-[#1A1A1A] text-lg'>Home</span>
+                                    <span className='font-semibold text-[#002550] text-lg'>Home</span>
                                 </li>
 
                             </div>
