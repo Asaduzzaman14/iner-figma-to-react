@@ -29,7 +29,7 @@ const Header = () => {
 
 
 
-                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[60px]' : 'top-[-480px]'}`}>
+                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[60px]' : 'top-[-280px]'}`}>
 
                         <div className="lg:flex  lg:justify-around">
                             <div className='lg:flex gap-6 lg:justify-between'>

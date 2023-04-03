@@ -2,16 +2,18 @@ import React from 'react';
 import logo from '../asset/4.png'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BiPhoneCall } from 'react-icons/bi';
+import { IoLogoInstagram } from 'react-icons/io';
+import { AiOutlineFacebook, AiOutlineLinkedin, AiOutlineTwitter } from 'react-icons/ai';
 
 const Footer = () => {
     return (
         <div className='bg-[#002550] pb-6 px-5 px-lg:10 xl:px-[200px]'>
 
-            <div className='grid grid-cols-2 md:grid-cols-4 text-white pt-[38px] text-start'>
+            <div className='grid grid-cols-1 md:grid-cols-4 gap-3 text-white pt-[38px] text-start'>
                 <div>
                     <img src={logo} alt="" />
                 </div>
-                <div className='grid gap-[25px]'>
+                <div className='grid gap-[20px]'>
                     <h2 className='font-bold text[28px] '>Company</h2>
                     <p className='text-[20px]'>Home</p>
                     <p>Our Offerings</p>
@@ -45,6 +47,18 @@ const Footer = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className='flex flex-col-reverse lg:flex-row  lg:justify-between text-white font-semibold pt-10 pb-6'>
+                <div>
+                    <p>Copyright 2023. Designed by INRE Global</p>
+                </div>
+                <div className='flex gap-3  mx-auto lg:mx-0'>
+                    <span className='flex items-center gap-2'><span> <AiOutlineLinkedin /> </span> LinkedIn</span>
+                    <span className='flex items-center gap-2'><span> <AiOutlineFacebook /> </span> Facebook</span>
+                    <span className='flex items-center gap-2'><span> <AiOutlineTwitter /> </span> Twitter</span>
+                    <span className='flex items-center gap-2'><span> <IoLogoInstagram /> </span> Instagram</span>
+
+                </div>
             </div>
 
 
