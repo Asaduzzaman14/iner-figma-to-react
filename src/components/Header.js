@@ -14,8 +14,9 @@ const Header = () => {
                 <div className=' md:flex justify-between px-5 lg:px-20 items-center bg-white'>
 
                     <div className='relative lg:flex-basis-1/4 lg:py-2 '>
-                        <a href='/' class="">
-                            <img className='w-[68px] h-[63px]' src={logo} alt="" />                        </a>
+                        <a href='/' class=" ">
+                            <img className='w-[68px] h-[63px] ' src={logo} alt="" />
+                        </a>
                     </div>
 
 
@@ -26,7 +27,7 @@ const Header = () => {
 
 
 
-                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 ease-in ${open ? 'top-[60px]' : 'top-[-480px]'}`}>
+                    <ul className={`  lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[60px]' : 'top-[-480px]'}`}>
 
                         <div className="lg:flex  lg:justify-around">
                             <div className='lg:flex gap-6 lg:justify-between'>
@@ -54,7 +55,7 @@ const Header = () => {
                             </div>
 
                             <li className='lg:hidden pb-[20px] lg:pt-[60px]'>
-                                <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
+                                <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg p-2 px-6'>REGISTER</button>
                             </li>
                             {/* <div className={`relative  group md:ml-3 text-xl md:my-0 py-4 transition-all duration-500 ease-in`}>
                                 <buttom className='btn btn-danger bg-[#002550] text-white text-lg p-2 '>
@@ -69,7 +70,7 @@ const Header = () => {
                     </ul>
 
                     <li className='hidden lg:block pb-[20px] lg:pt-[60px]'>
-                        <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
+                        <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg p-2 px-6'>REGISTER</button>
                     </li>
 
                 </div >
