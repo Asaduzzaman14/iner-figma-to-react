@@ -8,7 +8,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const PostRegistration = () => {
     return (
         <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
-            <div className='card md:w-[455px] p-4'>
+            <div className='card w-[360px] md:w-[455px] p-4'>
                 <div className='text-start'>
                     <img className='w-[330px]' src={iamge1} alt="" />
                     <h2 className='cart-title text-xl'>Virtual Site Visit</h2>
@@ -20,7 +20,7 @@ const PostRegistration = () => {
                     </div>
                 </div>
             </div>
-            <div className='card md:w-[455px] p-4'>
+            <div className='card w-[360px] md:w-[455px] p-4'>
                 <div >
                     <img src={iamge2} alt="" />
                     <h2 className='cart-title text-xl'>Khata Transfer</h2>

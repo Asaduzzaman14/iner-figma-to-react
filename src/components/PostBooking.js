@@ -8,7 +8,7 @@ import { BsArrowRight } from 'react-icons/bs';
 const PostBooking = () => {
     return (
         <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-2 '>
-            <div className='card md:w-[455px] p-4'>
+            <div className='card w-[360px] md:w-[455px] p-4'>
                 <div className='text-start'>
                     <img className='' src={iamge1} alt="" />
                     <h2 className='cart-title text-xl'>Title Diligence</h2>
@@ -21,7 +21,7 @@ const PostBooking = () => {
                 </div>
             </div>
 
-            <div className='card md:w-[455px] p-4'>
+            <div className='card w-[360px] md:w-[455px] p-4'>
                 <div >
                     <img src={iamge2} alt="" />
                     <h2 className='cart-title text-xl'>Sustainable Marketability Of Title</h2>

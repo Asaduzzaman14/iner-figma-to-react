@@ -9,14 +9,12 @@ import Contact from '../components/Contact';
 const Home = () => {
     return (
         <div>
-            {/* <Header /> */}
             <BannerSection />
             <About />
             <OurOfferings />
             <OurTeam />
             <Blog />
             <Contact />
-            {/* <Footer /> */}
         </div >
     );
 };
