@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className='bg-[#002550] pb-6 px-5 px-lg:10 xl:px-[200px]'>
 
-            <div className='grid grid-cols-1 md:grid-cols-4 gap-3 text-white pt-[38px] text-start'>
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-3 text-white pt-[38px] text-start'>
                 <div>
                     <img src={logo} alt="" />
                 </div>
@@ -52,7 +52,7 @@ const Footer = () => {
                 <div>
                     <p className='text-start lg:text-center'>Copyright 2023. Designed by INRE Global</p>
                 </div>
-                <div className='flex flex-col lg:flex-row gap-3  lg:mx-auto '>
+                <div className='flex flex-col lg:flex-row gap-3  '>
                     <span className='flex items-center gap-2'><span> <AiOutlineLinkedin /> </span> LinkedIn</span>
                     <span className='flex items-center gap-2'><span> <AiOutlineFacebook /> </span> Facebook</span>
                     <span className='flex items-center gap-2'><span> <AiOutlineTwitter /> </span> Twitter</span>
