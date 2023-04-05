@@ -2,16 +2,20 @@ import React from 'react';
 import blog1 from '../asset/blog/blog1.png'
 import blog2 from '../asset/blog/blog2.png'
 import blog3 from '../asset/blog/blog3.png'
+import { BsArrowRight } from 'react-icons/bs';
 
 const Blog = () => {
     return (
-        <div className='pt-9'>
-            <div className='bg-[#F2F4F6] py-[56px]'>
-                <h2 className='title pb-9'>Blogs</h2>
+        <div className='pt-5'>
+            <div className='bg-[#F2F4F6] py-4'>
+                <div className='relative text-center'>
+                    <h2 className='title pb-[35px]'>Blogs</h2>
+                    <div className=' border-2 rounded-full h-[2px] w-[31px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
+                </div>
 
                 <div className='px-5 px-lg:10 xl:px-[200px]'>
                     <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
-                        <div className='card md:w-[455px] p-4'>
+                        <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog1} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
@@ -26,11 +30,13 @@ const Blog = () => {
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
                             <div className='card-button'>
-                                <button className=' btn border  rounded-sm  outline outline-1  text-lg p-1 px-4'>View More</button>
+                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
+
+                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
                             </div>
                         </div>
 
-                        <div className='card md:w-[455px] p-4'>
+                        <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog2} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
@@ -45,11 +51,13 @@ const Blog = () => {
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
                             <div className='card-button'>
-                                <button className=' btn border  rounded-sm  outline outline-1  text-lg p-1 px-4'>View More</button>
+                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
+
+                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
                             </div>
                         </div>
 
-                        <div className='card md:w-[455px] p-4'>
+                        <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog3} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
@@ -64,7 +72,9 @@ const Blog = () => {
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
                             <div className='card-button'>
-                                <button className=' btn border  rounded-sm  outline outline-1  text-lg p-1 px-4'>View More</button>
+                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
+
+                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
                             </div>
                         </div>
                     </div>

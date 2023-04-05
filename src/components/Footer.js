@@ -50,9 +50,9 @@ const Footer = () => {
             </div>
             <div className='flex flex-col-reverse lg:flex-row  lg:justify-between text-white font-semibold pt-10 pb-6'>
                 <div>
-                    <p>Copyright 2023. Designed by INRE Global</p>
+                    <p className='text-start lg:text-center'>Copyright 2023. Designed by INRE Global</p>
                 </div>
-                <div className='flex gap-3  mx-auto lg:mx-0'>
+                <div className='flex flex-col lg:flex-row gap-3  lg:mx-auto '>
                     <span className='flex items-center gap-2'><span> <AiOutlineLinkedin /> </span> LinkedIn</span>
                     <span className='flex items-center gap-2'><span> <AiOutlineFacebook /> </span> Facebook</span>
                     <span className='flex items-center gap-2'><span> <AiOutlineTwitter /> </span> Twitter</span>
