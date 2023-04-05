@@ -17,7 +17,7 @@ const Contact = () => {
 
                         {/* forms */}
                         <div className=' mx-auto '>
-                            <div className='md:text-center'>
+                            <div className='text-start'>
                                 <h2 className=' text-[#1A1A1A] font-bold text-2xl '>Get In Touch With Us To Connect</h2>
                                 <p className=' pb-7'>Contact Us</p>
 

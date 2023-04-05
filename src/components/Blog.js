@@ -18,63 +18,57 @@ const Blog = () => {
                         <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog1} alt="" />
-                                <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
+                                <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
                                 <div className='flex justify-between  text-[#1A1A1A] pb-[30px]'>
                                     <span className='font-semibold '>09 jun 2022</span>
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px] font-semibold'>Guide for personal property Buying </h2>
 
-                                <p className='cart-desc text-gray-500 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
+                                <p className='cart-desc text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
-                            <div className='card-button'>
-                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
-
-                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
+                            <div className='card-button text-[#002550]'>
+                                <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
                             </div>
                         </div>
 
                         <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog2} alt="" />
-                                <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
+                                <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
                                 <div className='flex justify-between  text-[#1A1A1A] pb-[30px]'>
                                     <span className='font-semibold '>09 jun 2022</span>
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px] font-semibold'>Guide for personal property Buying </h2>
 
                                 <p className='cart-desc text-gray-500 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
-                            <div className='card-button'>
-                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
-
-                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
+                            <div className='card-button text-[#002550]'>
+                                <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
                             </div>
                         </div>
 
                         <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog3} alt="" />
-                                <h2 className='pt-[30px] pb-7 text-[#002550]'>Real Estate, Analysis</h2>
+                                <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
                                 <div className='flex justify-between  text-[#1A1A1A] pb-[30px]'>
                                     <span className='font-semibold '>09 jun 2022</span>
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px]  font-semibold'>Guide for personal property Buying </h2>
 
                                 <p className='cart-desc text-gray-500 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
-                            <div className='card-button'>
-                                <button className='w-full btn border text-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight /></span></button>
-
-                                {/* <button className=' btn border w-full rounded-sm  outline outline-1  text-lg p-1 px-4'>View More <span><</span></button> */}
+                            <div className='card-button text-[#002550]'>
+                                <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
                             </div>
                         </div>
                     </div>

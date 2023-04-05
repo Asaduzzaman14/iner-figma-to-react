@@ -1,7 +1,7 @@
 import React from 'react';
-import iamge1 from '../asset/offerig/image1.png'
-import iamge2 from '../asset/offerig/image2.png'
-import iamge3 from '../asset/offerig/image3.png'
+import iamge1 from '../asset/offerig/postReg1.png'
+import iamge2 from '../asset/offerig/postreg2.png'
+import iamge3 from '../asset/offerig/postreg-4.png'
 import { BsArrowRight } from 'react-icons/bs';
 
 

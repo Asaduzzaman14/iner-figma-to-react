@@ -103,7 +103,7 @@ const OurOfferings = () => {
                         class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-home"
                         role="tabpanel"
-                        aria-labelledby="tabs-home-tab"
+                        aria-labelledby="tabs-messages-tab"
                         data-te-tab-active>
                         <div>
                             {/* cards */}
@@ -118,8 +118,7 @@ const OurOfferings = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-profile-tab">
                         <div>
-                            <PostBooking />
-                            {/* <OfferingCard /> */}
+                            <PostRegistration />
                         </div>
                     </div>
 
@@ -130,7 +129,7 @@ const OurOfferings = () => {
                         aria-labelledby="tabs-profile-tab">
                         <div>
                             {/* <OfferingCard /> */}
-                            <PostRegistration />
+                            <PostBooking />
 
                         </div>
                     </div>
@@ -138,7 +137,8 @@ const OurOfferings = () => {
 
                 </div>
 
-            </div>        </div>
+            </div>
+        </div>
     );
 };
 
