@@ -92,10 +92,10 @@ const BlogDetails = () => {
                         </div>
                         <div>
                             <div className='flex justify-between'>
-                                <Link to={'_'}>
+                                <Link to={'/'}>
                                     <button className='w-[209px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Previous Post</button>
                                 </Link>
-                                <Link to={'_'}>
+                                <Link to={'/'}>
                                     <button className='w-[175px] btn text-white bg-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 p-2 flex justify-center items-center gap-2 '>Next post</button>
                                 </Link>
                             </div>
@@ -109,14 +109,14 @@ const BlogDetails = () => {
                                 <div className='flex text-start py-5 gap-4'>
                                     <Link to='www.facebook.com'><img className='w-12' src={instagram} alt="" /></Link>
                                     <Link to='www.facebook.com'><img className='w-12' src={facbook} alt="" /></Link>
-                                    <Link to='_#'><img className='w-12' src={twitter} alt="" /></Link>
-                                    <Link to='_#'><img className='w-12' src={linkedin} alt="" /></Link>
+                                    <Link to='/'><img className='w-12' src={twitter} alt="" /></Link>
+                                    <Link to='/'><img className='w-12' src={linkedin} alt="" /></Link>
                                 </div>
                             </div>
 
                             <div>
                                 <h2 className='text-xl text-[#1A1A1A] '>Contact Us For Regular Updates :</h2>
-                                <Link to={'_'}>
+                                <Link to={'/'}>
                                     <button className='w-[209px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Contact Now  <span><BsArrowRight /> </span> </button>
                                 </Link>
                             </div>
