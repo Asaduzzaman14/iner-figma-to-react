@@ -4,7 +4,7 @@ import Blog from '../Blog';
 import { Link } from 'react-router-dom';
 import facbook from '../../asset/icon/facebook.png'
 import twitter from '../../asset/icon/twitter.png'
-import insta from '../../asset/icon/insta.png'
+import instagram from '../../asset/icon/Instagram.png'
 import linkedin from '../../asset/icon/linkedin.png'
 import { BsArrowRight } from 'react-icons/bs';
 
@@ -13,6 +13,9 @@ import { BsArrowRight } from 'react-icons/bs';
 import blog1 from '../../asset/blog/blog2.png'
 import blog2 from '../../asset/blog/blog2.png'
 import blog3 from '../../asset/blog/blog3.png'
+import leftArrow from '../../asset/icon/leftArrow.png'
+import user from '../../asset/icon/user.png'
+import date from '../../asset/icon/date.png'
 
 
 
@@ -21,16 +24,16 @@ const BlogDetails = () => {
         <>
             <div className='mt-[70px] text-center px-5 px-lg:10 xl:px-[200px]'>
                 <div className='text-start'>
-                    <p className='text-xs lg:text-[20px] pb-5 text-[#1A1A1A]'>Guide for personal property Buying </p>
+                    <p className='text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4'><img src={leftArrow} alt="" /> Guide for personal property Buying </p>
                     <img className='w-[360px] md:w-full lg:-w-fit xl-[1462px]' src={blogDetail1} alt="" />
                     <div className='flex justify-between  text-[#1A1A1A] py-[36px]'>
-                        <span className='font-semibold '>By Brajesh </span>
-                        <span className='font-semibold '>23 Mar 2023</span>
+                        <span className='font-semibold flex items-center gap-2'> <img className='h-3' src={user} alt="" /> By Brajesh </span>
+                        <span className='font-semibold flex items-center gap-2 '><img className='h-5' src={date} alt="" /> 23 Mar 2023</span>
                     </div>
 
                     <div className='relative bg-[#F2F4F6] py-9 px-3'>
                         <div className=' border-2 rounded-full h-full w-[2px]  border-[#002550] absolute top-0 left-0'></div>
-                        <p className='cart-desc text-[#1A1A1A] pb-0 opacity-60 text-justify lg:pl-10'>This whole purchase journey of real estate purchase can be divided into three broad stages. For more details, click here</p>
+                        <p className='cart-desc  text-[#1A1A1A] pb-0 opacity-60 text-justify ps-5 lg:pl-10'>This whole purchase journey of real estate purchase can be divided into three broad stages. For more details, click here</p>
                     </div>
 
                 </div>
@@ -104,10 +107,10 @@ const BlogDetails = () => {
                                 <h2 className='text-xl text-[#1A1A1A] '>Share this Post and Follow us on :</h2>
                                 <p className='text-start text-[#1A1A1A] opacity-60 pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                                 <div className='flex text-start py-5 gap-4'>
-                                    <Link to='www.facebook.com'></Link>
-                                    <Link to='www.facebook.com'><img src={facbook} alt="" /></Link>
-                                    <Link to='_#'><img src={twitter} alt="" /></Link>
-                                    <Link to='_#'><img src={linkedin} alt="" /></Link>
+                                    <Link to='www.facebook.com'><img className='w-12' src={instagram} alt="" /></Link>
+                                    <Link to='www.facebook.com'><img className='w-12' src={facbook} alt="" /></Link>
+                                    <Link to='_#'><img className='w-12' src={twitter} alt="" /></Link>
+                                    <Link to='_#'><img className='w-12' src={linkedin} alt="" /></Link>
                                 </div>
                             </div>
 

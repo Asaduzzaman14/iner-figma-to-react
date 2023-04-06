@@ -10,7 +10,7 @@
 /* the parent */
 .slick-list {
   margin: 0 9px;
-  padding: 10px;
+  padding: 20px 0;
 }
 
 /* item */
@@ -20,4 +20,69 @@
 
 .slick-slider .slick-slide {
   padding: 0 15px;
+}
+
+.PhoneInputInput {
+  width: 200px !important;
+  height: 100% !important;
+
+}
+
+.PhoneInputCountrySelect {
+  /* width: 200px !important; */
+  height: 100% !important;
+  /* padding: 20px; */
+
+}
+
+
+.css-1dimb5e-singleValue,
+.css-qbdosj-Input {
+  text-align: justify;
+}
+
+.phoneHeight {
+  min-height: 100% !important;
+  align-items: end;
+  border: none;
+}
+
+.numberinput input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* country  */
+.css-1fdsijx-ValueContainer {
+  padding: 10px
+}
+
+.slick-arrow {
+  color: blue;
+}
+
+.slick-next {}
+
+.slick-next,
+.slick-prev {
+  /* position: static; */
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid; */
+  background: #bbb4b4;
+  border-radius: 50px;
+  color: black !important;
+  display: block;
+  z-index: 2;
+
+}
+
+.slick-next:hover {
+  background: #bbb4b4;
+
+}
+
+.slick-prev:hover {
+  background: #bbb4b4;
 }

@@ -1,16 +1,20 @@
 import React from 'react';
 import * as te from 'tw-elements';
 import OfferingCard from '../components/OfferingCard';
-import PreBooking from '../components/Offering/PreBooking';
+import PreBooking from '../components/PreBooking';
 import PostRegistration from '../components/PostRegistration';
 import PostBooking from '../components/PostBooking';
 
 const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
-            <h2 className='title '>Our Offerings</h2>
+            <div className='relative'>
+                <h2 className='title pb-6'>Our Offerings</h2>
+                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
 
-            <div className='pb-5'>
+            </div>
+
+            <div className='py-5'>
                 <ul
                     class="grid grid-cols-1 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
                     role="tablist"
@@ -82,8 +86,8 @@ const OurOfferings = () => {
                         aria-labelledby="tabs-home-tab"
                         data-te-tab-active>
                         <div>
+                            {/* card 3 */}
 
-                            {/* <OfferingCard /> */}
                             <PostRegistration />
 
 
@@ -95,7 +99,8 @@ const OurOfferings = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-profile-tab">
                         <div>
-                            <OfferingCard />
+                            {/* card 1 */}
+                            <PreBooking />
                         </div>
                     </div>
 

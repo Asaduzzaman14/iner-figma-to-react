@@ -2,7 +2,9 @@ import React from 'react';
 import iamge1 from '../asset/offerig/postReg1.png'
 import iamge2 from '../asset/offerig/postreg2.png'
 import iamge3 from '../asset/offerig/postreg-4.png'
+import rightArrow from '../asset/icon/rightArrow.png'
 import { BsArrowRight } from 'react-icons/bs';
+
 import Slider from "react-slick";
 
 
@@ -53,7 +55,7 @@ const PostRegistration = () => {
                     <p className='cart-desc text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                     <div className='card-button'>
-                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
+                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
                     </div>
                 </div>
             </div>
@@ -64,7 +66,7 @@ const PostRegistration = () => {
                     <p className='cart-desc text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                     <div className='card-button'>
-                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
+                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
                     </div>
                 </div>
             </div>
@@ -75,7 +77,7 @@ const PostRegistration = () => {
                     <p className='cart-desc text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                     <div className='card-button'>
-                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
+                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
                     </div>
                 </div>
             </div>
@@ -86,7 +88,7 @@ const PostRegistration = () => {
                     <p className='cart-desc text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                     <div className='card-button'>
-                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
+                        <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
                     </div>
                 </div>
             </div>

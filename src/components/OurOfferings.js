@@ -1,5 +1,4 @@
 import React from 'react';
-import OfferingCard from './OfferingCard';
 import PreBooking from './PreBooking';
 import PostBooking from './PostBooking';
 import PostRegistration from './PostRegistration';
@@ -7,8 +6,11 @@ import PostRegistration from './PostRegistration';
 const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
-            <h2 className='title '>Our Offerings</h2>
-            <p className='normal-text mt-5'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
+            <div className='relative'>
+                <h2 className='title pb-6'>Our Offerings</h2>
+                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
+            </div>
+            <p className='normal-text font-normal mt-5 pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
 
 
 
@@ -27,7 +29,7 @@ const OurOfferings = () => {
                         <a
                             href="#tabs-home"
                             class="my-2 block border-b-2 border-transparent 
-                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                             data-te-toggle="pill"
                             data-te-target="#tabs-home"
                             data-te-nav-active
@@ -48,7 +50,7 @@ const OurOfferings = () => {
                         <a
                             href="#tabs-messages"
                             class="my-2 block border-b-2 border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                             data-te-toggle="pill"
                             data-te-target="#tabs-messages"
                             role="tab"
@@ -66,7 +68,7 @@ const OurOfferings = () => {
                         <a
                             href="#tabs-profile"
                             class="my-2 block border-b-2 border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                             data-te-toggle="pill"
                             data-te-target="#tabs-profile"
                             role="tab"
@@ -90,6 +92,7 @@ const OurOfferings = () => {
                         aria-labelledby="tabs-home-tab"
                         data-te-tab-active>
                         <div>
+                            {/* tab 1 */}
                             <PreBooking />
 
                         </div>
