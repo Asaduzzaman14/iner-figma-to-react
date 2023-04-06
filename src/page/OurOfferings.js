@@ -1,35 +1,38 @@
 import React from 'react';
 import * as te from 'tw-elements';
 import OfferingCard from '../components/OfferingCard';
+import PreBooking from '../components/Offering/PreBooking';
+import PostRegistration from '../components/PostRegistration';
+import PostBooking from '../components/PostBooking';
 
 const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <h2 className='title '>Our Offerings</h2>
 
-            <div>
+            <div className='pb-5'>
                 <ul
                     class="grid grid-cols-1 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
                     role="tablist"
                     data-te-nav-ref>
                     <li role="presentation">
                         <a
-                            href="#tabs-home"
+                            href="#tabs-profile"
                             class="my-2 block border-b-2 border-transparent 
-                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
                             data-te-toggle="pill"
-                            data-te-target="#tabs-home"
-                            data-te-nav-active
+                            data-te-target="#tabs-profile"
                             role="tab"
-                            aria-controls="tabs-home"
-                            aria-selected="true"
-                        > <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
-                                <span className='number'>3</span>
-                                <span className='normal-text text-xl font-normal'>Post-Registration </span>
-                            </div>
-                        </a
+                            aria-controls="tabs-profile"
+                            aria-selected="false"
                         >
+                            <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
+                                <span className='number '>1</span>
+                                <span className='normal-text text-xl font-normal'>Pre-Booking</span>
+                            </div>
+                        </a>
                     </li>
+
 
                     <li role="presentation">
                         <a
@@ -49,22 +52,24 @@ const OurOfferings = () => {
 
                         </a>
                     </li>
+
                     <li role="presentation">
                         <a
-                            href="#tabs-profile"
+                            href="#tabs-home"
                             class="my-2 block border-b-2 border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
+                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-neutral-500 hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-primary data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-primary   dark:data-[te-nav-active]:border-primary-400 dark:data-[te-nav-active]:text-primary-400"
                             data-te-toggle="pill"
-                            data-te-target="#tabs-profile"
+                            data-te-target="#tabs-home"
+                            data-te-nav-active
                             role="tab"
-                            aria-controls="tabs-profile"
-                            aria-selected="false"
-                        >
-                            <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
-                                <span className='number '>1</span>
-                                <span className='normal-text text-xl font-normal'>Pre-Booking</span>
+                            aria-controls="tabs-home"
+                            aria-selected="true"
+                        > <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
+                                <span className='number'>3</span>
+                                <span className='normal-text text-xl font-normal'>Post-Registration </span>
                             </div>
-                        </a>
+                        </a
+                        >
                     </li>
 
                 </ul>
@@ -77,8 +82,9 @@ const OurOfferings = () => {
                         aria-labelledby="tabs-home-tab"
                         data-te-tab-active>
                         <div>
-                            {/* cards */}
-                            <OfferingCard />
+
+                            {/* <OfferingCard /> */}
+                            <PostRegistration />
 
 
                         </div>
@@ -99,7 +105,8 @@ const OurOfferings = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-profile-tab">
                         <div>
-                            <OfferingCard />
+                            {/* slider 2 */}
+                            <PostBooking />
 
                         </div>
                     </div>

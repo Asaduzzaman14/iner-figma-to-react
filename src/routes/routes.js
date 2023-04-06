@@ -34,7 +34,7 @@ const routes = createBrowserRouter([
                 element: <Blogs />,
             },
             {
-                path: "blogDetail",
+                path: "blogDetails",
                 element: <BlogDetails />,
             },
 

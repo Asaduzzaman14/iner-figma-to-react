@@ -9,7 +9,7 @@ const PreBooking = () => {
 
 
     return (
-        <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-2 '>
+        <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
             <div className='card w-[360px] md:w-[455px] p-4'>
                 <div className='text-start'>
                     <img className='mx-auto' src={iamge1} alt="" />
@@ -22,6 +22,7 @@ const PreBooking = () => {
                     </div>
                 </div>
             </div>
+
             <div className='card w-[360px] md:w-[455px] p-4'>
                 <div >
                     <img className='mx-auto' src={iamge2} alt="" />
@@ -33,7 +34,7 @@ const PreBooking = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className='card md:w-[455px] p-4'>
+            <div className='card md:w-[455px] p-4'>
                 <div>
                     <img src={iamge3} alt="" />
                     <h2 className='cart-title text-xl'>Background verification</h2>
@@ -43,7 +44,7 @@ const PreBooking = () => {
                         <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
         </div>
     );

@@ -9,23 +9,7 @@ const OurOfferings = () => {
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <h2 className='title '>Our Offerings</h2>
             <p className='normal-text mt-5'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
-            {/* <div className='py-8'>
-                <div className='grid grid-cols-1 lg:grid-cols-3 gap-7'>
-                    <div className='flex items-center justify-center gap-5 bg-[#F2F4F6] text-center py-5'>
-                        <span className='number '>1</span>
-                        <span className='normal-text text-xl font-normal'>Pre-Booking</span>
-                    </div>
-                    <div className='flex items-center justify-center gap-5 bg-[#CCD3DC] text-center py-5'>
-                        <span className='number '>2</span>
-                        <span className='normal-text text-xl font-normal'>Post-Booking & <br /> Pre-Registration</span>
-                    </div>
-                    <div className='flex items-center justify-center gap-5 bg-[#F2F4F6] text-center py-5'>
-                        <span className='number'>3</span>
-                        <span className='normal-text text-xl font-normal'>Post-Registration </span>
-                    </div>
 
-                </div>
-            </div> */}
 
 
             {/*=================================
@@ -103,12 +87,10 @@ const OurOfferings = () => {
                         class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-home"
                         role="tabpanel"
-                        aria-labelledby="tabs-messages-tab"
+                        aria-labelledby="tabs-home-tab"
                         data-te-tab-active>
                         <div>
-                            {/* cards */}
                             <PreBooking />
-
 
                         </div>
                     </div>
@@ -118,6 +100,7 @@ const OurOfferings = () => {
                         role="tabpanel"
                         aria-labelledby="tabs-profile-tab">
                         <div>
+                            {/* home page tab 3 done */}
                             <PostRegistration />
                         </div>
                     </div>
@@ -126,9 +109,9 @@ const OurOfferings = () => {
                         class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-messages"
                         role="tabpanel"
-                        aria-labelledby="tabs-profile-tab">
+                        aria-labelledby="tabs-messages-tab">
                         <div>
-                            {/* <OfferingCard /> */}
+                            {/* home page tab 2 */}
                             <PostBooking />
 
                         </div>

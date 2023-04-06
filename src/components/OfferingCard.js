@@ -13,7 +13,7 @@ const OfferingCard = () => {
         <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
             <div className='card md:w-[455px] p-4'>
                 <div className='text-start'>
-                    <img className='w-[330px]' src={iamge1} alt="" />
+                    <img className='' src={iamge1} alt="" />
                     <h2 className='cart-title text-xl'>Background verification</h2>
                     <p className='cart-desc text-sm lg:text-lg text-justify'>Assuring your capital is in safe hands, we provide detailed verification reports of the project and developer. These are customized and detailed...</p>
 

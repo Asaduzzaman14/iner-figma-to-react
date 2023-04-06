@@ -2,8 +2,9 @@ import React from 'react';
 import BlogBanner from '../components/Blogs/BlogBanner';
 import { BsArrowRight } from 'react-icons/bs';
 
-import blog1 from '../asset/blog/blog1.png'
-import blog2 from '../asset/blog/blog2.png'
+import blog1 from '../asset/blog/blogpageimg-1.png'
+import blog2 from '../asset/blog/blogsPageImg2.png'
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
     return (
@@ -28,9 +29,12 @@ const Blogs = () => {
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
                             <div className='card-button text-[#002550]'>
-                                <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                <Link to={'/blogDetails'}>
+                                    <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                </Link>
                             </div>
                         </div>
+
                         <div className='card w-[360px] lg:w-[711px] p-4 lg:p-[26px]'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog2} alt="" />
@@ -46,7 +50,9 @@ const Blogs = () => {
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
                             <div className='card-button text-[#002550]'>
-                                <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                <Link to='/blogDetails'>
+                                    <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                </Link>
                             </div>
                         </div>
 
