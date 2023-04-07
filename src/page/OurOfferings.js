@@ -116,13 +116,7 @@ const OurOfferings = () => {
                         </div>
                     </div>
 
-                    <div
-                        class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
-                        id="tabs-contact"
-                        role="tabpanel"
-                        aria-labelledby="tabs-contact-tab">
-                        Tab 4 content
-                    </div>
+
                 </div>
 
             </div>

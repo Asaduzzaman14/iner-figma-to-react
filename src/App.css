@@ -55,22 +55,20 @@
 
 /* country  */
 .css-1fdsijx-ValueContainer {
-  padding: 10px
+  padding: 10px !important;
+  text-align: start;
 }
 
 .slick-arrow {
   color: blue;
 }
 
-.slick-next {}
 
 .slick-next,
 .slick-prev {
-  /* position: static; */
   width: 50px;
   height: 50px;
-  /* border: 2px solid; */
-  background: #bbb4b4;
+  background: #bbb4b4 !important;
   border-radius: 50px;
   color: black !important;
   display: block;
@@ -85,4 +83,23 @@
 
 .slick-prev:hover {
   background: #bbb4b4;
+}
+
+
+/* .slick-next {
+  right: -50px;
+}
+
+.slick-prev {
+  left: -50px;
+} */
+
+@media only screen and (max-width:1024px) {
+  .slick-next {
+    right: -5px;
+  }
+
+  .slick-prev {
+    left: -5px;
+  }
 }

@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PreBooking from './PreBooking';
 import PostBooking from './PostBooking';
 import PostRegistration from './PostRegistration';
 
 const OurOfferings = () => {
+
+    const [tab1, setTab1] = useState(false)
+    console.log(true);
+
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <div className='relative'>
                 <h2 className='title pb-6'>Our Offerings</h2>
                 <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
             </div>
-            <p className='normal-text font-normal mt-5 pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
+            <p className='normal-text font-normal text-[#1A1A1A] mt-5 pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
 
 
 
@@ -22,7 +26,7 @@ const OurOfferings = () => {
 
             <div>
                 <ul
-                    class="grid grid-cols-1 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
+                    class="grid grid-cols-3 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
                     role="tablist"
                     data-te-nav-ref>
                     <li role="presentation">
@@ -39,7 +43,7 @@ const OurOfferings = () => {
                         >
                             <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
                                 <span className='number '>1</span>
-                                <span className='normal-text text-xl font-normal'>Pre-Booking</span>
+                                <span className='normal-text hidden lg:block text-xl font-normal'>Pre-Booking</span>
                             </div>
 
                         </a
@@ -57,9 +61,9 @@ const OurOfferings = () => {
                             aria-controls="tabs-messages"
                             aria-selected="false"
                         >
-                            <div className='flex items-center justify-center gap-5  text-center py-5'>
+                            <div className='flex min-h-[100px] items-center justify-center gap-5  text-center py-5'>
                                 <span className='number '>2</span>
-                                <span className='normal-text text-xl font-normal'>Post-Booking & <br /> Pre-Registration</span>
+                                <span className='normal-text hidden lg:block  text-xl font-normal'>Post-Booking & <br /> Pre-Registration</span>
                             </div>
 
                         </a>
@@ -77,7 +81,7 @@ const OurOfferings = () => {
                         >
                             <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
                                 <span className='number'>3</span>
-                                <span className='normal-text text-xl font-normal'>Post-Registration </span>
+                                <span className='normal-text hidden lg:block  text-xl font-normal'>Post-Registration </span>
                             </div>
                         </a>
                     </li>
