@@ -108,7 +108,7 @@ const BlogDetails = () => {
                         </div>
 
 
-                        <div className='text-start md:grid grid-cols-2 gap-10 justify-between pt-7 lg:pt-20'>
+                        <div className='text-start md:grid grid-cols-2 gap-5 lg:gap-16 justify-between pt-7 lg:pt-20'>
                             <div>
                                 <h2 className='text-2xl font-semibold lg:text-[28px] text-[#1A1A1A] '>Share this Post and Follow us on :</h2>
                                 <p className='text-start text-[#1A1A1A] opacity-60 pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
@@ -121,7 +121,7 @@ const BlogDetails = () => {
                             </div>
 
                             <div>
-                                <h2 className='text-xl text-[#1A1A1A] '>Contact Us For Regular Updates :</h2>
+                                <h2 className='text-2xl font-semibold lg:text-[28px] text-[#1A1A1A] '>Contact Us For Regular Updates :</h2>
                                 <div className='hidden lg:block'>
                                     <Link to={'/'}>
                                         <button className='w-[209px]  btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Contact Now  <span><BsArrowRight /> </span> </button>

@@ -30,7 +30,8 @@ const Header = () => {
 
 
 
-                    <ul className={`lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[85px]' : 'top-[-290px]'}`}>
+                    <ul className={`lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[80px]' : 'top-[-290px]'}`}>
+                        {/* <ul className={`lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full bg-gray-300 h-screen lg:h-auto lg:w-auto lg:pl-0  transition-all duration-500 lg:bg-white top-20 ease-in ${open ? 'left-[-130px]' : 'left-[-590px]'}`}> */}
 
                         <div className="lg:flex  lg:justify-around">
                             <div className='lg:flex gap-6 lg:justify-between'>
