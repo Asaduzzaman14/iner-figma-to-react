@@ -7,7 +7,7 @@ const BannerSection = () => {
             <div className='relative'>
                 <img className='mx-auto' src={banner} alt="" />
                 <div className='absolute  inset-0 flex  items-center left-[20px] lg:left-[54px] text-sm md:text-lg text-start text-white lg:text-3xl'>
-                    <p className='font-solway'>Making your <span className='text-[#FAFF00]'> real <br />
+                    <p className='font-solway banner_title'>Making your <span className='text-[#FAFF00]'> real <br />
                         estate </span> purchase <br />
                         journey faster and <br className='' />
                         <p>transparent</p>

@@ -2,13 +2,12 @@ import React from 'react';
 import iamge1 from '../asset/offerig/image1.png'
 import iamge2 from '../asset/offerig/image2.png'
 import iamge3 from '../asset/offerig/image3.png'
-import { BsArrowRight } from 'react-icons/bs';
 import rightArrow from '../asset/icon/rightArrow.png'
 import Slider from 'react-slick';
 
 const PreBooking = () => {
     var settings = {
-        dots: true,
+        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -81,8 +80,8 @@ const PreBooking = () => {
                                 <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>It is observed that people invest more than 10 years of savings in real estate. Hence, they are automatically conscious of the developer brand, past track record of the project delivered, the project progress, and the financial acumen of the developer. This is especially significant in the case of primary transactions. Here, InRe brings the proposition of “ Background verification of developers”. Based on our experience and industry...</p>
 
                                 <div className='card-button'>
-                                    <button className=' btn border  rounded-sm  outline outline-1 lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
-                                    <span className='text-[#002550]'>INR 3000/Project</span>
+                                    <button className=' btn border rounded-sm  outline outline-1 lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
+                                    <span className='text-[#002550] text-sm'>INR 3000/Project</span>
                                 </div>
                             </div>
                         </div>

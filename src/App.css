@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  font-family: 'Open Sans', 'sans-serif' !important;
 }
 
-/* the slides
-.slick-slider {
-  overflow: hidden;
+* {
+  font-family: 'Open Sans', 'sans-serif' !important;
+}
+
+.banner_title {
+  font-family: 'Solway', 'serif' !important;
 }
 
 /* the parent */
@@ -13,10 +17,6 @@
   padding: 20px 0;
 }
 
-/* item */
-.item {
-  /* padding: 10px; */
-}
 
 .slick-slider .slick-slide {
   padding: 0 15px;
@@ -29,9 +29,7 @@
 }
 
 .PhoneInputCountrySelect {
-  /* width: 200px !important; */
   height: 100% !important;
-  /* padding: 20px; */
 
 }
 
@@ -53,36 +51,71 @@
   width: 100%;
 }
 
+/* select  */
+
+.css-b62m3t-container {
+  /* border: 1.5px solid #8888 !important; */
+  border-radius: 5px;
+  outline: none !important;
+  height: 100% !important;
+  height: 50px !important;
+}
+
+.css-b62m3t-container:focus {
+  outline: none !important;
+}
+
+
 /* country  */
 .css-1fdsijx-ValueContainer {
   padding: 10px !important;
   text-align: start;
 }
 
-.slick-arrow {
-  color: blue;
-}
 
 
 .slick-next,
 .slick-prev {
+  position: absolute;
   width: 50px;
   height: 50px;
-  background: #bbb4b4 !important;
+  background: #E6EAEE !important;
   border-radius: 50px;
   color: black !important;
-  display: block;
   z-index: 2;
 
 }
 
-.slick-next:hover {
-  background: #bbb4b4;
+.slick-next::before {
+
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-content: center !important;
+  margin-top: 5px;
+
 
 }
 
+.slick-prev::before {
+
+  color: #000;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  align-content: center !important;
+
+}
+
+/*  */
+
+/*  */
+.slick-next:hover {
+  background: #E6EAEE;
+}
+
 .slick-prev:hover {
-  background: #bbb4b4;
+  background: #E6EAEE;
 }
 
 
@@ -93,6 +126,47 @@
 .slick-prev {
   left: -50px;
 } */
+
+
+
+/*=============================================
+=                  Our Team Page           =
+=============================================*/
+
+.ourTeam .slick-dots {
+  bottom: 0px;
+}
+
+
+
+.ourTeam .slick-prev {
+  position: relative;
+  width: 0px;
+  height: 0px;
+
+}
+
+.ourTeam .slick-next {
+  position: relative;
+  width: 0px;
+  height: 0px;
+
+}
+
+
+.ourTeam .slick-prev::before {
+  content: " ";
+}
+
+.ourTeam .slick-next::before {
+  content: " ";
+}
+
+/*=====  End of Our Team Page  ======*/
+
+
+
+
 
 @media only screen and (max-width:1024px) {
   .slick-next {

@@ -21,14 +21,23 @@ const Contact = () => {
         setCountryValue(countryValue)
     }
 
+
     const options1 = [
-        // { value: 'I have booked but registration is not done', label: 'I have booked but registration is not done' },
         { value: 'I am still searching', label: 'I am still searching' },
         { value: 'I have booked but registration is not done', label: 'I have booked but registration is not done' },
+        { value: 'I have registered and taken possession', label: 'I have registered and taken possession' },
         { value: 'I am interested in selling', label: 'I am interested in selling' }
     ]
 
-
+    const style = {
+        control: base => ({
+            ...base,
+            border: '1px solid #8888',
+            borderRedius: "5px",
+            // This line disable the blue border
+            boxShadow: "none"
+        })
+    };
 
     return (
         <div className='px-4 px-lg:10 xl:px-[200px] py-7'>
@@ -81,11 +90,8 @@ const Contact = () => {
                                             <div class="relative  border-[1.5px] rounded border-[#888888] opacity-70 ps-2 mb-3 w-[350px] h-[48px]" >
                                                 <PhoneInput
                                                     className='phoneHeight flex justify-start h-full align-bottom focus:outline-none'
-                                                    // class="peer phoneHeight block ml-2 pl-2 h-[48px] rounded border-s-2 border-[#888888] bg-transparent  leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                                                    // id="exampleFormControlInputText"
                                                     value={value}
                                                     onChange={setValue}
-                                                // placeholder="Enter phone number"
                                                 />
                                                 <label
                                                     for="exampleFormControlInputText"
@@ -98,26 +104,14 @@ const Contact = () => {
                                         <div class="flex justify-center">
                                             <div class="relative mb-3 w-[350px] h-[48px]">
 
-                                                {/* <select
-                                                    id="exampleFormControlInputText"
-                                                    className='relative min-h-[auto] w-full ps-2 h-full hover:bg-white rounded border border-[#888888]' data-te-select-init data-te-select-visible-options="3">
-                                                    <option className=' py-4 text-sm text-[#1A1A1A]  opacity-60 bg-white hover:bg-gray-300' value="1">I am still searching</option>
-                                                    <option value="2">I have registered and taken possession</option>
-                                                    <option value="3">I have booked but registration is not done</option>
-                                                    <option value="4">I am interested in selling</option>
-
-                                                </select>  */}
                                                 <Select
-                                                    className='text-[#888888] min-h-[auto] w-full hover:bg-white rounded border border-[#888888]' data-te-select-init data-te-select-visible-options="3"
+                                                    styles={style}
+                                                    className='text-[#888888] h-[48px] w-full hover:bg-white rounded border border-[#888888]'
                                                     options={options1}
-                                                    theme={(theme) => ({
-                                                        ...theme,
-                                                        colors: {
-                                                            ...theme.colors,
-                                                        },
-                                                    })}
+                                                    defaultValue={{ label: "I have booked but registration is not done", value: 'I have booked but registration is not done' }}
+
                                                 />
-                                                {/* <span className='absolute left-2 -top-3 bg-white px-2 text-[#888888]'>Stages</span> */}
+                                                <span className='absolute left-2 -top-3 bg-white px-2 text-[#888888]'>Stages</span>
                                             </div>
                                         </div>
 
@@ -150,12 +144,15 @@ const Contact = () => {
                                         <p className='mb-7 text-left text-gray-400'>Please enter a valid email address</p>
                                     </div>
                                     <div class="flex justify-start mb-7">
-                                        <div class="relative mb-3 w-[350px] h-[48px]" >
+                                        <div class="relative border-[#888888] mb-3 w-[350px] h-[48px]" >
                                             <Select
+                                                styles={style}
                                                 type="text"
                                                 class=" block w-full h-full p-3 rounded border-[1.5px] border-[#888888] bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                 id="exampleFormControlInputText"
                                                 options={options} value={countryValue} onChange={changeHandler}
+                                                defaultValue={{ label: "India", value: 'India' }}
+
                                             />
                                             <label
                                                 for="exampleFormControlInputText"

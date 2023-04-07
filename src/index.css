@@ -6,11 +6,11 @@
 @layer components {
 
     .normal-text {
-        @apply text-[#1A1A1A] text-lg;
+        @apply text-[#1A1A1A] text-lg font-sans;
     }
 
     .title {
-        @apply text-[#01244A] font-bold text-2xl mt-9;
+        @apply text-[#01244A] font-bold text-2xl mt-2;
     }
 
     .number {
@@ -18,15 +18,15 @@
     }
 
     .card {
-        @apply shadow-md text-start max-w-fit mx-auto;
+        @apply shadow-md text-start max-w-fit mx-auto bg-white;
     }
 
     .cart-title {
-        @apply pt-7 pb-5 text-[28px] text-[#002550] font-semibold;
+        @apply pt-5 pb-5 text-[28px] text-[#002550] font-semibold;
     }
 
     .cart-desc {
-        @apply pb-6 text-[#1A1A1A] text-xl;
+        @apply pb-2 text-[#1A1A1A] text-xl;
     }
 
     .card-button {

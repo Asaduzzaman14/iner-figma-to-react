@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      solway: ['Solway', 'serif'],
       sans: ['Open Sans', 'sans-serif'],
+      solway: ['Solway', 'serif'],
     },
     extend: {},
   },

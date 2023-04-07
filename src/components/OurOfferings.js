@@ -11,10 +11,10 @@ const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <div className='relative'>
-                <h2 className='title pb-6'>Our Offerings</h2>
-                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
+                <h2 className='title pb-1 pt-[25px] lg:pt-[35px]'>Our Offerings</h2>
+                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute '></div>
             </div>
-            <p className='normal-text font-normal text-[#1A1A1A] mt-5 pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
+            <p className='normal-text font-normal text-[#1A1A1A] py-[10px] lg:pt-5  lg:pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-[#0A009B]'>Click Here</a></p>
 
 
 
@@ -26,7 +26,7 @@ const OurOfferings = () => {
 
             <div>
                 <ul
-                    class="grid grid-cols-3 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
+                    class="grid grid-cols-3 lg:grid-cols-3 gap-[10px] lg:gap-[30px] pb-[10px] md:pb-[34px] list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
                     role="tablist"
                     data-te-nav-ref>
                     <li role="presentation">
@@ -41,7 +41,7 @@ const OurOfferings = () => {
                             aria-controls="tabs-home"
                             aria-selected="true"
                         >
-                            <div className='h-[100px] flex items-center justify-center gap-5  text-center py-5'>
+                            <div className='h-[100px] flex items-center justify-center gap-5  text-center '>
                                 <span className='number '>1</span>
                                 <span className='normal-text hidden lg:block text-xl font-normal'>Pre-Booking</span>
                             </div>

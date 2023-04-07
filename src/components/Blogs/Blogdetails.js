@@ -14,6 +14,8 @@ import blog1 from '../../asset/blog/blog2.png'
 import blog2 from '../../asset/blog/blog2.png'
 import blog3 from '../../asset/blog/blog3.png'
 import leftArrow from '../../asset/icon/leftArrow.png'
+import shortLeftArrow from '../../asset/icon/shortArrow.png'
+import whiteshortLeftArrow from '../../asset/icon/shortArrowWhite.png'
 import user from '../../asset/icon/user.png'
 import date from '../../asset/icon/date.png'
 
@@ -25,8 +27,10 @@ const BlogDetails = () => {
             <div className='mt-[70px] text-center px-5 px-lg:10 xl:px-[200px]'>
                 <div className='text-start'>
                     <p className='text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4'><img src={leftArrow} alt="" /> Guide for personal property Buying </p>
-                    <img className='w-[360px] md:w-full lg:-w-fit xl-[1462px]' src={blogDetail1} alt="" />
-                    <div className='flex justify-between  text-[#1A1A1A] py-[36px]'>
+
+                    <img className='w-[360px] md:w-fi lg:w-fit xl:w-[1462px]' src={blogDetail1} alt="" />
+
+                    <div className='flex justify-between lg:justify-normal lg:gap-40  text-[#1A1A1A] py-[36px]'>
                         <span className='font-semibold flex items-center gap-2'> <img className='h-3' src={user} alt="" /> By Brajesh </span>
                         <span className='font-semibold flex items-center gap-2 '><img className='h-5' src={date} alt="" /> 23 Mar 2023</span>
                     </div>
@@ -87,24 +91,26 @@ const BlogDetails = () => {
 
                     <div>
 
-                        <div className='py-16'>
+                        <div className='py-[70px] hidden lg:block'>
                             <hr className=' text-[#CCD3DC]' />
                         </div>
-                        <div>
+
+
+                        <div className='hidden lg:block'>
                             <div className='flex justify-between'>
                                 <Link to={'/'}>
-                                    <button className='w-[209px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Previous Post</button>
+                                    <button className='w-[209px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '> <img src={shortLeftArrow} alt="" /> Previous Post</button>
                                 </Link>
                                 <Link to={'/'}>
-                                    <button className='w-[175px] btn text-white bg-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 p-2 flex justify-center items-center gap-2 '>Next post</button>
+                                    <button className='w-[175px] btn text-white bg-[#01244A] font-semibold rounded-sm mt-4 outline outline-1 p-2 flex justify-center items-center gap-2 '>Next post <img className='ms-2' src={whiteshortLeftArrow} alt="" /></button>
                                 </Link>
                             </div>
                         </div>
 
 
-                        <div className='text-start md:flex justify-between  pt-20'>
+                        <div className='text-start md:grid grid-cols-2 gap-10 justify-between pt-7 lg:pt-20'>
                             <div>
-                                <h2 className='text-xl text-[#1A1A1A] '>Share this Post and Follow us on :</h2>
+                                <h2 className='text-2xl font-semibold lg:text-[28px] text-[#1A1A1A] '>Share this Post and Follow us on :</h2>
                                 <p className='text-start text-[#1A1A1A] opacity-60 pt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                                 <div className='flex text-start py-5 gap-4'>
                                     <Link to='www.facebook.com'><img className='w-12' src={instagram} alt="" /></Link>
@@ -116,9 +122,15 @@ const BlogDetails = () => {
 
                             <div>
                                 <h2 className='text-xl text-[#1A1A1A] '>Contact Us For Regular Updates :</h2>
+                                <div className='hidden lg:block'>
+                                    <Link to={'/'}>
+                                        <button className='w-[209px]  btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Contact Now  <span><BsArrowRight /> </span> </button>
+                                    </Link>
+                                </div>
                                 <Link to={'/'}>
-                                    <button className='w-[209px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Contact Now  <span><BsArrowRight /> </span> </button>
+                                    <button className='w-[209px] text-lg lg:hidden btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '>Register Now <span><BsArrowRight /> </span> </button>
                                 </Link>
+
                             </div>
                         </div>
                     </div>
@@ -129,7 +141,7 @@ const BlogDetails = () => {
             {/* blogs */}
 
             <div className='pt-5'>
-                <div className='bg-[#F2F4F6] py-4'>
+                <div className='bg-[#F2F4F6] py-6 lg:py-[57px]'>
                     <div className='relative text-center'>
                         <h2 className='title pb-[35px]'>You May Aslo Like This</h2>
                         <div className=' border-2 rounded-full h-[2px] w-[220px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
@@ -137,7 +149,7 @@ const BlogDetails = () => {
 
                     <div className='px-5 px-lg:10 xl:px-[200px]'>
                         <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
-                            <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
+                            <div className='card w-[360px]  lg:w-[455px] p-4 lg:p-6'>
                                 <div className='text-start'>
                                     <img className='w-full' src={blog1} alt="" />
                                     <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
@@ -156,7 +168,7 @@ const BlogDetails = () => {
                                 </div>
                             </div>
 
-                            <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
+                            <div className='card w-[360px]  lg:w-[455px] p-4 lg:p-6'>
                                 <div className='text-start'>
                                     <img className='w-full' src={blog2} alt="" />
                                     <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
@@ -175,7 +187,7 @@ const BlogDetails = () => {
                                 </div>
                             </div>
 
-                            <div className='card w-[360px] md:w-[355px] p-4 lg:p-6'>
+                            <div className='card w-[360px]  lg:w-[455px] p-4 lg:p-6'>
                                 <div className='text-start'>
                                     <img className='w-full' src={blog3} alt="" />
                                     <h2 className='pt-[30px] pb-7 text-[#1A1A1A] font-bold'>Real Estate, Analysis</h2>
