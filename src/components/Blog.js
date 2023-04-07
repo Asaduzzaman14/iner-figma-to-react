@@ -16,7 +16,7 @@ const Blog = () => {
                 <div className='px-5 px-lg:10 xl:px-[200px]'>
                     <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
 
-                        <div className='card w-[360px] md:w-[355px] lg:w-[455px] p-4 lg:p-6'>
+                        <div className='card w-[360px] md:w-[420px] lg:w-[455px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog1} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550] '>Real Estate, Analysis</h2>
@@ -36,7 +36,7 @@ const Blog = () => {
                         </div>
 
 
-                        <div className='card w-[360px] md:w-[355px] lg:w-[455px] p-4 lg:p-6'>
+                        <div className='card w-[360px] md:w-[420px] lg:w-[455px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog2} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550] font-bold'>Real Estate, Analysis</h2>
@@ -55,7 +55,7 @@ const Blog = () => {
                             </div>
                         </div>
 
-                        <div className='card w-[360px] md:w-[355px] lg:w-[455px] p-4 lg:p-6'>
+                        <div className='card w-[360px] md:w-[420px] lg:w-[455px] p-4 lg:p-6'>
                             <div className='text-start'>
                                 <img className='w-full' src={blog3} alt="" />
                                 <h2 className='pt-[30px] pb-7 text-[#002550] font-bold'>Real Estate, Analysis</h2>

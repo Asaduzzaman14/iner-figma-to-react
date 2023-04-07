@@ -18,7 +18,7 @@
     }
 
     .card {
-        @apply shadow-2xl text-start max-w-fit mx-auto;
+        @apply shadow-md text-start max-w-fit mx-auto;
     }
 
     .cart-title {
