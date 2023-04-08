@@ -39,6 +39,17 @@ const Contact = () => {
         })
     };
 
+
+    const handelContactForm = (e) => {
+        e.preventDefault()
+        // console.log('hello', e.target.fullName.value);
+        // console.log('hello', e.target.number.value);
+        // console.log('hello', e.target.stages.value);
+        // console.log('hello', countryValue.label);
+
+    }
+
+
     return (
         <div className='px-4 px-lg:10 xl:px-[200px] py-7'>
             <div className='shadow-lg px-4 lg:px-16 '>
@@ -60,7 +71,7 @@ const Contact = () => {
 
                             </div>
 
-                            <div className='flex flex-col lg:flex-row gap-5'>
+                            <form onSubmit={handelContactForm} className='flex flex-col lg:flex-row gap-5'>
 
                                 {/* first cols */}
                                 <div className='text-center mx-auto'>
@@ -71,6 +82,7 @@ const Contact = () => {
                                                 <div class="relative w-[350px] h-[48px]" >
                                                     <input
                                                         type="text"
+                                                        name='fullName'
                                                         class="peer  block min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                         id="exampleFormControlInputText"
                                                         placeholder="Example label" />
@@ -89,6 +101,7 @@ const Contact = () => {
                                         <div class="numberinput flex justify-start mb-7">
                                             <div class="relative  border-[1.5px] rounded border-[#888888] opacity-70 ps-2 mb-3 w-[350px] h-[48px]" >
                                                 <PhoneInput
+                                                    name="number"
                                                     className='phoneHeight flex justify-start h-full align-bottom focus:outline-none'
                                                     value={value}
                                                     onChange={setValue}
@@ -105,6 +118,7 @@ const Contact = () => {
                                             <div class="relative mb-3 w-[350px] h-[48px]">
 
                                                 <Select
+                                                    name='stages'
                                                     styles={style}
                                                     className='text-[#888888] h-[48px] w-full hover:bg-white rounded border border-[#888888]'
                                                     options={options1}
@@ -130,7 +144,8 @@ const Contact = () => {
                                         <div class="flex justify-centr">
                                             <div class="relative  w-[350px] h-[48px]" >
                                                 <input
-                                                    type="text"
+                                                    type="email"
+                                                    name="email"
                                                     class="peer  block min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                     id="exampleFormControlInputText"
                                                     placeholder="Example label" />
@@ -144,11 +159,11 @@ const Contact = () => {
                                         <p className='mb-7 text-left text-gray-400'>Please enter a valid email address</p>
                                     </div>
                                     <div class="flex justify-start mb-7">
-                                        <div class="relative border-[#888888] mb-3 w-[350px] h-[48px]" >
+                                        <div class="relative  border-[1.5px] rounded border-[#888888] mb-3 w-[350px] h-[48px]" >
                                             <Select
                                                 styles={style}
                                                 type="text"
-                                                class=" block w-full h-full p-3 rounded border-[1.5px] border-[#888888] bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                class=" block w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                 id="exampleFormControlInputText"
                                                 options={options} value={countryValue} onChange={changeHandler}
                                                 defaultValue={{ label: "India", value: 'India' }}
@@ -163,11 +178,14 @@ const Contact = () => {
                                     </div>
                                     <div className=' lg:hidden '>
                                         <div className='flex  justify-start my-7'>
-                                            <button className='btn w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
+                                            <input
+                                                value={"REGISTER"}
+                                                type='submit'
+                                                className='text-center cursor-pointer w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'></input>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </form>
                         </div>
 
                         {/* image */}
@@ -178,7 +196,6 @@ const Contact = () => {
                     </div>
 
                 </div>
-                {/* <Select options={options} value={countryValue} onChange={changeHandler} /> */}
 
             </div>
         </div>

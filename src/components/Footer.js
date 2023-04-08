@@ -7,6 +7,7 @@ import { AiOutlineFacebook, AiOutlineLinkedin, AiOutlineTwitter } from 'react-ic
 import email from '../asset/icon/email.png'
 import phone from '../asset/icon/phone.png'
 import smArrow from '../asset/icon/smallarrow.png'
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -100,10 +101,10 @@ const Footer = () => {
                     <p className='pt-[35px] text-gray-400 lg:pt-auto text-start lg:text-center'>Copyright 2023. Designed by INRE Global</p>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-3  '>
-                    <span className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineLinkedin /> </span> LinkedIn</span>
-                    <span className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineFacebook /> </span> Facebook</span>
-                    <span className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineTwitter /> </span> Twitter</span>
-                    <span className='flex items-center gap-2'><span className='text-2xl'> <IoLogoInstagram /> </span> Instagram</span>
+                    <Link to="http://linkedin.com/" className='flex cursor-pointer items-center gap-2'><span className='text-2xl'> <AiOutlineLinkedin /> </span> LinkedIn</Link>
+                    <Link to="http://facebook.com/" className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineFacebook /> </span> Facebook</Link>
+                    <Link to={'http://twitter.com/'} className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineTwitter /> </span> Twitter</Link>
+                    <Link to={'http://twitter.com/'} className='flex items-center gap-2'><span className='text-2xl'> <IoLogoInstagram /> </span> Instagram</Link>
 
                 </div>
             </div>

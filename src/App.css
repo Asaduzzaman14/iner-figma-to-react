@@ -53,6 +53,14 @@
 
 /* select  */
 
+.css-dbi1yk-control {
+  border: none !important;
+}
+
+.css-15olw1o-control:hover {
+  border: none !important;
+}
+
 .css-b62m3t-container {
   /* border: 1.5px solid #8888 !important; */
   border-radius: 5px;
@@ -68,8 +76,9 @@
 
 /* country  */
 .css-1fdsijx-ValueContainer {
-  padding: 10px !important;
+  padding: 7px !important;
   text-align: start;
+  border: 0 !important;
 }
 
 
@@ -92,7 +101,7 @@
   display: flex;
   justify-content: center;
   align-content: center !important;
-  margin-top: 5px;
+  margin-top: 3px;
 
 
 }
@@ -101,7 +110,7 @@
 
   color: #000;
   display: flex;
-  margin-top: 5px;
+  margin-top: 3px;
   justify-content: center;
   align-content: center !important;
 
