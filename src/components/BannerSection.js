@@ -10,7 +10,7 @@ const BannerSection = () => {
                     <p className='font-solway banner_title'>Making your <span className='text-[#FAFF00]'> real <br />
                         estate </span> purchase <br />
                         journey faster and <br className='' />
-                        <p>transparent</p>
+                        <p className='font-solway banner_title'>transparent</p>
                     </p>
                 </div>
             </div>
