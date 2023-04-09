@@ -8,10 +8,9 @@ import PostBooking from '../components/PostBooking';
 const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
-            <div className='relative'>
+            <div className='relative lg:hidden'>
                 <h2 className='title pb-6'>Our Offerings</h2>
                 <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
-
             </div>
 
             <div className='py-5'>
