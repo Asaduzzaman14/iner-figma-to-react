@@ -6,6 +6,11 @@ module.exports = {
       sans: ['Open Sans', 'sans-serif'],
       solway: ['Solway', 'serif'],
     },
+    colors: {
+      blue: '#002550',
+      black: '#1A1A1A',
+      white: '#fff'
+    },
     extend: {},
   },
   plugins: [require("tw-elements/dist/plugin")],

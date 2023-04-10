@@ -32,4 +32,8 @@
     .card-button {
         @apply flex items-center justify-between gap-2 text-center py-5
     }
+
+    .sm-button {
+        @apply bg-blue text-white px-[11.5px] py-[8px] rounded-md h-[48px] flex items-center
+    }
 }
