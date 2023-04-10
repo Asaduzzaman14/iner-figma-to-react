@@ -4,8 +4,13 @@ import OfferingCard from '../components/OfferingCard';
 import PreBooking from '../components/PreBooking';
 import PostRegistration from '../components/PostRegistration';
 import PostBooking from '../components/PostBooking';
+import { useState } from 'react';
 
 const OurOfferings = () => {
+
+    const [show, setShow] = useState('1')
+
+
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <div className='relative lg:pt-[70px]'>

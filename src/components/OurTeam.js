@@ -6,9 +6,9 @@ import image3 from '../asset/ourTeam/image3.png'
 const OurTeam = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
-            <div className='relative text-center'>
-                <h2 className='title py-[25px] lg:py-[35px]'>Our Team Members</h2>
-                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
+            <div className='relative text-center pb-[25px]'>
+                <h2 className='title pt-[15px] pb-[10px] lg:py-[25px]'>Our Team Members</h2>
+                <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom'></div>
             </div>
 
             <div>

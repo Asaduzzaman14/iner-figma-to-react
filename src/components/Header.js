@@ -39,7 +39,7 @@ const Header = () => {
                         </Link>
                     </div>
 
-                    <div className='flex items-center pt-[6px] justify-between'>
+                    <div className='flex items-center py-[6px] justify-between'>
 
                         {/* mobile icon  */}
                         <div onClick={() => setOpen(!open)} className='text-3xl  cursor-pointer lg:hidden'>
