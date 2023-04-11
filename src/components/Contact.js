@@ -13,6 +13,8 @@ import countryList from 'react-select-country-list'
 const Contact = () => {
 
     const [value, setValue] = useState()
+    const [name, setName] = useState({})
+    console.log(name.length);
 
     const [countryValue, setCountryValue] = useState()
     const options = useMemo(() => countryList().getData(), [])
@@ -30,12 +32,15 @@ const Contact = () => {
     ]
 
     const style = {
-        control: base => ({
+        control: (base, state) => ({
             ...base,
-            border: '1px solid #8888',
+            border: '1px solid',
             borderRedius: "5px",
             // This line disable the blue border
-            boxShadow: "none"
+            boxShadow: "none",
+            color: "white"
+
+
         })
     };
 
@@ -66,8 +71,8 @@ const Contact = () => {
                         {/* forms */}
                         <div className=' mx-auto '>
                             <div className='text-start'>
-                                <h2 className=' text-[#1A1A1A] font-bold text-2xl '>Get In Touch With Us To Connect</h2>
-                                <p className='text-[#1A1A1A] font-semibold pt-6 py-7'>Contact Us</p>
+                                <h2 className=' text-[#1A1A1A] font-bold text-xl pb-5 lg:text-2xl '>Get In Touch With Us To Connect</h2>
+                                <p className='text-[#1A1A1A] font-semibold pt-6 py-7 hidden'>Contact Us</p>
 
                             </div>
 
@@ -79,13 +84,15 @@ const Contact = () => {
                                         <div>
 
                                             <div class="flex justify-start">
-                                                <div class="relative w-[350px] h-[48px]" >
+                                                <div class="relative w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
                                                     <input
                                                         type="text"
                                                         name='fullName'
                                                         class="peer  block min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                         id="exampleFormControlInputText"
-                                                        placeholder="Example label" />
+                                                        placeholder="Example label"
+                                                        onChange={(e) => { setName(e.target.value) }}
+                                                    />
                                                     <label
                                                         for="exampleFormControlInputText"
                                                         class="pointer-events-none px-2 absolute top-3 left-3 max-w-[350px] origin-[0_0] truncate focus:mb-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[1.4rem] focus:px-2 peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
@@ -93,13 +100,13 @@ const Contact = () => {
                                                     </label>
                                                 </div>
                                             </div>
-                                            <p className='mb-7 text-left text-gray-400'>Not more than 50 characters</p>
+                                            <p className='mb-7 text-left text-blue opacity-40' >{name?.length >= 5 && 'Not more than 50 characters'}</p>
                                         </div>
                                     </div>
                                     <div>
 
                                         <div class="numberinput flex justify-start mb-7">
-                                            <div class="relative  border-[1.5px] rounded border-[#888888] opacity-70 ps-2 mb-3 w-[350px] h-[48px]" >
+                                            <div class="relative  border-[1.5px] rounded border-[#888888] opacity-70 ps-2 mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
                                                 <PhoneInput
                                                     name="number"
                                                     className='phoneHeight flex justify-start h-full align-bottom focus:outline-none'
@@ -115,7 +122,7 @@ const Contact = () => {
                                         </div>
 
                                         <div class="flex justify-center">
-                                            <div class="relative mb-3 w-[350px] h-[48px]">
+                                            <div class="relative mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
 
                                                 <Select
                                                     name='stages'
@@ -131,9 +138,16 @@ const Contact = () => {
 
 
                                         <div className='hidden lg:block '>
+
                                             <div className='flex  justify-start my-7'>
-                                                <button className='btn w-[350px]  border-[1.5px] bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
+                                                <input
+                                                    value={"Submit"}
+                                                    type='submit'
+                                                    className='text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'></input>
                                             </div>
+                                            {/* <div className='flex  justify-start my-7'>
+                                                <button className='btn w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border-[1.5px] bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +156,7 @@ const Contact = () => {
                                 <div className='mx-auto'>
                                     <div>
                                         <div class="flex justify-centr">
-                                            <div class="relative  w-[350px] h-[48px]" >
+                                            <div class="relative  w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
                                                 <input
                                                     type="email"
                                                     name="email"
@@ -156,14 +170,14 @@ const Contact = () => {
                                                 </label>
                                             </div>
                                         </div>
-                                        <p className='mb-7 text-left text-gray-400'>Please enter a valid email address</p>
+                                        <p className='mb-7 text-left text-blue opacity-60'>Please enter a valid email address</p>
                                     </div>
                                     <div class="flex justify-start mb-7">
-                                        <div class="relative  border-[1.5px] rounded border-[#888888] mb-3 w-[350px] h-[48px]" >
+                                        <div class="relative  rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
                                             <Select
                                                 styles={style}
                                                 type="text"
-                                                class=" block w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
+                                                class=" block text-white w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                                                 id="exampleFormControlInputText"
                                                 options={options} value={countryValue} onChange={changeHandler}
                                                 defaultValue={{ label: "India", value: 'India' }}
@@ -176,12 +190,13 @@ const Contact = () => {
                                             </label>
                                         </div>
                                     </div>
+
                                     <div className=' lg:hidden '>
                                         <div className='flex  justify-start my-7'>
                                             <input
-                                                value={"REGISTER"}
+                                                value={"Submit"}
                                                 type='submit'
-                                                className='text-center cursor-pointer w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'></input>
+                                                className='text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2'></input>
                                         </div>
                                     </div>
                                 </div>
@@ -189,8 +204,8 @@ const Contact = () => {
                         </div>
 
                         {/* image */}
-                        <div>
-                            <img className=' w-[360px] lg:w-[447px] mx-auto mb-7 lg:mb-0' src={image} alt="" />
+                        <div className='lg:col-span-4'>
+                            <img className=' w-[360px] xl:w-[447px] mx-auto  lg:mb-0' src={image} alt="" />
                         </div>
 
                     </div>

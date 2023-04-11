@@ -12,7 +12,7 @@ const OurOfferings = () => {
     return (
         <div className='px-5 px-lg:10 xl:px-[200px]'>
             <div className='relative'>
-                <h2 className='title pt-[25px] lg:pt-[35px]'>Our Offerings</h2>
+                <h2 className='title pt-[25px] lg:pt-[35px] pb-[10px]'>Our Offerings</h2>
                 <div className=' border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute '></div>
             </div>
             <p className='normal-text text-sm lg:text-base font-normal text-[#1A1A1A] py-[10px] lg:pt-5  lg:pb-8'>This whole purchase journey can be divided into three stages. For more details, <a href="_" className='text-blue font-bold'>Click Here</a></p>

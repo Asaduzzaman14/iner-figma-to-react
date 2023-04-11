@@ -11,11 +11,11 @@ const Header = () => {
     const location = useLocation()
 
     console.log(location.pathname);
-    let [open, setOpen] = useState(false);
+    let [open, setOpen] = useState(true);
     console.log(open);
 
     if (!open) {
-        document.body.style.shadow = "red";
+        // document.body.style.shadow = "red";
     } else {
         // document.body.style.overflow = "scroll";
     }
