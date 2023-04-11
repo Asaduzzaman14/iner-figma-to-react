@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PreBooking from './PreBooking';
-import PostBooking from './PostBooking';
+import PostBooking from '../components/Offering/PostBooking';
 import PostRegistration from './PostRegistration';
 
 const OurOfferings = () => {
@@ -175,6 +175,8 @@ const OurOfferings = () => {
                         <div>
                             {/* home page tab 3 done */}
                             <PostRegistration />
+
+
                         </div>
                     </div>
 
@@ -185,6 +187,9 @@ const OurOfferings = () => {
                         aria-labelledby="tabs-messages-tab">
                         <div>
                             {/* home page tab 2 */}
+                            {/* <PostBooking /> */}
+
+                            {/* test */}
                             <PostBooking />
 
                         </div>

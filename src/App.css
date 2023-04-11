@@ -14,13 +14,18 @@
 
 /* the parent */
 .slick-list {
-  margin: 0 9px;
-  /* padding: 20px 0; */
+  /* margin: 0 9px; */
+  padding: 20px 0;
+}
+
+.slick-item {
+  /* margin: 10px; */
+  /* padding: 10px; */
 }
 
 
 .slick-slider .slick-slide {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .PhoneInputInput {

@@ -10,7 +10,7 @@ import Slider from "react-slick";
 
 const PostRegistration = () => {
     var settings = {
-        dots: true,
+        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
@@ -23,7 +23,7 @@ const PostRegistration = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true,
+                    // dots: true,
                 },
             },
             {
@@ -44,12 +44,13 @@ const PostRegistration = () => {
             <div>
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
-                        <img className='w-' src={iamge1} alt="" />
+                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge1} alt="" />
                         <h2 className='cart-title text-xl'>Khata Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
-                        <div className='card-button'>
-                            <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
+
+                        <div className='card-button pb-0 text-[#002550]'>
+                            <button className='py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>Contact us<span><BsArrowRight className='text-2xl ' /></span></button>
                         </div>
                     </div>
                 </div>
@@ -58,12 +59,12 @@ const PostRegistration = () => {
             <div>
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
-                        <img src={iamge2} alt="" />
+                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge2} alt="" />
                         <h2 className='cart-title text-xl'>Khata Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
-                        <div className='card-button'>
-                            <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
+                        <div className='card-button pb-0 text-[#002550]'>
+                            <button className='py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>Contact us<span><BsArrowRight className='text-2xl ' /></span></button>
                         </div>
                     </div>
                 </div>
@@ -72,12 +73,12 @@ const PostRegistration = () => {
             <div>
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
-                        <img src={iamge3} alt="" />
+                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge3} alt="" />
                         <h2 className='cart-title text-xl'>Khata Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
-                        <div className='card-button'>
-                            <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
+                        <div className='card-button pb-0 text-[#002550]'>
+                            <button className='py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>Contact us<span><BsArrowRight className='text-2xl ' /></span></button>
                         </div>
                     </div>
                 </div>
@@ -86,12 +87,12 @@ const PostRegistration = () => {
             <div>
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
-                        <img src={iamge2} alt="" />
+                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge2} alt="" />
                         <h2 className='cart-title text-xl'>Khata Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
-                        <div className='card-button'>
-                            <button className=' btn border  rounded-sm  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-2 px-4 flex items-center gap-2'>Contract Now <img src={rightArrow} alt="" /></button>
+                        <div className='card-button pb-0 text-[#002550]'>
+                            <button className='py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>Contact us<span><BsArrowRight className='text-2xl ' /></span></button>
                         </div>
                     </div>
                 </div>

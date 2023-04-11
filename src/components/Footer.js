@@ -118,7 +118,7 @@ const Footer = () => {
                 <div>
                     <p className='pt-[35px] text-[#CCD3DC] lg:text-white lg:opacity-100  lg:text-lg opacity-60 lg:pt-auto text-start lg:text-center'>Copyright 2023. Designed by INRE Global</p>
                 </div>
-                <div className='flex flex-col lg:flex-row gap-3  '>
+                <div className='flex flex-col lg:flex-row gap-3 lg:gap-12  '>
                     <Link to="http://linkedin.com/" className='flex cursor-pointer items-center gap-2'><span className='text-2xl'> <AiOutlineLinkedin /> </span> LinkedIn</Link>
                     <Link to="http://facebook.com/" className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineFacebook /> </span> Facebook</Link>
                     <Link to={'http://twitter.com/'} className='flex items-center gap-2'><span className='text-2xl'> <AiOutlineTwitter /> </span> Twitter</Link>

@@ -11,8 +11,9 @@ const BlogBanner = () => {
                         <img className='w-[340px] lg:w-[731px] mx-auto' src={bannerImage} alt="" />
                     </div>
                     <div className='text-start grid content-center'>
-                        <h2 className='font-sans text-xl text-[#1A1A1A] lg:text-3xl font-semibold pb-[10px] lg:pb-8'>The Most Expensive Bangalore Real Estate Sales For 2023</h2>
-                        <p className='normal-text text-[#98A1B3] text-justify'>with several sales in the Bangalore eclipsing the Rs.200 cr mark. As the pandemic continued, the ultra-wealthy sought second (and third) homes to add to their portfolios and were willing to spend a fortune to make their residences more comfortable for extended periods.</p>
+                        {/* <p className='normal-text font-normal text-[#1A1A1A] pb-[10px]'>Real Estate</p> */}
+                        <h2 className='font-sans text-xl text-[#002550] lg:text-3xl font-semibold pb-[10px] lg:pb-8'>The Most Expensive Bangalore Real Estate Sales For 2023</h2>
+                        <p className='normal-text text-[#98A1B3] text-justify'>The Indian real estate sector is resilient despite global headwinds. Returns are impressive and the sector is expected to reach US$ 1 trillion in market size by 2030 (Niti Aayog report, 2021). However, the whole real estate purchase journey is very tedious and takes more than 2 years on average. Further, as the ticket size of this investment is large, security and trust become quite critical. Problems compound when you are currently away from your purchase destination. If you are experiencing difficulties in the real estate purchase journey,..</p>
                     </div>
                 </div>
             </div>

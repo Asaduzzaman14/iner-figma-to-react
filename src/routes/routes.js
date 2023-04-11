@@ -6,6 +6,7 @@ import OurOfferings from "../page/OurOfferings";
 import Blogs from "../page/Blogs";
 import OurTeampage from "../page/OurTeamPage";
 import BlogDetails from "../components/Blogs/Blogdetails";
+import BlogDetails2 from "../components/Blogs/BlogDetails2";
 
 
 const routes = createBrowserRouter([
@@ -36,6 +37,10 @@ const routes = createBrowserRouter([
             {
                 path: "blogDetails",
                 element: <BlogDetails />,
+            },
+            {
+                path: "blogDetails2",
+                element: <BlogDetails2 />,
             },
 
         ],

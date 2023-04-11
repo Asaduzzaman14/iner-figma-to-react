@@ -10,8 +10,8 @@ const Blogs = () => {
     return (
         <div className='pb-10 lg:pb-20'>
 
-            <div className='relative lg:hidden text-center mt-5'>
-                <h2 className='title mt-0 pb-[35px]'>Blogs</h2>
+            <div className='relative lg:hidden mb-4 pb-1.5 text-center'>
+                <h2 className='title mt-0 py-[20px] '>Blogs</h2>
                 <div className=' border-2 rounded-full h-[2px] w-[26px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4'></div>
             </div>
 
@@ -30,14 +30,14 @@ const Blogs = () => {
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-xl lg:text-[28px]  font-semibold'>Guide for personal property Buying </h2>
 
-                                <p className='cart-desc text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
+                                <p className='cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
-                            <div className='card-button text-[#002550]'>
+                            <div className=' text-[#002550]'>
                                 <Link to={'/blogDetails'}>
-                                    <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                    <button className='w-full lg:w-fit lg:py-4.2 lg:px-8 btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
                                 </Link>
                             </div>
                         </div>
@@ -52,14 +52,14 @@ const Blogs = () => {
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-xl lg:text-[28px]  font-semibold'>Guide for personal property Buying </h2>
 
-                                <p className='cart-desc text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
+                                <p className='cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                     cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
                             </div>
-                            <div className='card-button text-[#002550]'>
+                            <div className='text-[#002550]'>
                                 <Link to='/blogDetails'>
-                                    <button className='w-full btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
+                                    <button className='w-full lg:w-fit lg:py-4.2 lg:px-8 btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
                                 </Link>
                             </div>
                         </div>
