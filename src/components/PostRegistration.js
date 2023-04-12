@@ -1,7 +1,8 @@
 import React from 'react';
 import iamge1 from '../asset/offerig/postReg1.png'
 import iamge2 from '../asset/offerig/postreg2.png'
-import iamge3 from '../asset/offerig/postreg-4.png'
+import iamge3 from '../asset/offerig/postreg3.png'
+import iamge4 from '../asset/offerig/postreg-4.png'
 import rightArrow from '../asset/icon/rightArrow.png'
 import { BsArrowRight } from 'react-icons/bs';
 
@@ -45,8 +46,8 @@ const PostRegistration = () => {
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
                         <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge1} alt="" />
-                        <h2 className='cart-title text-xl'>Khata Transfer</h2>
-                        <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
+                        <h2 className='cart-title text-xl'>Virtual Site Visit</h2>
+                        <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>It becomes imperative to observe your apartment or plot very closely before paying the booking amount. We are here to assist with an AI-enabled UAV system. You just need to choose your convenient date and hour slots. We will provide both live streaming and...</p>
 
 
                         <div className='card-button pb-0 text-[#002550]'>
@@ -74,7 +75,7 @@ const PostRegistration = () => {
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
                         <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge3} alt="" />
-                        <h2 className='cart-title text-xl'>Khata Transfer</h2>
+                        <h2 className='cart-title text-xl'>BESCOM Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                         <div className='card-button pb-0 text-[#002550]'>
@@ -87,8 +88,8 @@ const PostRegistration = () => {
             <div>
                 <div className='card w-[360px] lg:w-[711px] p-4 lg:p-6'>
                     <div >
-                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge2} alt="" />
-                        <h2 className='cart-title text-xl'>Khata Transfer</h2>
+                        <img className='w-[330px] h-[245px]  lg:w-full lg:h-full' src={iamge4} alt="" />
+                        <h2 className='cart-title text-xl'>Property Tax Transfer</h2>
                         <p className='cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify'>Various processes like Khata transfer and Bescom transfer after registration consume your precious time and money. Let us help you with those at nominal costs ensuring fast and transparent delivery.</p>
 
                         <div className='card-button pb-0 text-[#002550]'>
@@ -97,7 +98,6 @@ const PostRegistration = () => {
                     </div>
                 </div>
             </div>
-
 
         </Slider >
 

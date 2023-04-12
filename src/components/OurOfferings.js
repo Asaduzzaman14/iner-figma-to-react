@@ -28,20 +28,19 @@ const OurOfferings = () => {
             <div>
                 <div className='lg:hidden'>
                     <ul
-                        class="flex content-center gap-1 lg:gap-[30px] pb-[20px] md:pb-[34px] justify-between flex-row"
+                        class="flex content-center gap-2.5 lg:gap-[30px] pb-[20px] md:pb-[34px] justify-center flex-row"
                         role="tablist"
                         data-te-nav-ref>
                         <li onClick={() => setShow(1)} role="presentation">
                             <a
                                 href="#tabs-home"
                                 class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${show === 1 ? 'h-16 lg:h-[100px] w-52 px-5' : "w-16 h-16 "} flex items-center justify-center  border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
-                                data-te-toggle="pill"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
                                 data-te-target="#tabs-home"
-                                data-te-nav-active
+                                data-te-toggle="pill"
                                 role="tab"
                                 aria-controls="tabs-home"
-                                aria-selected="true"
+                                aria-selected="false"
                             >
                                 <div className='flex items-center justify-center gap-1 lg:gap-5 text-center '>
                                     <span className='number w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  '>1 </span>
@@ -56,11 +55,13 @@ const OurOfferings = () => {
                             <a
                                 href="#tabs-messages"
                                 class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${show === 2 ? 'h-16 px-5 w-52' : "w-16 h-16"} flex items-center justify-center  border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`} data-te-toggle="pill"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`} data-te-toggle="pill"
                                 data-te-target="#tabs-messages"
+                                data-te-nav-active
+
                                 role="tab"
                                 aria-controls="tabs-messages"
-                                aria-selected="false"
+                                aria-selected="true"
                             >
                                 <div className='flex items-center justify-center gap-2 lg:gap-5 py-5'>
                                     <span className='number w-0 h-0 pr-2 flex items-center'>2{show === 2 && "."} </span>
@@ -73,7 +74,7 @@ const OurOfferings = () => {
                             <a
                                 href="#tabs-profile"
                                 class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${show === 3 ? 'h-16 px-5 w-52' : "w-16 h-16"} flex items-center justify-center border-transparent 
-                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`} data-te-toggle="pill"
+                            text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`} data-te-toggle="pill"
                                 data-te-target="#tabs-profile"
                                 role="tab"
                                 aria-controls="tabs-profile"
@@ -98,7 +99,7 @@ const OurOfferings = () => {
                             <a
                                 href="#tabs-home"
                                 class="my-2 block border-transparent 
-                             text-xs font-medium uppercase focus:border-b-2 leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
+                             text-xs font-medium uppercase border-b-2 border-white leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                                 data-te-toggle="pill"
                                 data-te-target="#tabs-home"
                                 data-te-nav-active
@@ -118,7 +119,7 @@ const OurOfferings = () => {
                         <li role="presentation">
                             <a
                                 href="#tabs-messages"
-                                class="my-2 block focus:border-b-2 border-transparent 
+                                class="my-2 block border-b-2 border-white border-transparent 
                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                                 data-te-toggle="pill"
                                 data-te-target="#tabs-messages"
@@ -136,7 +137,7 @@ const OurOfferings = () => {
                         <li role="presentation">
                             <a
                                 href="#tabs-profile"
-                                class="my-2 block focus:border-b-2 border-transparent 
+                                class="my-2 block border-b-2 border-white border-transparent 
                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                                 data-te-toggle="pill"
                                 data-te-target="#tabs-profile"
@@ -156,11 +157,11 @@ const OurOfferings = () => {
 
                 <div class="mb-6">
                     <div
-                        class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-home"
                         role="tabpanel"
                         aria-labelledby="tabs-home-tab"
-                        data-te-tab-active>
+                    >
                         <div>
                             {/* tab 1 */}
                             <PreBooking />
@@ -171,7 +172,9 @@ const OurOfferings = () => {
                         class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-profile"
                         role="tabpanel"
-                        aria-labelledby="tabs-profile-tab">
+                        aria-labelledby="tabs-profile-tab"
+
+                    >
                         <div>
                             {/* home page tab 3 done */}
                             <PostRegistration />
@@ -181,10 +184,11 @@ const OurOfferings = () => {
                     </div>
 
                     <div
-                        class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
+                        class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
                         id="tabs-messages"
                         role="tabpanel"
-                        aria-labelledby="tabs-messages-tab">
+                        aria-labelledby="tabs-messages-tab"
+                        data-te-tab-active>
                         <div>
                             {/* home page tab 2 */}
                             {/* <PostBooking /> */}
