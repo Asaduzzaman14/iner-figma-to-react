@@ -22,7 +22,7 @@ import OtherBlogs from './OtherBlogs';
 
 
 
-const BlogDetails2 = () => {
+const BlogDetails3 = () => {
     const naviagate = useNavigate()
 
 
@@ -35,7 +35,8 @@ const BlogDetails2 = () => {
                         <div onClick={() => naviagate(-1)}>
                             <img src={leftArrow} alt="" />
                         </div>
-                        Artificial Intelligence in Realty
+                        Real estate Purchase Challenges in Bengaluru
+
                     </p>
 
                     <img className='w-[360px] md:w-fi lg:w-fit xl:w-[1462px] mx-auto' src={blogDetail1} alt="" />
@@ -55,53 +56,57 @@ const BlogDetails2 = () => {
                 <div className='text-base lg:text-2xl '>
 
                     <div className='text-start text-[#1A1A1A] opacity-60 pt-5 lg:pt-9'>
-                        <p>The Indian real estate market has been on an upswing in recent years, with a growing number of developers and investors entering the space. In addition to the traditional factors that influence the market, such as economic growth, demographics, and government policies, a new factor is emerging as a game-changer: Artificial Intelligence (AI). AI has already made its presence felt in numerous industries, from finance to healthcare, and real estate is no exception. Below, we will explore the various applications of AI in the Indian real estate market and how it is transforming the industry.</p>
 
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>1.</span>
-                                <h2 className=' ms-2'>Property Search and Discovery:</h2>
-                            </div>
-                            <p>The traditional way of searching for a property is time-consuming and often frustrating. However, AI-powered platforms such as NoBroker and Housing.com are trying to change the game by providing a more personalized and efficient experience. These platforms tend to use machine learning algorithms to understand the preferences and requirements of potential buyers and show them only relevant properties. This not only saves time but also provides a more accurate search experience</p>
-                        </div>
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>2.</span>
-                                <h2 className=' ms-2'>Predictive Analytics:</h2>
-                            </div>
-                            <p>The traditional way of searching for a property is time-consuming and often frustrating. However, AI-powered platforms such as NoBroker and Housing.com are trying to change the game by providing a more personalized and efficient experience. These platforms tend to use machine learning algorithms to understand the preferences and requirements of potential buyers and show them only relevant properties. This not only saves time but also provides a more accurate search experience</p>
-                        </div>
+                        <p>There are several problems that buyers may face during real estate purchase in Bengaluru. Some of the major problems are as follows:
+                        </p>
 
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>3.</span>
-                                <h2 className=' ms-2'>Property Valuation:</h2>
-                            </div>
-                            <p>AI-powered platforms such as PropEquity and 99acres tend to use machine learning algorithms to accurately predict the value of a property based on various factors such as location, amenities, and market trends. This information can be useful for buyers, sellers, and lenders who need to understand the true value of a property before making a transaction.</p>
-                        </div>
-
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>4.</span>
-                                <h2 className=' ms-2'>Chatbots:</h2>
-                            </div>
-                            <p>AI-powered chatbots are becoming increasingly popular in the real estate industry, as they provide a more efficient and personalized customer service experience. Chatbots can answer common questions, provide property recommendations, and even schedule property viewings. This not only saves time for both customers and agents but also provides a 24/7 service that can improve customer satisfaction.</p>
-                        </div>
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>5.</span>
-                                <h2 className=' ms-2'>Smart Buildings:</h2>
-                            </div>
-                            <p>AI is also being used to create smart buildings that are more efficient and sustainable.</p>
-                        </div>
-                        <div className=' pt-3'>
-                            <div className='flex text-2xl'>
-                                <span>6.</span>
-                                <h2 className=' ms-2'>Fraud detection</h2>
-                            </div>
-                            <p>AI-powered fraud detection systems are being used in the Indian real estate sector to prevent fraud and ensure the security of transactions. Fraud detection systems use machine learning algorithms to analyze data and identify patterns that indicate fraudulent activity. These systems can be used to detect fraud in property listings, title transfers, and financial transactions.
+                        <div className=' pt-3 flex gap-4'>
+                            <span>1. </span>
+                            <p> Fraud detection:  AI-powered fraud detection systems are being used in the Indian real estate sector to prevent fraud and ensure the security of transactions. Fraud detection systems use machine learning algorithms to analyze data and identify patterns that indicate fraudulent activity. These systems can be used to detect fraud in property listings, title transfers, and financial transactions.
                                 To conclude,  AI technology is transforming the Indian real estate sector and has made it more efficient, accurate, and cost-effective through various applications
                             </p>
+                        </div>
+                        <div className=' pt-3 flex gap-4'>
+                            <span>2. </span>
+                            <p>Lack of transparency: The lack of transparency in the real estate sector is another major problem in Bengaluru. This can include issues such as ambiguous pricing, hidden charges, and incomplete documentation. According to a survey by Magicbricks, nearly 60% of buyers in Bengaluru face issues related to transparency in the real estate sector.</p>
+                        </div>
+                        <div className=' pt-3 flex gap-4'>
+                            <span>3. </span>
+                            <p>High prices: Bengaluru has one of the highest property prices in India, which can make it difficult for buyers to find affordable housing. According to a report by Knight Frank, the average property prices in Bengaluru increased by 2.8% in Q1 2021, making it one of the top-performing cities in terms of price growth</p>
+                        </div>
+
+                        <div className=' pt-3 flex gap-4'>
+                            <span>4. </span>
+                            <p>Legal issues: Buyers in Bengaluru can face legal issues related to property ownership and documentation. For example, the Karnataka High Court has issued orders to stop the registration of properties that are built on lake beds or other ecologically sensitive areas. This can create legal hurdles for buyers who have already invested in such properties.</p>
+                        </div>
+
+
+                        {/* <div className=' pt-3 flex gap-4'>
+                            <span>0. </span>
+                            <p></p>
+                        </div> */}
+                        <div className='pt-5'>
+                            <p>Sources:</p>
+
+                            <div className=' pt-3 flex gap-4'>
+                                <span>1. </span>
+                                <p>ANAROCK Property Consultants report: <Link to='https://www.anarock.com/blog/homebuyers-beware-60-bangalore-real-estate-projects-delayed/'>https://www.anarock.com/blog/homebuyers-beware-60-bangalore-real-estate-projects-delayed/</Link> </p>
+                            </div>
+                            <div className=' pt-3 flex gap-4'>
+                                <span>2. </span>
+                                <p>Magicbricks survey: <Link to='https://economictimes.indiatimes.com/wealth/real-estate/majority-of-homebuyers-face-transparency-issues-in-bengaluru-magicbricks-survey/articleshow/64887577.cms/'>https://economictimes.indiatimes.com/wealth/real-estate/majority-of-homebuyers-face-transparency-issues-in-bengaluru-magicbricks-survey/articleshow/64887577.cms</Link> </p>
+                            </div>
+
+                            <div className=' pt-3 flex gap-4'>
+                                <span>3. </span>
+                                <p>Knight Frank report:  <Link to='https://www.knightfrank.co.in/research/article/2021-03-03-bangalore-office-market-report-q4-2020/ '>https://www.knightfrank.co.in/research/article/2021-03-03-bangalore-office-market-report-q4-2020</Link> </p>
+                            </div>
+
+                            <div className=' pt-3 flex gap-4'>
+                                <span>4. </span>
+                                <p>Karnataka High Court orders:  <Link to='https://timesofindia.indiatimes.com/city/bengaluru/high-court-orders-registration-department-not-to-register-properties-built-on-lake-beds/articleshow/73110843.cms/'>https://timesofindia.indiatimes.com/city/bengaluru/high-court-orders-registration-department-not-to-register-properties-built-on-lake-beds/articleshow/73110843.cms</Link> </p>
+                            </div>
+
                         </div>
 
 
@@ -117,10 +122,10 @@ const BlogDetails2 = () => {
 
                         <div className='hidden lg:block'>
                             <div className='flex justify-between'>
-                                <Link to={'/blogDetails'}>
+                                <Link to={'/blogDetails2'}>
                                     <button className=' px-[32px] py-4 btn border text-[#002550] font-semibold rounded-md mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '> <img src={shortLeftArrow} alt="" /> Previous Post</button>
                                 </Link>
-                                <Link to={'/blogDetails3'}>
+                                <Link to={'/blogDetails'}>
                                     <button className='px-[32px] py-4 btn text-white bg-[#01244A] font-semibold rounded-md mt-4 outline outline-1 p-2 flex justify-center items-center gap-2 '>Next post <img className='ms-2' src={whiteshortLeftArrow} alt="" /></button>
                                 </Link>
                             </div>
@@ -167,4 +172,4 @@ const BlogDetails2 = () => {
     );
 };
 
-export default BlogDetails2;
+export default BlogDetails3;

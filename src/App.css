@@ -101,16 +101,16 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: #E6EAEE !important;
+  background: #CCD3DC !important;
   border-radius: 50px;
-  color: black !important;
+  color: #CCD3DC !important;
   z-index: 2;
 
 }
 
 .slick-next::before {
 
-  color: #000;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-content: center !important;
@@ -120,8 +120,7 @@
 }
 
 .slick-prev::before {
-
-  color: #000;
+  color: #fff;
   display: flex;
   margin-top: 3px;
   justify-content: center;
@@ -133,11 +132,11 @@
 
 /*  */
 .slick-next:hover {
-  background: #E6EAEE;
+  background: #CCD3DC;
 }
 
 .slick-prev:hover {
-  background: #E6EAEE;
+  background: #CCD3DC;
 }
 
 

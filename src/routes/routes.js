@@ -7,6 +7,7 @@ import Blogs from "../page/Blogs";
 import OurTeampage from "../page/OurTeamPage";
 import BlogDetails from "../components/Blogs/Blogdetails";
 import BlogDetails2 from "../components/Blogs/BlogDetails2";
+import BlogDetails3 from "../components/Blogs/BlogDetails3";
 
 
 const routes = createBrowserRouter([
@@ -39,8 +40,12 @@ const routes = createBrowserRouter([
                 element: <BlogDetails />,
             },
             {
-                path: "blogDetails2",
+                path: "artificial-Intelligence-in-Realty",
                 element: <BlogDetails2 />,
+            },
+            {
+                path: "blogDetails3",
+                element: <BlogDetails3 />,
             },
 
         ],
