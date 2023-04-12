@@ -122,7 +122,7 @@ const BlogDetails3 = () => {
 
                         <div className='hidden lg:block'>
                             <div className='flex justify-between'>
-                                <Link to={'/blogDetails2'}>
+                                <Link to={'/artificial-Intelligence-in-Realty'}>
                                     <button className=' px-[32px] py-4 btn border text-[#002550] font-semibold rounded-md mt-4 outline outline-1  p-2 flex justify-center items-center gap-2 '> <img src={shortLeftArrow} alt="" /> Previous Post</button>
                                 </Link>
                                 <Link to={'/blogDetails'}>

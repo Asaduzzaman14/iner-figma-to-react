@@ -102,7 +102,6 @@ const OurOfferings = () => {
                              text-xs font-medium uppercase border-b-2 border-white leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                                 data-te-toggle="pill"
                                 data-te-target="#tabs-home"
-                                data-te-nav-active
                                 role="tab"
                                 aria-controls="tabs-home"
                                 aria-selected="true"
@@ -123,6 +122,8 @@ const OurOfferings = () => {
                             text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                                 data-te-toggle="pill"
                                 data-te-target="#tabs-messages"
+                                data-te-nav-active
+
                                 role="tab"
                                 aria-controls="tabs-messages"
                                 aria-selected="false"
