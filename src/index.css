@@ -36,4 +36,6 @@
     .sm-button {
         @apply bg-blue text-white px-[11.5px] py-[8px] rounded-md h-[48px] flex items-center
     }
+
+   
 }

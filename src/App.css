@@ -12,16 +12,6 @@
   font-family: 'Solway', 'serif' !important;
 }
 
-/* the parent */
-.slick-list {
-  /* margin: 0 9px; */
-  padding: 20px 0;
-}
-
-.slick-item {
-  /* margin: 10px; */
-  /* padding: 10px; */
-}
 
 
 .slick-slider .slick-slide {
@@ -94,7 +84,9 @@
 
 }
 
-
+.slick-list {
+  padding: 2px;
+}
 
 .slick-next,
 .slick-prev {
@@ -188,28 +180,28 @@
 
 
 .slick-next {
-  right: 5px;
+  right: -15px;
 }
 
 .slick-prev {
-  left: 5px;
+  left: -15px;
 }
 
 
 
 @media only screen and (min-width:1024px) {
   .slick-next {
-    right: 5px;
+    right: -20px;
   }
 
   .slick-prev {
-    left: 5px;
+    left: -20px;
   }
 
 
 }
 
-@media only screen and (min-width:1440px) {
+@media only screen and (min-width:1240px) {
   .slick-next {
     right: -35px;
   }
