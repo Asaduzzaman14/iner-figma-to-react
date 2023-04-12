@@ -82,29 +82,29 @@ const Header = () => {
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold  text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Home</Link>
-                                        {location.pathname == "/" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
+                                        {location.pathname == "/" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
                                     </li>
 
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/ourOferings'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourOferings" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Offerings</Link>
-                                        {location.pathname == "/ourOferings" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
+                                        {location.pathname == "/ourOferings" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
                                     </li>
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/ourTeam'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourTeam" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Team</Link>
-                                        {location.pathname == "/ourTeam" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
+                                        {location.pathname == "/ourTeam" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
                                     </li>
 
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/contactUs'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/contactUs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Contact Us</Link>
-                                        {location.pathname == "/contactUs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
+                                        {location.pathname == "/contactUs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
                                     </li>
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/blogs'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/blogs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Blogs</Link>
-                                        {location.pathname == "/blogs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
+                                        {location.pathname == "/blogs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
                                     </li>
 
                                     {/* <li className=' ps-6 lg:px-4 relative lg:text-center'>

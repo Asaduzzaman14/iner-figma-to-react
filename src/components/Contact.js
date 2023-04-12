@@ -14,6 +14,7 @@ const Contact = () => {
 
     const [value, setValue] = useState()
     const [name, setName] = useState({})
+    const [email, setemail] = useState({})
     console.log(name.length);
 
     const [countryValue, setCountryValue] = useState()
@@ -34,15 +35,51 @@ const Contact = () => {
     const style = {
         control: (base, state) => ({
             ...base,
-            border: '1px solid',
+            // border: '1px solid #888888',
             borderRedius: "5px",
             // This line disable the blue border
             boxShadow: "none",
-            color: "white"
+            outLine: "none",
+            color: state.Select ? 'red' : 'blue',
+
+            "&:hover": {
+                border: "null",
+                boxShadow: "null"
+            },
+            "&:focus": {
+                border: "null",
+                boxShadow: "null"
+            },
 
 
         })
     };
+
+
+    // const customStyles: StylesConfig = {
+    //     control: (provided: Record<string, unknown>, state: any) => ({
+    //       ...provided,
+    //       height: 52,
+    //       border: state.isFocused ? "1px solid #ff8b67" : "1px solid #cccccc",
+    //       boxShadow: state.isFocused ? "0px 0px 6px #ff8b67" : "none",
+    //       // "&": {
+    //       //   border: "1px solid #cccccc",
+    //       //   boxShadow: "none"
+    //       // },
+    //       "&:hover": {
+    //         border: "1px solid #ff8b67",
+    //         boxShadow: "0px 0px 6px #ff8b67"
+    //       }
+    //       // "&:focus": {
+    //       //   border: "1px solid #ff8b67",
+    //       //   boxShadow: "0px 0px 6px #ff8b67"
+    //       // },
+    //       // "&:acitve": {
+    //       //   border: "1px solid #ff8b67",
+    //       //   boxShadow: "0px 0px 6px #ff8b67"
+    //       // }
+    //     })
+    //   };
 
 
     const handelContactForm = (e) => {
@@ -56,7 +93,7 @@ const Contact = () => {
 
 
     return (
-        <div className='px-4 px-lg:10 xl:px-[200px] py-7'>
+        <div className='px-4 px-lg:10 xl:px-[200px] py-7' >
             <div className='shadow-lg px-4 lg:px-16 '>
 
 
@@ -95,12 +132,12 @@ const Contact = () => {
                                                     />
                                                     <label
                                                         for="exampleFormControlInputText"
-                                                        class="pointer-events-none px-2 absolute top-3 left-3 max-w-[350px] origin-[0_0] truncate focus:mb-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[1.4rem] focus:px-2 peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
+                                                        class="pointer-events-none px-2 absolute -top-3.5 bg-white bg-transparent left-3 max-w-[350px]  leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:text-primary  motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888]"
                                                     >Full name
                                                     </label>
                                                 </div>
                                             </div>
-                                            <p className='mb-7 text-left text-blue opacity-40' >{name?.length >= 5 && 'Not more than 50 characters'}</p>
+                                            <p className='mb-7 text-left text-blue opacity-40' >{name?.length >= 50 && 'Not more than 50 characters'}</p>
                                         </div>
                                     </div>
                                     <div>
@@ -130,7 +167,19 @@ const Contact = () => {
                                                     className='text-[#888888] h-[48px] w-full hover:bg-white rounded border border-[#888888]'
                                                     options={options1}
                                                     defaultValue={{ label: "I have booked but registration is not done", value: 'I have booked but registration is not done' }}
-
+                                                    theme={(theme) => ({
+                                                        ...theme,
+                                                        borderRadius: 0,
+                                                        colors: {
+                                                            ...theme.colors,
+                                                            text: 'red',
+                                                            // primary25: '#fff',
+                                                            // primary: '#f2f4f6',
+                                                            // color: '#fff'
+                                                            neutral80: '#707171', // active text color
+                                                            neutral90: '#707171', // active text color
+                                                        },
+                                                    })}
                                                 />
                                                 <span className='absolute left-2 -top-3 bg-white px-2 text-[#888888]'>Stages</span>
                                             </div>
@@ -165,12 +214,12 @@ const Contact = () => {
                                                     placeholder="Example label" />
                                                 <label
                                                     for="exampleFormControlInputText"
-                                                    class="pointer-events-none  absolute px-2 top-3 left-3  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[1.4rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
+                                                    class="pointer-events-none  absolute px-2 -top-3.5  left-3  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out bg-white"
                                                 >Email address
                                                 </label>
                                             </div>
                                         </div>
-                                        <p className='mb-7 text-left text-blue opacity-60'>Please enter a valid email address</p>
+                                        <p className='mb-7 text-left text-blue opacity-60'>{email?.length >= 5 && "Please enter a valid email address"}</p>
                                     </div>
                                     <div class="flex justify-start mb-7">
                                         <div class="relative  rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
@@ -181,7 +230,19 @@ const Contact = () => {
                                                 id="exampleFormControlInputText"
                                                 options={options} value={countryValue} onChange={changeHandler}
                                                 defaultValue={{ label: "India", value: 'India' }}
-
+                                                theme={(theme) => ({
+                                                    ...theme,
+                                                    borderRadius: 0,
+                                                    colors: {
+                                                        ...theme.colors,
+                                                        text: 'red',
+                                                        // primary25: '#fff',
+                                                        // primary: '#f2f4f6',
+                                                        // color: '#fff'
+                                                        neutral80: '#707171', // active text color
+                                                        neutral90: '#707171', // active text color
+                                                    },
+                                                })}
                                             />
                                             <label
                                                 for="exampleFormControlInputText"
@@ -213,7 +274,7 @@ const Contact = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 

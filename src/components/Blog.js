@@ -14,7 +14,7 @@ const Blog = () => {
                 </div>
 
                 <div className='pt-[20px] lg:pt-[35px] px-5 px-lg:10 xl:px-[200px]'>
-                    <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
+                    <div className='grid gap-2 lg:gap-[46px] grid-cols-1 lg:grid-cols-3 '>
 
                         <div className='card w-[360px]  lg:w-[455px] p-4 lg:p-6'>
                             <div className='text-start'>
@@ -25,10 +25,9 @@ const Blog = () => {
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Application of Blockchain in real estate industry</h2>
 
-                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
+                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>Blockchain technology has been considered as one of the most revolutionary technological advances in recent years</p>
                             </div>
                             <div className='card-button pb-0 text-[#002550]'>
                                 <button className='w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
@@ -45,10 +44,9 @@ const Blog = () => {
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Real estate Purchase Challenges in Bengaluru</h2>
 
-                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
+                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>There are several problems that buyers may face during real estate purchase in Bengaluru. Some of the major problems  are as follows</p>
                             </div>
                             <div className='card-button pb-0 text-[#002550]'>
                                 <button className='w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border  text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
@@ -64,10 +62,9 @@ const Blog = () => {
                                     <span className='font-semibold'>By Admin</span>
                                 </div>
 
-                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Guide for personal property Buying </h2>
+                                <h2 className='pb-4 text-[28px] text-[#002550] font-semibold'>Artificial Intelligence in Realty</h2>
 
-                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
-                                    cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
+                                <p className='cart-desc text-base text-[#1A1A1A] opacity-60 text-justify'>The Indian real estate market has been on an upswing in recent years, with a growing number of developers and investors entering the space</p>
                             </div>
                             <div className='card-button pb-0 text-[#002550]'>
                                 <button className='w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 '>View More<span><BsArrowRight className='text-2xl ' /></span></button>
