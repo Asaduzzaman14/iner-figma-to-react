@@ -79,7 +79,7 @@ const OurTeampage = () => {
                 <div className='pt-4 pb-9'>
                     <div className='grid lg:grid-flow-row gap-[36px] grid-cols-1 '>
 
-                        <div className='card w-[360px] lg:w-full  p-4 lg:p-12'>
+                        <div className='card bg-[#F2F4F6] w-[360px] lg:w-full  p-4 lg:p-12'>
                             <div className=' text-start'>
                                 <div className='flex items-center gap-4 lg:gap-10 pb-5'>
                                     <div>
@@ -95,7 +95,7 @@ const OurTeampage = () => {
                             </div>
                         </div>
 
-                        <div className='card w-[360px] lg:w-full  p-4 lg:p-12'>
+                        <div className='card bg-[#F2F4F6] w-[360px] lg:w-full  p-4 lg:p-12'>
                             <div className=' text-start'>
                                 <div className='flex items-center gap-4 lg:gap-10 pb-5'>
                                     <div>
@@ -111,7 +111,7 @@ const OurTeampage = () => {
                             </div>
                         </div>
 
-                        <div className='card w-[360px] lg:w-full  p-4 lg:p-12'>
+                        <div className='card bg-[#F2F4F6] w-[360px] lg:w-full  p-4 lg:p-12'>
                             <div className=' text-start'>
                                 <div className='flex items-center gap-4 lg:gap-10 pb-5'>
                                     <div>

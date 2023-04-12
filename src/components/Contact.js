@@ -15,7 +15,7 @@ const Contact = () => {
     const [value, setValue] = useState()
     const [name, setName] = useState({})
     const [email, setemail] = useState({})
-    console.log(name.length);
+    // console.log(email.length);
 
     const [countryValue, setCountryValue] = useState()
     const options = useMemo(() => countryList().getData(), [])
@@ -103,7 +103,7 @@ const Contact = () => {
 
                     {/* image and from  */}
                     {/* <div className='flex flex-col-reverse lg:flex-row gap-5 lg:justify-between '> */}
-                    <div className='flex flex-col-reverse lg:flex-row gap-5 lg:justify-between items-center '>
+                    <div className='flex flex-col-reverse lg:flex-row gap-5 py-10 lg:justify-between items-center '>
 
                         {/* forms */}
                         <div className=' mx-auto '>
@@ -137,9 +137,10 @@ const Contact = () => {
                                                     </label>
                                                 </div>
                                             </div>
-                                            <p className='mb-7 text-left text-blue opacity-40' >{name?.length >= 50 && 'Not more than 50 characters'}</p>
+                                            <p className={`mb-7 text-left text-blue opacity-40 ${email?.length >= 5 && name?.length <= 50 && 'lg:pb-[25px]'}`} >{name?.length >= 50 && 'Not more than 50 characters'}</p>
                                         </div>
                                     </div>
+
                                     <div>
 
                                         <div class="numberinput flex justify-start mb-7">
@@ -207,6 +208,7 @@ const Contact = () => {
                                         <div class="flex justify-centr">
                                             <div class="relative  w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]" >
                                                 <input
+                                                    onChange={(e) => setemail(e.target.value)}
                                                     type="email"
                                                     name="email"
                                                     class="peer  block min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
@@ -265,7 +267,7 @@ const Contact = () => {
                         </div>
 
                         {/* image */}
-                        <div className='lg:col-span-4'>
+                        <div className=''>
                             <img className=' w-[360px] xl:w-[447px] mx-auto  lg:mb-0' src={image} alt="" />
                         </div>
 
@@ -279,3 +281,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

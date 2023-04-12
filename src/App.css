@@ -106,6 +106,7 @@
   color: #CCD3DC !important;
   z-index: 2;
 
+
 }
 
 .slick-next::before {
@@ -186,15 +187,37 @@
 /*=====  End of Our Team Page  ======*/
 
 
+.slick-next {
+  right: 5px;
+}
+
+.slick-prev {
+  left: 5px;
+}
 
 
 
-@media only screen and (max-width:1024px) {
+@media only screen and (min-width:1024px) {
   .slick-next {
-    right: -5px;
+    right: 5px;
   }
 
   .slick-prev {
-    left: -5px;
+    left: 5px;
   }
+
+
+}
+
+@media only screen and (min-width:1440px) {
+  .slick-next {
+    right: -35px;
+  }
+
+  .slick-prev {
+    left: -35px;
+  }
+
+
+
 }

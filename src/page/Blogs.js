@@ -66,7 +66,7 @@ const Blogs = () => {
                                         <span className='font-semibold'>By Admin</span>
                                     </div>
 
-                                    <h2 className='pb-4 text-xl lg:text-[28px]  font-semibold'>Application of Blockchain in real estate industry </h2>
+                                    <h2 className='pb-4 text-xl xl:text-[28px]  font-semibold'>Application of Blockchain in real estate industry </h2>
 
                                     <p className='cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                         cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
@@ -89,7 +89,7 @@ const Blogs = () => {
                                         <span className='font-semibold'>By Admin</span>
                                     </div>
 
-                                    <h2 className='pb-4 text-xl lg:text-[28px]  font-semibold'>Artificial Intelligence in Realty</h2>
+                                    <h2 className='pb-4 text-xl xl:text-[28px]  font-semibold'>Artificial Intelligence in Realty</h2>
 
                                     <p className='cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                         cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>
@@ -112,7 +112,7 @@ const Blogs = () => {
                                         <span className='font-semibold'>By Admin</span>
                                     </div>
 
-                                    <h2 className='pb-4 text-xl lg:text-[28px]  font-semibold'>Guide for personal property Buying </h2>
+                                    <h2 className='pb-4 text-xl xl:text-[28px]  font-semibold'>Guide for personal property Buying </h2>
 
                                     <p className='cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify'>Lorem ipsum dolor sit amet, consectetur adipis
                                         cing elit, sed do eiusmod temp incididuut labore dolore magna aliqua do eiusmod...</p>

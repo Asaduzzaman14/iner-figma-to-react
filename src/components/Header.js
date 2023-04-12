@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <>
             <div className=' shadow-md z-50 w-full  relative top-0 left-0'>
-                <div className=' lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-auto px-5 py-0 lg:py-2 lg:px-20 items-center bg-white'>
+                <div className=' lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-[107px] px-5 py-0 lg:py-2 lg:px-20 items-end lg:pb-4 bg-white'>
 
                     <div className='hidden lg:block relative  lg:flex-basis-1/4 lg:py-2 '>
                         <Link to='/' class=" ">
@@ -52,9 +52,9 @@ const Header = () => {
                             </Link>
                         </div>
 
-                        <div className='lg:hidden'>
+                        <Link to="/contactUs" className='lg:hidden'>
                             <button className='btn border text-sm sm-button'>Register Now</button>
-                        </div>
+                        </Link>
 
                     </div>
 
@@ -65,7 +65,7 @@ const Header = () => {
                         <ul className={`flex flex-col justify-between bg-white w-[315px] absolute top-0  lg:static  lg:z-auto -z-[-10] left-0 bg-gray-300 h-screen lg:h-auto lg:w-auto lg:pl-0  transition-all duration-300 lg:bg-white ease-in ${open ? 'left-[-320px]' : 'left-[0]'}`}>
 
                             <div className="lg:flex lg:justify-around">
-                                <div className='flex flex-col lg:flex-row text-start gap-5 lg:gap-2 lg:justify-between'>
+                                <div className='flex flex-col lg:flex-row text-start gap-5 lg:gap-2 lg:justify-between '>
 
                                     <div>
                                         <li className='  bg-blue h-[58px] flex justify-between items-center ps-6 lg:hidden'>
@@ -82,55 +82,32 @@ const Header = () => {
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold  text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Home</Link>
-                                        {location.pathname == "/" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
+                                        {location.pathname == "/" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]'></div>}
                                     </li>
 
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/ourOferings'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourOferings" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Offerings</Link>
-                                        {location.pathname == "/ourOferings" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
+                                        {location.pathname == "/ourOferings" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]'></div>}
                                     </li>
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/ourTeam'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourTeam" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Team</Link>
-                                        {location.pathname == "/ourTeam" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
+                                        {location.pathname == "/ourTeam" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]'></div>}
                                     </li>
 
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/contactUs'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/contactUs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Contact Us</Link>
-                                        {location.pathname == "/contactUs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
+                                        {location.pathname == "/contactUs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]'></div>}
                                     </li>
                                     <li className=' ps-6 lg:px-5 lg:text-center lg:flex justify-center relative'>
                                         <Link to={'/blogs'} onClick={() => setOpen(true)}
                                             className={`lg:font-semibold text-[#002550]   lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/blogs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Blogs</Link>
-                                        {location.pathname == "/blogs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[34px]'></div>}
+                                        {location.pathname == "/blogs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]'></div>}
                                     </li>
 
-                                    {/* <li className=' ps-6 lg:px-4 relative lg:text-center'>
-                                        <Link to={'/ourOferings'}
-                                            onClick={() => setOpen(true)}
-                                            className={`lg:font-semibold  text-[#002550] text-center lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourOferings" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Offerings</Link>
-                                        {location.pathname == "/ourOferings" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-8'></div>}
-                                    </li>
 
-                                    <li className=' ps-6  relative'>
-                                        <Link to={'/ourTeam'} onClick={() => setOpen(true)}
-                                            className={`lg:font-semibold text-[#002550]  lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/ourTeam" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Our Team</Link>
-                                        {location.pathname == "/ourTeam" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-4'></div>}
-                                    </li>
-
-                                    <li className=' ps-6 lg:px-4 relative'>
-                                        <Link to={'/contactUs'} onClick={() => setOpen(true)}
-                                            className={`lg:font-semibold text-[#002550]  lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/contactUs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Contact Us</Link>
-                                        {location.pathname == "/contactUs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-4'></div>}
-                                    </li>
-
-                                    <li className=' ps-6 lg:px-4 relative'>
-                                        <Link to={"/blogs"} onClick={() => setOpen(true)}
-                                            className={`lg:font-semibold text-[#002550]  lg:opacity-100 hover:opacity-100 text-lg ${location.pathname == "/blogs" ? 'font-semibold text-blue opacity-100' : 'opacity-60'} `}>Blogs</Link>
-                                        {location.pathname == "/blogs" && <div className=' border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-4'></div>}
-                                    </li> */}
                                 </div>
 
                                 {/* <div className='lg:hidden'>
@@ -154,9 +131,9 @@ const Header = () => {
                     </div>
 
 
-                    <li className='hidden lg:block'>
+                    <Link to="/contactUs" className='hidden lg:block'>
                         <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg py-[11px] px-[25px]'>Register Now</button>
-                    </li>
+                    </Link>
 
                 </div >
             </div >
