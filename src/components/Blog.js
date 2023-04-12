@@ -35,7 +35,7 @@ const Blog = () => {
     <div className="lg:pt-[35px]">
       <div className="lg:bg-[#F2F4F6] pt-6 lg:py-14">
         <div className="relative text-center">
-          <h2 className="title text-base lg:text-[32px] mt-0 pt-0 pb-[5px]">
+          <h2 className="title text-base lg:text-[32px] mt-0 pt-0 pb-[5px] lg:pb-2.5">
             Blogs
           </h2>
           <div className=" border-2 rounded-full h-[2px] w-[31px]  inset-x-0 mx-auto border-[#002550] absolute bottom"></div>

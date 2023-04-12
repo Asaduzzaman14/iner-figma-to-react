@@ -14,7 +14,7 @@
     }
 
     .number {
-        @apply bg-white rounded-full w-10 h-10 font-bold grid gap-5 content-center
+        @apply bg-white rounded-full w-10 h-10 font-semibold grid gap-5 content-center
     }
 
     .card {
