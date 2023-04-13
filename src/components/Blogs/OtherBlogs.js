@@ -8,26 +8,30 @@ import { Link } from "react-router-dom";
 const OtherBlogs = () => {
   return (
     <div className="pt-5">
-      <div className="bg-[#F2F4F6] py-6 lg:py-[57px]">
+      <div className="bg-[#F2F4F6] pb-5 lg:py-[57px]">
         <div className="relative text-center">
-          <h2 className="title pb-[35px]">You May Aslo Like This</h2>
-          <div className=" border-2 rounded-full h-[2px] w-[220px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+          <h2 className="title text-base lg:text-[28px] pb-[35px]">
+            You May Aslo Like This
+          </h2>
+          <div className=" border-2 rounded-full h-[2px] w-[152px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
         </div>
+
+        {/* slider */}
 
         <div className="px-5 px-lg:10 xl:px-[200px]">
           <div className="grid gap-[46px] grid-cols-1 lg:grid-cols-3 ">
             <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
               <div className="text-start">
                 <img className="w-full" src={blog1} alt="" />
-                <h2 className="pt-[30px] pb-7 text-[#1A1A1A] font-bold">
+                <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
                   Real Estate, Analysis
                 </h2>
-                <div className="flex justify-between  text-[#1A1A1A] pb-[30px]">
+                <div className="flex justify-between  text-[#1A1A1A] pb-5 lg:pb-[30px]">
                   <span className="font-semibold ">09 jun 2022</span>
                   <span className="font-semibold">By Admin</span>
                 </div>
 
-                <h2 className="pb-4 text-xl lg:text-[28px] font-semibold">
+                <h2 className="pb-2.5 lg:pb-4 text-xl text-blue xl:text-[28px] font-semibold">
                   Application of Blockchain in real estate industry
                 </h2>
 
@@ -53,15 +57,15 @@ const OtherBlogs = () => {
             <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
               <div className="text-start">
                 <img className="w-full" src={blog2} alt="" />
-                <h2 className="pt-[30px] pb-7 text-[#1A1A1A] font-bold">
+                <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
                   Real Estate, Analysis
                 </h2>
-                <div className="flex justify-between  text-[#1A1A1A] pb-[30px]">
+                <div className="flex justify-between  text-[#1A1A1A] pb-5 lg:pb-[30px]">
                   <span className="font-semibold ">09 jun 2022</span>
                   <span className="font-semibold">By Admin</span>
                 </div>
 
-                <h2 className="pb-4 text-xl lg:text-[28px] font-semibold">
+                <h2 className="pb-2.5 lg:pb-4 text-xl text-blue xl:text-[28px] font-semibold">
                   Real estate Purchase Challenges in Bengaluru
                 </h2>
 
@@ -85,15 +89,15 @@ const OtherBlogs = () => {
             <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
               <div className="text-start">
                 <img className="w-full" src={blog3} alt="" />
-                <h2 className="pt-[30px] pb-7 text-[#1A1A1A] font-bold">
+                <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
                   Real Estate, Analysis
                 </h2>
-                <div className="flex justify-between  text-[#1A1A1A] pb-[30px]">
+                <div className="flex justify-between  text-[#1A1A1A] pb-5 lg:pb-[30px]">
                   <span className="font-semibold ">09 jun 2022</span>
                   <span className="font-semibold">By Admin</span>
                 </div>
 
-                <h2 className="pb-4 text-xl lg:text-[28px]  font-semibold">
+                <h2 className="pb-2.5 lg:pb-4 text-xl text-blue xl:text-[28px]  font-semibold">
                   Artificial Intelligence in Realty
                 </h2>
 

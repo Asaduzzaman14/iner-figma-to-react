@@ -23,15 +23,15 @@ import OtherBlogs from "./OtherBlogs";
 const BlogDetails = () => {
   const naviagate = useNavigate();
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
 
   return (
     <>
       <div className="mt-5 lg:mt-[70px] text-center px-5 px-lg:10 xl:px-[200px]">
         <div className="text-start">
-          <p className="text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
+          <p className="text-base lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
             <div onClick={() => naviagate(-1)}>
               <img src={leftArrow} alt="" />
             </div>
@@ -39,24 +39,24 @@ const BlogDetails = () => {
           </p>
 
           <img
-            className="w-[360px] md:w-fi lg:w-fit xl:w-[1462px] mx-auto"
+            className="w-[360px] h-[270px] lg:w-fit xl:w-[1462px] mx-auto"
             src={blogDetail1}
             alt=""
           />
 
-          <div className="flex justify-between lg:justify-normal lg:gap-40  text-[#1A1A1A] py-[36px]">
-            <span className="font-semibold flex items-center gap-2">
+          <div className="flex justify-between lg:justify-normal lg:gap-40  text-[#1A1A1A] py-4 lg:py-[36px]">
+            <span className="lg:font-semibold flex items-center gap-2">
               {" "}
               <img className="h-3" src={user} alt="" /> By Brajesh{" "}
             </span>
-            <span className="font-semibold flex items-center gap-2 ">
+            <span className=" lg:font-semibold flex items-center gap-2 ">
               <img className="h-5" src={date} alt="" /> 23 Mar 2023
             </span>
           </div>
 
           <div className="relative bg-[#F2F4F6] py-3 px-5 lg:px-12 lg:py-4">
             <div className=" border-2 rounded-full h-full w-[2px]  border-[#002550] absolute top-0 left-0"></div>
-            <p className="cart-desc text-sm lg:text-base  text-[#1A1A1A] pb-0 opacity-60 text-justify">
+            <p className="cart-desc text-base  text-[#1A1A1A] pb-0 opacity-60 text-justify">
               This whole purchase journey of real estate purchase can be divided
               into three broad stages. For more details, click here
             </p>
@@ -257,10 +257,10 @@ const BlogDetails = () => {
 
             <div className="text-start md:grid grid-cols-2 gap-5 lg:gap-16 justify-between pt-7 lg:pt-20">
               <div>
-                <h2 className="text-2xl font-semibold lg:text-[28px] text-[#1A1A1A] ">
+                <h2 className="text-2xl font-semibold lg:text-[28px] text-blue lg:text-[#1A1A1A] ">
                   Share this Post and Follow us on :
                 </h2>
-                <p className="text-start text-[#1A1A1A] opacity-60 pt-3.5">
+                <p className="text-start text-lg text-[#1A1A1A] opacity-60 pt-2.5 lg:pt-3.5">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor
                 </p>
@@ -282,7 +282,8 @@ const BlogDetails = () => {
 
               <div>
                 <h2 className="text-2xl font-semibold lg:text-[28px] text-[#1A1A1A] ">
-                  Contact Us For Regular Updates :
+                  {/* Contact Us For Regular Updates : */}
+                  Register Now For Regular Updates :
                 </h2>
                 <div className="hidden lg:block">
                   <Link to={"/"}>
