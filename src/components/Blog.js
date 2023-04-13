@@ -4,6 +4,7 @@ import blog2 from "../asset/blog/blog2.png";
 import blog3 from "../asset/blog/blog3.png";
 import { BsArrowRight } from "react-icons/bs";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   var settings = {
@@ -67,12 +68,15 @@ const Blog = () => {
                 </div>
 
                 <div className="card-button pt-0 pb-0 text-[#002550]">
-                  <button className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+                  <Link
+                    to="/blogDetails"
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                  >
                     View More
                     <span>
                       <BsArrowRight className="text-2xl " />
                     </span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -100,12 +104,15 @@ const Blog = () => {
                   </p>
                 </div>
                 <div className="card-button pt-0 pb-0 text-[#002550]">
-                  <button className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border  text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+                  <Link
+                    to="/blogDetails3"
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border  text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                  >
                     View More
                     <span>
                       <BsArrowRight className="text-2xl " />
                     </span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -133,12 +140,15 @@ const Blog = () => {
                   </p>
                 </div>
                 <div className="card-button pt-0 pb-0 text-[#002550]">
-                  <button className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+                  <Link
+                    to="/artificial-Intelligence-in-Realty"
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                  >
                     View More
                     <span>
                       <BsArrowRight className="text-2xl " />
                     </span>
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

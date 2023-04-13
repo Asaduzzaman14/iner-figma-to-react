@@ -7,6 +7,7 @@ import rightArrow from "../asset/icon/rightArrow.png";
 import { BsArrowRight } from "react-icons/bs";
 
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 
 const PostRegistration = () => {
   var settings = {
@@ -57,12 +58,15 @@ const PostRegistration = () => {
             </p>
 
             <div className="card-button pb-0 text-[#002550]">
-              <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <Link
+                to="/contactUs"
+                className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+              >
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -85,12 +89,15 @@ const PostRegistration = () => {
             </p>
 
             <div className="card-button pb-0 text-[#002550]">
-              <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <Link
+                to="/contactUs"
+                className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+              >
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -113,12 +120,15 @@ const PostRegistration = () => {
             </p>
 
             <div className="card-button pb-0 text-[#002550]">
-              <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <Link
+                to="/contactUs"
+                className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+              >
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -141,12 +151,15 @@ const PostRegistration = () => {
             </p>
 
             <div className="card-button pb-0 text-[#002550]">
-              <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <Link
+                to="/contactUs"
+                className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+              >
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
