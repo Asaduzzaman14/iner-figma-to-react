@@ -45,7 +45,7 @@ const Blog = () => {
           {/* <div className='grid gap-2 lg:gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
           <Slider {...settings}>
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card w-[360px] lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className=" w-[407px]" src={blog1} alt="" />
                   <h2 className="pt-5 lg:pt-[30px] lg:pb-7 text-[16px] text-[#002550] ">
@@ -65,6 +65,7 @@ const Blog = () => {
                     revolutionary technological advances in recent years
                   </p>
                 </div>
+
                 <div className="card-button pt-0 pb-0 text-[#002550]">
                   <button className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                     View More

@@ -12,7 +12,7 @@ const OurOfferings = () => {
   return (
     <div className="px-5 px-lg:10 xl:px-[200px]">
       <div className="relative">
-        <h2 className="title text-base pt-[25px] lg:pt-[35px] pb-1 lg:pb-[10px]">
+        <h2 className="title text-base lg:text-[32px] pt-[25px] lg:pt-[35px] pb-1 lg:pb-[10px]">
           Our Offerings
         </h2>
         <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[103px]  inset-x-0 mx-auto border-[#002550] absolute "></div>
