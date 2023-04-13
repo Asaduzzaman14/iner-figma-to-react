@@ -48,7 +48,9 @@ const PostRegistration = () => {
               src={iamge1}
               alt=""
             />
-            <h2 className="cart-title text-xl">Virtual Site Visit</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Virtual Site Visit
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               It becomes imperative to observe your apartment or plot very
               closely before paying the booking amount. We are here to assist
@@ -80,7 +82,9 @@ const PostRegistration = () => {
               src={iamge2}
               alt=""
             />
-            <h2 className="cart-title text-xl">Khata Transfer</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Khata Transfer
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               Various processes like Khata transfer and Bescom transfer after
               registration consume your precious time and money. Let us help you
@@ -111,7 +115,9 @@ const PostRegistration = () => {
               src={iamge3}
               alt=""
             />
-            <h2 className="cart-title text-xl">BESCOM Transfer</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              BESCOM Transfer
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               Various processes like Khata transfer and Bescom transfer after
               registration consume your precious time and money. Let us help you
@@ -142,7 +148,9 @@ const PostRegistration = () => {
               src={iamge4}
               alt=""
             />
-            <h2 className="cart-title text-xl">Property Tax Transfer</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Property Tax Transfer
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               Various processes like Khata transfer and Bescom transfer after
               registration consume your precious time and money. Let us help you

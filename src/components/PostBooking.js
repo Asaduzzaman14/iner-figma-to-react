@@ -51,7 +51,9 @@ const PostBooking = () => {
               src={iamge1}
               alt=""
             />
-            <h2 className="cart-title text-xl">Title Diligence</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Title Diligence
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               Title diligence is normally seen as an activity that requires the
               serious involvement of experienced legal consulates as the entire
@@ -87,7 +89,7 @@ const PostBooking = () => {
               src={iamge2}
               alt=""
             />
-            <h2 className="cart-title text-xl">
+            <h2 className="cart-title text-xl xl:text-[28px]">
               Sustainable Marketability Of Title
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -121,7 +123,9 @@ const PostBooking = () => {
               src={iamge3}
               alt=""
             />
-            <h2 className="cart-title text-xl">Virtual Site Visit</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Virtual Site Visit
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               After booking the property, monitoring is required to ensure that
               the developer is sticking to the development plan. Here, InRe
@@ -152,7 +156,9 @@ const PostBooking = () => {
               src={iamge4}
               alt=""
             />
-            <h2 className="cart-title text-xl">Hassle Free Registration </h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Hassle Free Registration{" "}
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               The registration process involves visiting registrar offices and
               coordinating with lawyers, brokers, and sellers. Documents that
@@ -184,7 +190,9 @@ const PostBooking = () => {
               src={iamge5}
               alt=""
             />
-            <h2 className="cart-title text-xl">TDS & Capital Gain</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              TDS & Capital Gain
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               Adhering to compliance is strictly required in the process of
               property purchase. As per the Income tax Act 1956, if the property
@@ -215,7 +223,9 @@ const PostBooking = () => {
               src={iamge6}
               alt=""
             />
-            <h2 className="cart-title text-xl">Pre-Delivery Inspection</h2>
+            <h2 className="cart-title text-xl xl:text-[28px]">
+              Pre-Delivery Inspection
+            </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
               The most difficult task during the property buying process,
               especially in residential units like apartments and villas is to
