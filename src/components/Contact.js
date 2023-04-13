@@ -104,7 +104,7 @@ const Contact = () => {
                 <h2 className=" text-[#1A1A1A] font-semibold text-xl pb-5 lg:text-2xl ">
                   Get In Touch With Us To Connect
                 </h2>
-                <p className="text-[#1A1A1A] font-semibold pt-6 py-7 hidden">
+                <p className="text-[#1A1A1A] font-semibold py-5 pt-0 hidden lg:block">
                   Contact Us
                 </p>
               </div>
@@ -206,9 +206,6 @@ const Contact = () => {
                           className="text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                         ></input>
                       </div>
-                      {/* <div className='flex  justify-start my-7'>
-                                                <button className='btn w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border-[1.5px] bg-[#002550] rounded-md font-semibold text-white text-lg p-2'>REGISTER</button>
-                                            </div> */}
                     </div>
                   </div>
                 </div>
