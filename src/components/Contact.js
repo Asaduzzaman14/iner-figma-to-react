@@ -99,7 +99,7 @@ const Contact = () => {
           {/* <div className='flex flex-col-reverse lg:flex-row gap-5 lg:justify-between '> */}
           <div className="flex flex-col-reverse lg:flex-row gap-5 py-5 lg:py-10 lg:justify-between items-center ">
             {/* forms */}
-            <div className=" mx-auto ">
+            <div className=" mx-auto w-cal()">
               <div className="text-start">
                 <h2 className=" text-[#1A1A1A] font-semibold text-xl pb-5 lg:text-2xl ">
                   Get In Touch With Us To Connect
@@ -118,7 +118,7 @@ const Contact = () => {
                   <div>
                     <div>
                       <div class="flex justify-start">
-                        <div class="relative max-w-full w-[320px] md:w-[350px] lg:w-[250px] xl:w-[350px] h-[48px]">
+                        <div class="relative max-w-full w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                           <input
                             type="text"
                             name="fullName"
@@ -146,7 +146,7 @@ const Contact = () => {
 
                   <div>
                     <div class="numberinput flex justify-start mb-7">
-                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-70 ps-2 mb-3 max-w-full w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-70 ps-2 mb-3 max-w-full w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <PhoneInput
                           name="number"
                           className="phoneHeight text-sm flex justify-start h-full align-bottom focus:outline-none"
@@ -163,7 +163,7 @@ const Contact = () => {
                     </div>
 
                     <div class="flex stage justify-center max-w-fit">
-                      <div class="relative mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                      <div class="relative mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
                           styles={style}
@@ -198,7 +198,7 @@ const Contact = () => {
                         <input
                           value={"Submit"}
                           type="submit"
-                          className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                          className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                         ></input>
                       </div>
                     </div>
@@ -209,7 +209,7 @@ const Contact = () => {
                 <div className="mx-auto">
                   <div>
                     <div class="flex justify-centr">
-                      <div class="relative  w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                      <div class="relative  w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <input
                           onChange={(e) => setemail(e.target.value)}
                           type="email"
@@ -232,7 +232,7 @@ const Contact = () => {
                     </p>
                   </div>
                   <div class="flex justify-start mb-7">
-                    <div class="relative  rounded border-[#888888] mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                    <div class="relative  rounded border-[#888888] mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                       <Select
                         styles={style}
                         type="text"
@@ -266,7 +266,7 @@ const Contact = () => {
                       <input
                         value={"Submit"}
                         type="submit"
-                        className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                        className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                       ></input>
                     </div>
                   </div>
@@ -275,9 +275,9 @@ const Contact = () => {
             </div>
 
             {/* image */}
-            <div className="">
+            <div className="w-[350px]">
               <img
-                className=" w-[360px] xl:w-[447px] mx-auto  lg:mb-0"
+                className=" w-[360px] 2xl:w-[447px] mx-auto  lg:mb-0"
                 src={image}
                 alt=""
               />

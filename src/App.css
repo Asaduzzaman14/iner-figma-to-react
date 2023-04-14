@@ -199,10 +199,25 @@
 
 .slick-next {
   right: -15px;
+  top:40%;
+
 }
 
 .slick-prev {
   left: -15px;
+  top:40%;
+
+}
+
+.team, 
+.slick-prev {
+  top:50%;
+
+}
+.team, 
+.slick-next {
+  top:50%;
+
 }
 
 @media only screen and (min-width:1024px) {

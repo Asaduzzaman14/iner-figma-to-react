@@ -10,7 +10,7 @@ const OurOfferings = () => {
   console.log(true);
 
   return (
-    <div className="px-5 px-lg:10 xl:px-[200px]">
+    <div className="px-5 lg:px-10 xl:px-[200px]">
       <div className="relative">
         <h2 className="title text-base lg:text-[32px] pt-[25px] lg:pt-[35px] pb-1 lg:pb-[10px]">
           Our Offerings
@@ -20,7 +20,7 @@ const OurOfferings = () => {
       <p className="normal-text text-sm lg:text-base font-normal text-[#1A1A1A] py-[10px] lg:pt-5  lg:pb-8">
         This whole purchase journey can be divided into three stages. For more
         details,{" "}
-        <a href="_" className="text-blue lg:font-bold">
+        <a href="/" className="text-blue lg:font-bold">
           Click Here
         </a>
       </p>

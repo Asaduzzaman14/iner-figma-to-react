@@ -8,6 +8,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import ContactBtn from "./ContactBtn";
 
 const PostRegistration = () => {
   var settings = {
@@ -59,7 +60,8 @@ const PostRegistration = () => {
               streaming and...
             </p>
 
-            <div className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
                 className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -69,7 +71,7 @@ const PostRegistration = () => {
                   <BsArrowRight className="text-2xl " />
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -91,8 +93,8 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-
-            <div className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
                 className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -102,7 +104,7 @@ const PostRegistration = () => {
                   <BsArrowRight className="text-2xl " />
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -124,8 +126,8 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-
-            <div className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
                 className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -135,7 +137,7 @@ const PostRegistration = () => {
                   <BsArrowRight className="text-2xl " />
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -157,8 +159,8 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-
-            <div className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
                 className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -168,7 +170,7 @@ const PostRegistration = () => {
                   <BsArrowRight className="text-2xl " />
                 </span>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

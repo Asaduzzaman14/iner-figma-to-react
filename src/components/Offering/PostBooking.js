@@ -11,6 +11,8 @@ import image4 from "../../asset/postBokingRegi/image4.png";
 import image5 from "../../asset/postBokingRegi/image5.png";
 import image6 from "../../asset/postBokingRegi/image6.png";
 import { Link } from "react-router-dom";
+import PriceBtn from "./PriceBtn";
+import ContactBtn from "../ContactBtn";
 
 const PostBooking = () => {
   var settings = {
@@ -65,8 +67,9 @@ const PostBooking = () => {
                 context, We using Ai enabled platform has eased out the
                 process...
               </p>
+              <PriceBtn />
 
-              <div className="flex pt-2.5 items-center justify-between ">
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <div className="card-button py-0 text-[#002550]">
                   <Link
                     to="/contactUs"
@@ -79,7 +82,7 @@ const PostBooking = () => {
                   </Link>
                 </div>
                 <span className="text-blue">INR 3000/Project</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -106,7 +109,8 @@ const PostBooking = () => {
                 ensures that...
               </p>
 
-              <div className="flex pt-2.5 items-center justify-between ">
+              <ContactBtn />
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
                   className="card-button py-0 text-[#002550]"
@@ -121,7 +125,7 @@ const PostBooking = () => {
                     </span>
                   </Link>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -145,8 +149,9 @@ const PostBooking = () => {
                 the overall development of the project at the maximum possible
                 heights could be observed. This can replace or complement...
               </p>
+              <ContactBtn />
 
-              <div className="flex pt-2.5 items-center justify-between ">
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
                   className="card-button py-0 text-[#002550]"
@@ -161,7 +166,7 @@ const PostBooking = () => {
                     </span>
                   </Link>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -187,8 +192,8 @@ const PostBooking = () => {
                 registration process. To prevent these unnecessary travel times
                 and ...
               </p>
-
-              <div className="flex pt-2.5 items-center justify-between ">
+              <ContactBtn />
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
                   className="card-button py-0 text-[#002550]"
@@ -203,7 +208,7 @@ const PostBooking = () => {
                     </span>
                   </Link>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -229,8 +234,8 @@ const PostBooking = () => {
                 supplemented with a legal opinion report by the expert. This
                 ensures that...
               </p>
-
-              <div className="flex pt-2.5 items-center justify-between ">
+              <ContactBtn />
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
                   className="card-button py-0 text-[#002550]"
@@ -245,7 +250,7 @@ const PostBooking = () => {
                     </span>
                   </Link>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -271,8 +276,8 @@ const PostBooking = () => {
                 government of India within the due date, the applicable monthly
                 interest rate is 1%{" "}
               </p>
-
-              <div className="flex pt-2.5 items-center justify-between ">
+              <ContactBtn />
+              {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
                   className="card-button py-0 text-[#002550]"
@@ -287,7 +292,7 @@ const PostBooking = () => {
                     </span>
                   </Link>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

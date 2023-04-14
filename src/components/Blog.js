@@ -42,7 +42,7 @@ const Blog = () => {
           <div className=" border-2 rounded-full h-[2px] w-[31px]  inset-x-0 mx-auto border-[#002550] absolute bottom"></div>
         </div>
 
-        <div className="pt-[20px] lg:pt-[35px] px-5 px-lg:10 xl:px-[200px]">
+        <div className="pt-[20px] lg:pt-[35px] px-5 lg:px-10 xl:px-[200px]">
           {/* <div className='grid gap-2 lg:gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
           <Slider {...settings}>
             <div>
@@ -54,7 +54,7 @@ const Blog = () => {
                   </h2>
                   <div className="flex justify-between text-[16px] font-medium mt-3 lg:font-semibold text-[#1A1A1A] pb-5 lg:pb-[30px]">
                     <span className=" ">09 jun 2022</span>
-                    <span className="opacity-50">By Admin</span>
+                    <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
                   <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
@@ -90,7 +90,7 @@ const Blog = () => {
                   </h2>
                   <div className="flex justify-between text-[16px] font-medium mt-3 lg:font-semibold text-[#1A1A1A] pb-5 lg:pb-[30px]">
                     <span className=" ">09 jun 2022</span>
-                    <span className="opacity-50">By Admin</span>
+                    <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
                   <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
@@ -126,7 +126,7 @@ const Blog = () => {
                   </h2>
                   <div className="flex justify-between text-[16px] font-medium mt-3 lg:font-semibold text-[#1A1A1A] pb-5 lg:pb-[30px]">
                     <span className=" ">09 jun 2022</span>
-                    <span className="opacity-50">By Admin</span>
+                    <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
                   <h2 className="pb-4 text-xl  xl:text-[28px] leading-7 text-[#002550] font-semibold">

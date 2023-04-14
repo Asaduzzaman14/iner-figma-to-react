@@ -131,7 +131,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex gap-[15px] lg:gap-5">
+          <div className="flex items-center gap-[15px] lg:gap-5">
             <span>
               <img className="w-[26px] lg:w-10" src={phone} alt="" />
             </span>
