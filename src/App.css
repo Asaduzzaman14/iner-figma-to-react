@@ -84,13 +84,13 @@
   box-shadow: none !important;
   outline: none !important;
 }
-.css-3y3ko2-control{
+.stage .css-3y3ko2-control{
   border: none !important;
 }
-.css-sr3aq3-control{
+.stage .css-sr3aq3-control{
   border: none !important;
 }
-.css-3y3ko2-control:hover,.css-3y3ko2-control:focus{
+.css-3y3ko2-control:focus{
   border: none;
 }
 

@@ -162,7 +162,7 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div class="flex justify-center max-w-fit">
+                    <div class="flex stage justify-center max-w-fit">
                       <div class="relative mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
@@ -236,7 +236,7 @@ const Contact = () => {
                       <Select
                         styles={style}
                         type="text"
-                        class="  text-white w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear "
+                        class="  text-white w-full h-full p-3 rounded bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear "
                         options={options}
                         value={countryValue}
                         onChange={changeHandler}
