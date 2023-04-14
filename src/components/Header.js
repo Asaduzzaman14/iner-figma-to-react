@@ -60,7 +60,7 @@ const Header = () => {
             </div>
 
             <Link to="/contactUs" className="lg:hidden">
-              <button className="btn w-[110px] h-[35px]  border text-xs sm-button">
+              <button className="btn w-[110px] h-[35px] flex justify-center border text-xs sm-button">
                 Register Now
               </button>
             </Link>
@@ -197,7 +197,7 @@ const Header = () => {
           </div>
 
           <Link to="/contactUs" className="hidden lg:block">
-            <button className="btn w-[167px] h-[48px]  border text-lg sm-button font-semibold">
+            <button className="btn w-[167px] h-[48px] flex justify-center text-center mx-auto border text-lg sm-button font-semibold">
               Register Now
             </button>
           </Link>

@@ -17,6 +17,16 @@
 .slick-slider .slick-slide {
   padding: 0 10px;
 }
+.slick-list{
+  margin: 0 -10px;
+}
+
+
+
+
+
+
+
 
 .PhoneInputInput {
   width: 200px !important;
@@ -61,7 +71,7 @@
 }
 
 .css-b62m3t-container {
-  border: 2px solid #8888 !important;
+  /* border: 2px solid #8888 !important; */
   border-radius: 5px;
   outline: none !important;
   height: 100% !important;
@@ -70,11 +80,19 @@
 }
 
 .css-b62m3t-container:focus {
-  border: 1.5px solid #8888 !important;
+  /* border: 1.5px solid #8888 !important; */
   box-shadow: none !important;
   outline: none !important;
 }
-
+.css-3y3ko2-control{
+  border: none !important;
+}
+.css-sr3aq3-control{
+  border: none !important;
+}
+.css-3y3ko2-control:hover,.css-3y3ko2-control:focus{
+  border: none;
+}
 
 /* country  */
 .css-1fdsijx-ValueContainer {
@@ -187,6 +205,9 @@
   left: -15px;
 }
 
+@media only screen and (min-width:1024px) {
+
+}
 
 
 @media only screen and (min-width:1024px) {
@@ -201,7 +222,7 @@
 
 }
 
-@media only screen and (min-width:1240px) {
+@media only screen and (min-width:1100px) {
   .slick-next {
     right: -35px;
   }

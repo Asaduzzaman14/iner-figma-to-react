@@ -57,7 +57,7 @@ const Blog = () => {
                     <span className="opacity-50">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px] text-[#002550] font-semibold">
+                  <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
                     Application of Blockchain in real estate industry
                   </h2>
 
@@ -93,7 +93,7 @@ const Blog = () => {
                     <span className="opacity-50">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px] text-[#002550] font-semibold">
+                  <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
                     Real estate Purchase Challenges in Bengaluru
                   </h2>
 
@@ -129,8 +129,8 @@ const Blog = () => {
                     <span className="opacity-50">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px] text-[#002550] font-semibold">
-                    Artificial Intelligence in Realty
+                  <h2 className="pb-4 text-xl  xl:text-[28px] leading-7 text-[#002550] font-semibold">
+                    Artificial Intelligence in <br /> Realty
                   </h2>
 
                   <p className="cart-desc text-sm lg:text-base text-[#1A1A1A] opacity-60 text-justify">
