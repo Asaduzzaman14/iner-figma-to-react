@@ -43,10 +43,9 @@ const Blog = () => {
         </div>
 
         <div className="pt-[20px] lg:pt-[35px] px-5 lg:px-10 xl:px-[200px]">
-          {/* <div className='grid gap-2 lg:gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
-          <Slider {...settings}>
-            <div>
-              <div className="card w-[360px] lg:w-[455px] p-4 lg:p-6">
+          <Slider {...settings} className="grid  place-items-stretch h-auto">
+            <div className="">
+              <div className="card rounded-[10px] w-[360px] lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className=" w-[407px]" src={blog1} alt="" />
                   <h2 className="pt-5 lg:pt-[30px] lg:pb-7 text-[16px] text-[#002550] ">
@@ -82,7 +81,7 @@ const Blog = () => {
             </div>
 
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card rounded-[10px] w-[360px]  lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className=" w-[407px]" src={blog2} alt="" />
                   <h2 className="pt-5 lg:pt-[30px] lg:pb-7 text-[16px] text-[#002550] ">
@@ -118,7 +117,7 @@ const Blog = () => {
             </div>
 
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card rounded-[10px] w-[360px]  lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className=" w-[407px]" src={blog3} alt="" />
                   <h2 className="pt-5 lg:pt-[30px] lg:pb-7 text-[16px] text-[#002550] ">

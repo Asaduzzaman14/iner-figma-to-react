@@ -13,7 +13,7 @@ const About = () => {
 
         <div className="text-start font-sans grid content-center">
           {/* <p className='normal-text font-normal text-[#1A1A1A] pb-[10px]'>Real Estate</p> */}
-          <h2 className="font-sans text-xl md:text-xl text-blue lg:text-black lg:text-[36px] font-semibold pb-[10px] lg:pb-8">
+          <h2 className="font-sans text-xl md:text-xl text-blue lg:text-black lg:text-[36px] font-semibold pb-[10px] lg:pb-[35px]">
             Who We Are
           </h2>
           <p className="text-sm lg:text-lg normal-text text-[#1A1A1A]  opacity-60 text-justify">
@@ -29,7 +29,7 @@ const About = () => {
           </p>
           <div className="">
             <Link to={"contactUs"}>
-              <button className="w-full h-[48px] lg:w-[167px]  btn border-[#01244A] border  rounded-sm mt-[10px] lg:mt-[50px] outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <button className="w-full h-[48px] lg:w-[167px]  btn border-[#01244A] border  rounded-md mt-[10px] lg:mt-[50px] outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contract Now{" "}
                 <span className="text-[#01244A] font-semibold text-2xl">
                   <BsArrowRight />

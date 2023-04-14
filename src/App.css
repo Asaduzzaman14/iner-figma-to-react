@@ -16,14 +16,34 @@
 
 .slick-slider .slick-slide {
   padding: 0 10px;
+  height: 100%;
 }
 .slick-list{
-  margin: 0 -10px;
+  margin: 0px -10px;
+
 }
 
+.slick-track{
+  margin-bottom: 2px;
+  /* display: flex;
+  justify-self: end;
+  height: auto;
+  align-items: stretch !important;
+  min-height: fit-content !important; */
 
+}
+.slick-track
+{
+    display: flex !important;
+}
 
-
+.slick-slide
+{
+    height: inherit !important;
+}
+.card{
+  height: inherit;
+}
 .PhoneInputInput {
   width: 200px !important;
   height: 100% !important;
@@ -87,7 +107,7 @@
   border: none !important;
 }
 .css-3y3ko2-control:focus{
-  border: none;
+  border: none ;
 }
 
 /* country  */
@@ -97,8 +117,10 @@
   border: 0 !important;
 
 }
-
-
+.css-lm8j94-menu,.css-1mjcdke-singleValue{
+  /* text-align: start;
+  color: #cecbcb88 !important; */
+}
 .slick-next,
 .slick-prev {
   position: absolute;
@@ -213,18 +235,48 @@
 
 }
 
-@media only screen and (min-width:1024px) {
 
+@media only screen and (max-width:475px) {
+  .slick-next {
+    right: -15px;
+    top:40%;
+  
+  }
+  
+  .slick-prev {
+    left: -15px;
+    top:40%;
+  
+  }
+}
+
+
+
+@media only screen and (min-width:1024px) {
+  .slick-next {
+    right: -15px;
+    top:40%;
+  
+  }
+  
+  .slick-prev {
+    left: -15px;
+    top:40%;
+  
+  }
 }
 
 
 @media only screen and (min-width:1024px) {
   .slick-next {
-    right: -20px;
+    right: -25px;
+    top:30%;
   }
 
   .slick-prev {
-    left: -20px;
+    left: -25px;
+    top:30%;
+
   }
 
 

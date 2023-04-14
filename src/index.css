@@ -18,7 +18,7 @@
     }
 
     .card {
-        @apply shadow-md text-start max-w-fit mx-auto bg-white;
+        @apply shadow-md rounded-[10px] text-start max-w-fit mx-auto bg-white;
     }
 
     .cart-title {

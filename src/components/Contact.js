@@ -36,7 +36,24 @@ const Contact = () => {
       label: "I am interested in selling",
     },
   ];
+  const CustomStyle = {
+    option: (base, state) => {
+      let backgroundColor = "white";
 
+      if (state.isSelected) {
+        backgroundColor = "red";
+      }
+
+      if (state.isFocused) {
+        backgroundColor = "blue";
+      }
+
+      return {
+        ...base,
+        backgroundColor,
+      };
+    },
+  };
   const style = {
     control: (base, state) => ({
       ...base,
@@ -163,7 +180,7 @@ const Contact = () => {
                     </div>
 
                     <div class="flex stage justify-center max-w-fit">
-                      <div class="relative opacity-60 mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
                           styles={style}
@@ -232,12 +249,13 @@ const Contact = () => {
                     </p>
                   </div>
                   <div class="flex justify-start mb-7">
-                    <div class="relative opacity-60 rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                    <div class="relative rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                       <Select
                         styles={style}
                         type="text"
                         class="  text-white w-full h-full p-3 rounded bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear "
                         options={options}
+                        style={CustomStyle}
                         value={countryValue}
                         onChange={changeHandler}
                         defaultValue={{ label: "India", value: "India" }}
@@ -247,12 +265,35 @@ const Contact = () => {
                           colors: {
                             ...theme.colors,
                             primary25: "#F2F4F6",
-                            // primary: "#f2f4f6",
                             primary: "#F2F4F6",
-                            // color: '#fff'
                             neutral80: "#707171", // active text color
                             neutral90: "#707171", // active text color
                           },
+
+                          option: (provided, state) => ({
+                            ...provided,
+                            color: "#707171",
+                            backgroundColor: state.isSelected
+                              ? "#707171"
+                              : "inherit",
+                            "&:hover": {
+                              backgroundColor: state.isSelected
+                                ? "#707171"
+                                : "#707171",
+                            },
+                            option: (provided) => ({
+                              ...provided,
+                              color: "red",
+                            }),
+                            control: (provided) => ({
+                              ...provided,
+                              color: "red",
+                            }),
+                            singleValue: (provided) => ({
+                              ...provided,
+                              color: "black",
+                            }),
+                          }),
                         })}
                       />
                       <label class="pointer-events-none text-xs absolute -top-5 px-2 bg-white left-3  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white">
