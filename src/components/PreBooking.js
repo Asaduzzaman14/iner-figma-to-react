@@ -7,6 +7,7 @@ import Slider from "react-slick";
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import ContactBtn from "./ContactBtn";
+import PriceBtn from "./Offering/PriceBtn";
 
 const PreBooking = () => {
   var settings = {
@@ -57,10 +58,12 @@ const PreBooking = () => {
                 verification of developers”. Based on our experience and
                 industry...
               </p>
-              <div className="flex justify-between items-center">
+              <PriceBtn />
+
+              {/* <div className="flex justify-between items-center">
                 <ContactBtn />
                 <span className="text-lg">INR 3000 per project</span>
-              </div>
+              </div> */}
 
               {/* <div className="card-button pb-0 text-[#002550]">
                 <Link
@@ -139,7 +142,9 @@ const PreBooking = () => {
                   on our experience and industry...
                 </p>
 
-                <div className="card-button pb-0 text-[#002550]">
+                <PriceBtn />
+
+                {/* <div className="card-button pb-0 text-[#002550]">
                   <Link
                     to="/contactUs"
                     className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -152,7 +157,7 @@ const PreBooking = () => {
                   <span className="text-[#002550] text-sm">
                     INR 3000/Project
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -175,8 +180,9 @@ const PreBooking = () => {
                   visit to the maximum possible extent by providing the live
                   streaming feature. It also ...
                 </p>
+                <ContactBtn />
 
-                <div className="card-button pb-0 text-[#002550]">
+                {/* <div className="card-button pb-0 text-[#002550]">
                   <Link
                     to="/contactUs"
                     className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
@@ -186,7 +192,7 @@ const PreBooking = () => {
                       <BsArrowRight className="text-2xl " />
                     </span>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

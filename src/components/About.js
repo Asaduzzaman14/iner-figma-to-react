@@ -29,7 +29,7 @@ const About = () => {
           </p>
           <div className="">
             <Link to={"contactUs"}>
-              <button className="w-full h-[48px] lg:w-[170px]  btn border-[#01244A] border  rounded-sm mt-[10px] lg:mt-[50px] outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
+              <button className="w-full h-[48px] lg:w-[167px]  btn border-[#01244A] border  rounded-sm mt-[10px] lg:mt-[50px] outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contract Now{" "}
                 <span className="text-[#01244A] font-semibold text-2xl">
                   <BsArrowRight />

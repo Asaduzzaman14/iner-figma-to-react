@@ -69,7 +69,7 @@ const OurOfferings = () => {
                   2{show === 2 && "."}{" "}
                 </span>
                 <span
-                  className={`normal-text  lg:block text-sm lg:text-xl ${
+                  className={`normal-text text-start lg:block text-sm lg:text-xl ${
                     show === 2 ? "block" : "hidden"
                   }`}
                 >

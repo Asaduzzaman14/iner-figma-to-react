@@ -10,6 +10,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import PriceBtn from "./Offering/PriceBtn";
+import ContactBtn from "./ContactBtn";
 
 const PostBooking = () => {
   var settings = {
@@ -63,7 +65,8 @@ const PostBooking = () => {
               is a time-consuming affair without understanding the context, We
               using Ai enabled platform has eased out the process...
             </p>
-            <div className="card-button pb-0 text-[#002550]">
+            <PriceBtn />
+            {/* <div className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
@@ -71,7 +74,7 @@ const PostBooking = () => {
                 </span>
               </button>
               <span>INR 3000/Project</span>
-            </div>
+            </div> */}
 
             {/* <div className='card-button'>
                             <button className=' btn border  rounded-md  outline outline-1 text-sm lg:text-lg font-sans font-semibold text-[#01244A] p-1 px-4 flex items-center gap-2'>Contract Now<span><BsArrowRight /></span></button>
@@ -102,15 +105,16 @@ const PostBooking = () => {
               supplemented with a legal opinion report by the expert. This
               ensures that...
             </p>
+            <ContactBtn />
 
-            <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
+            {/* <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -135,15 +139,16 @@ const PostBooking = () => {
               overall development of the project at the maximum possible heights
               could be observed. This can replace or complement...
             </p>
+            <ContactBtn />
 
-            <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
+            {/* <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -169,15 +174,15 @@ const PostBooking = () => {
               registration process. To prevent these unnecessary travel times
               and ...
             </p>
-
-            <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -202,15 +207,15 @@ const PostBooking = () => {
               Failing to deduct TDS and pay to the government of India within
               the due date, the applicable monthly interest rate is...
             </p>
-
-            <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
+            <ContactBtn />
+            {/* <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -235,15 +240,16 @@ const PostBooking = () => {
               primary responsibility of the developer/ contractor/ third party
               to fix those issues before delivery. But, It is frequently seen...
             </p>
+            <ContactBtn />
 
-            <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
+            {/* <Link to="/contactUs" className="card-button pb-0 text-[#002550]">
               <button className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-md  outline outline-1 text-lg p-2 flex justify-center items-center gap-2 ">
                 Contact us
                 <span>
                   <BsArrowRight className="text-2xl " />
                 </span>
               </button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

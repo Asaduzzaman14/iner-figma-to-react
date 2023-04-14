@@ -34,7 +34,7 @@ const OurTeam = () => {
   return (
     <div className="team px-5 lg:px-10 xl:px-[200px]">
       <div className="relative text-center pb-[20px]">
-        <h2 className="title text-base lg:text-[32px] pt-0 pb-[5px] lg:py-[25px]">
+        <h2 className="title text-base lg:text-[32px] pt-0 pb-[5px] lg:pb-2.5 lg:pt-[10px]">
           Our Team Members
         </h2>
         <div className=" border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom"></div>
