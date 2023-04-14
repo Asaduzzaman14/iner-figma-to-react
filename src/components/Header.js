@@ -34,14 +34,14 @@ const Header = () => {
   return (
     <>
       <div className=" shadow-md z-50 w-full  relative top-0 left-0">
-        <div className=" lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-[107px] px-5 py-0 lg:py-2 lg:px-20 items-end lg:pb-4 bg-white">
+        <div className=" lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-[107px] px-5 py-0 lg:py-2 lg:px-20 items-end lg:pb-[11px] bg-white">
           <div className="hidden lg:block relative  lg:flex-basis-1/4 lg:py-2 ">
             <Link to="/" class=" ">
               <img className="w-[68px] h-[63px] " src={logo} alt="" />
             </Link>
           </div>
 
-          <div className="flex items-center py-[6px] justify-between">
+          <div className="flex items-center pt-3 pb-[11px] justify-between">
             {/* mobile icon  */}
             <div
               onClick={() => setOpen(!open)}
@@ -60,14 +60,14 @@ const Header = () => {
             </div>
 
             <Link to="/contactUs" className="lg:hidden">
-              <button className="btn border text-sm sm-button">
+              <button className="btn w-[110px] h-[35px]  border text-xs sm-button">
                 Register Now
               </button>
             </Link>
           </div>
 
           {/* <ul className={`lg:flex  justify-between  absolute lg:static  lg:z-auto z-[-1] left-0 w-full lg:w-auto lg:pl-0  transition-all duration-500 bg-white ease-in ${open ? 'top-[80px]' : 'top-[-290px]'}`}> */}
-          <div className=" ">
+          <div className=" mx-auto lg:pb-[11px]">
             <ul
               className={`flex flex-col justify-between bg-white w-[315px] absolute top-0  lg:static  lg:z-auto -z-[-10] left-0 bg-gray-300 h-screen lg:h-auto lg:w-auto lg:pl-0  transition-all duration-300 lg:bg-white ease-in ${
                 open ? "left-[-320px]" : "left-[0]"
@@ -112,7 +112,7 @@ const Header = () => {
                       Home
                     </Link>
                     {location.pathname == "/" && (
-                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]"></div>
+                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[22px]"></div>
                     )}
                   </li>
 
@@ -129,7 +129,7 @@ const Header = () => {
                       Our Offerings
                     </Link>
                     {location.pathname == "/ourOferings" && (
-                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]"></div>
+                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[22px]"></div>
                     )}
                   </li>
                   <li className=" ps-6 lg:px-5 lg:text-center lg:flex justify-center relative">
@@ -145,7 +145,7 @@ const Header = () => {
                       Our Team
                     </Link>
                     {location.pathname == "/ourTeam" && (
-                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]"></div>
+                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[22px]"></div>
                     )}
                   </li>
 
@@ -162,7 +162,7 @@ const Header = () => {
                       Contact Us
                     </Link>
                     {location.pathname == "/contactUs" && (
-                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]"></div>
+                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[22px]"></div>
                     )}
                   </li>
                   <li className=" ps-6 lg:px-5 lg:text-center lg:flex justify-center relative">
@@ -178,20 +178,10 @@ const Header = () => {
                       Blogs
                     </Link>
                     {location.pathname == "/blogs" && (
-                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[16px]"></div>
+                      <div className=" border-2 rounded-full h-[2px] w-full hidden lg:block border-[#002550] absolute -bottom-[22px]"></div>
                     )}
                   </li>
                 </div>
-
-                {/* <div className='lg:hidden'>
-                                    <li className=' ps-6 text-start relative '>
-                                        <Link to={"/logout"} className='font-semibold text-[#002550] hover:opacity-100   text-lg'>Logout</Link>
-                                    </li>
-                                </div> */}
-
-                {/* <li className='hidden pb-[20px'>
-                                    <button className='btn border bg-[#002550] rounded-md font-semibold text-white text-lg p-2 px-6 flex justify-center items-center gap-2 mx-auto'>Register Now</button>
-                                </li> */}
               </div>
               <div className="lg:hidden mb-5">
                 <li className=" ps-6 text-start relative ">
@@ -207,10 +197,15 @@ const Header = () => {
           </div>
 
           <Link to="/contactUs" className="hidden lg:block">
-            <button className="btn border bg-[#002550] rounded-md font-semibold text-white text-lg py-[11px] px-[25px]">
+            <button className="btn w-[167px] h-[48px]  border text-lg sm-button font-semibold">
               Register Now
             </button>
           </Link>
+          {/* <Link to="/contactUs" className="hidden lg:block">
+            <button className=" btn border bg-[#002550] rounded-md font-semibold text-white text-lg py-[11px] px-[25px]">
+              Register Now
+            </button>
+          </Link> */}
         </div>
       </div>
     </>

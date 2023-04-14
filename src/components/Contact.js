@@ -40,12 +40,12 @@ const Contact = () => {
   const style = {
     control: (base, state) => ({
       ...base,
-      // border: '1px solid #888888',
+      // border: "null",
+      border: "1.5px solid #888888",
       borderRedius: "5px",
       // This line disable the blue border
       boxShadow: "none",
-      outLine: "none",
-      color: state.Select ? "red" : "blue",
+      // outLine: "none",
 
       "&:hover": {
         border: "null",
@@ -92,7 +92,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-4 px-lg:10 xl:px-[200px] py-5 lg:py-7">
+    <div className="px-4 max-w-full px-lg:10 xl:px-[200px] py-5 lg:py-7">
       <div className="shadow-lg px-4 lg:px-16 ">
         <div>
           {/* image and from  */}
@@ -114,25 +114,20 @@ const Contact = () => {
                 className="flex flex-col lg:flex-row gap-5"
               >
                 {/* first cols */}
-                <div className="text-center mx-auto">
+                <div className="text-center max-w-full mx-auto">
                   <div>
                     <div>
                       <div class="flex justify-start">
-                        <div class="relative w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                        <div class="relative max-w-full w-[320px] md:w-[350px] lg:w-[250px] xl:w-[350px] h-[48px]">
                           <input
                             type="text"
                             name="fullName"
                             class="peer  block min-h-[auto] w-full h-full  text-sm rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                            id="exampleFormControlInputText"
-                            placeholder="Example label"
                             onChange={(e) => {
                               setName(e.target.value);
                             }}
                           />
-                          <label
-                            for="exampleFormControlInputText"
-                            class="pointer-events-none px-1 text-xs absolute -top-2.5 bg-white bg-transparent left-3 max-w-[350px]  leading-[1.6] text-[#888888] transition-all duration-200 ease-out"
-                          >
+                          <label class="pointer-events-none px-1 text-xs absolute -top-2.5 bg-white bg-transparent left-3 max-w-[350px]  leading-[1.6] text-[#888888] transition-all duration-200 ease-out">
                             Full name
                           </label>
                         </div>
@@ -151,7 +146,7 @@ const Contact = () => {
 
                   <div>
                     <div class="numberinput flex justify-start mb-7">
-                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-70 ps-2 mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-70 ps-2 mb-3 max-w-full w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
                         <PhoneInput
                           name="number"
                           className="phoneHeight text-sm flex justify-start h-full align-bottom focus:outline-none"
@@ -167,12 +162,12 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div class="flex justify-center">
-                      <div class="relative mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                    <div class="flex justify-center max-w-fit">
+                      <div class="relative mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
                           styles={style}
-                          className="text-[#888888] h-[48px] w-full hover:bg-white rounded border border-[#888888]"
+                          className="text-[#888888] h-[48px]  w-full hover:bg-white rounded border border-[#888888]"
                           options={options1}
                           defaultValue={{
                             label: "I have booked but registration is not done",
@@ -180,12 +175,12 @@ const Contact = () => {
                           }}
                           theme={(theme) => ({
                             ...theme,
-                            borderRadius: 0,
+                            borderRadius: "5px",
                             colors: {
                               ...theme.colors,
-                              text: "red",
-                              // primary25: '#fff',
-                              // primary: '#f2f4f6',
+                              primary25: "#F2F4F6",
+                              // primary: "#f2f4f6",
+                              primary: "#999",
                               // color: '#fff'
                               neutral80: "#707171", // active text color
                               neutral90: "#707171", // active text color
@@ -203,7 +198,7 @@ const Contact = () => {
                         <input
                           value={"Submit"}
                           type="submit"
-                          className="text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                          className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                         ></input>
                       </div>
                     </div>
@@ -214,7 +209,7 @@ const Contact = () => {
                 <div className="mx-auto">
                   <div>
                     <div class="flex justify-centr">
-                      <div class="relative  w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                      <div class="relative  w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
                         <input
                           onChange={(e) => setemail(e.target.value)}
                           type="email"
@@ -237,34 +232,30 @@ const Contact = () => {
                     </p>
                   </div>
                   <div class="flex justify-start mb-7">
-                    <div class="relative  rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
+                    <div class="relative  rounded border-[#888888] mb-3 w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px] h-[48px]">
                       <Select
                         styles={style}
                         type="text"
-                        class=" block text-white w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                        id="exampleFormControlInputText"
+                        class="  text-white w-full h-full p-3 rounded  bg-transparent py-5 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear "
                         options={options}
                         value={countryValue}
                         onChange={changeHandler}
                         defaultValue={{ label: "India", value: "India" }}
                         theme={(theme) => ({
                           ...theme,
-                          borderRadius: 0,
+                          borderRadius: "5px",
                           colors: {
                             ...theme.colors,
-                            text: "red",
-                            // primary25: '#fff',
-                            // primary: '#f2f4f6',
+                            primary25: "#F2F4F6",
+                            // primary: "#f2f4f6",
+                            primary: "#F2F4F6",
                             // color: '#fff'
                             neutral80: "#707171", // active text color
                             neutral90: "#707171", // active text color
                           },
                         })}
                       />
-                      <label
-                        for="exampleFormControlInputText"
-                        class="pointer-events-none text-xs absolute -top-5 px-2 bg-white left-3  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
-                      >
+                      <label class="pointer-events-none text-xs absolute -top-5 px-2 bg-white left-3  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white">
                         Country
                       </label>
                     </div>
@@ -275,7 +266,7 @@ const Contact = () => {
                       <input
                         value={"Submit"}
                         type="submit"
-                        className="text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                        className="text-center cursor-pointer w-[320px] sm:w-[350px] md:w-[350px] lg:w-[280px] xl:w-[350px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                       ></input>
                     </div>
                   </div>
