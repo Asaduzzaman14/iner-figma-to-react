@@ -33,13 +33,13 @@ const BlogDetails2 = () => {
         <div className="text-start">
           <p className="text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
             <div onClick={() => naviagate(-1)}>
-              <img src={leftArrow} alt="" />
+              <img className="h-4 w-18" src={leftArrow} alt="" />
             </div>
             Artificial Intelligence in Realty
           </p>
 
           <img
-            className="w-[360px] md:w-fi lg:w-fit xl:w-[1462px] mx-auto"
+            className="w-[360px]  h-[270px] lg:h-auto md:w-fi lg:w-fit xl:w-[1462px] mx-auto"
             src={blogDetail1}
             alt=""
           />
@@ -205,16 +205,16 @@ const BlogDetails2 = () => {
                 </p>
                 <div className="flex text-start py-5 lg:py-10 gap-4">
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={instagram} alt="" />
+                    <img className="w-[30px] lg:w-12" src={instagram} alt="" />
                   </Link>
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={facbook} alt="" />
+                    <img className="w-[30px] lg:w-12" src={facbook} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={twitter} alt="" />
+                    <img className="w-[30px] lg:w-12" src={twitter} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={linkedin} alt="" />
+                    <img className="w-[30px] lg:w-12" src={linkedin} alt="" />
                   </Link>
                 </div>
               </div>

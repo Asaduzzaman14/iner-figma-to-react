@@ -33,13 +33,13 @@ const BlogDetails3 = () => {
         <div className="text-start">
           <p className="text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
             <div onClick={() => naviagate(-1)}>
-              <img src={leftArrow} alt="" />
+              <img className="h-4 w-18" src={leftArrow} alt="" />
             </div>
             Real estate Purchase Challenges in Bengaluru
           </p>
 
           <img
-            className="w-[360px] md:w-fi lg:w-fit xl:w-[1462px] mx-auto"
+            className="w-[360px] h-[270px] lg:h-auto md:w-fi lg:w-fit xl:w-[1462px] mx-auto"
             src={blogDetail1}
             alt=""
           />
@@ -133,7 +133,8 @@ const BlogDetails3 = () => {
                 <p>
                   ANAROCK Property Consultants report:{" "}
                   <Link to="https://www.anarock.com/blog/homebuyers-beware-60-bangalore-real-estate-projects-delayed/">
-                    https://www.anarock.com/blog/homebuyers-beware-60-bangalore-real-estate-projects-delayed/
+                    https://www.anarock.com/ blog/homebuyers-beware-60-bangalore
+                    -real-estate-projects-delayed/
                   </Link>{" "}
                 </p>
               </div>
@@ -142,7 +143,10 @@ const BlogDetails3 = () => {
                 <p>
                   Magicbricks survey:{" "}
                   <Link to="https://economictimes.indiatimes.com/wealth/real-estate/majority-of-homebuyers-face-transparency-issues-in-bengaluru-magicbricks-survey/articleshow/64887577.cms/">
-                    https://economictimes.indiatimes.com/wealth/real-estate/majority-of-homebuyers-face-transparency-issues-in-bengaluru-magicbricks-survey/articleshow/64887577.cms
+                    https://economictimes.indiatimes
+                    .com/wealth/real-estate/majority-of
+                    -homebuyers-face-transparency-issues-
+                    in-bengaluru-magicbricks-survey /articleshow/64887577.cms
                   </Link>{" "}
                 </p>
               </div>
@@ -152,7 +156,8 @@ const BlogDetails3 = () => {
                 <p>
                   Knight Frank report:{" "}
                   <Link to="https://www.knightfrank.co.in/research/article/2021-03-03-bangalore-office-market-report-q4-2020/ ">
-                    https://www.knightfrank.co.in/research/article/2021-03-03-bangalore-office-market-report-q4-2020
+                    https://www.knightfrank.co.in /research/
+                    article/2021-03-03-bangalore-office-market-report-q4-2020
                   </Link>{" "}
                 </p>
               </div>
@@ -162,7 +167,10 @@ const BlogDetails3 = () => {
                 <p>
                   Karnataka High Court orders:{" "}
                   <Link to="https://timesofindia.indiatimes.com/city/bengaluru/high-court-orders-registration-department-not-to-register-properties-built-on-lake-beds/articleshow/73110843.cms/">
-                    https://timesofindia.indiatimes.com/city/bengaluru/high-court-orders-registration-department-not-to-register-properties-built-on-lake-beds/articleshow/73110843.cms
+                    https://timesofindia.indiatimes. com /city/
+                    bengaluru/high-court-orders-
+                    registration-department-not-to-register-properties-built-on-lake
+                    -beds/articleshow/73110843.cms
                   </Link>{" "}
                 </p>
               </div>
@@ -202,16 +210,16 @@ const BlogDetails3 = () => {
                 </p>
                 <div className="flex text-start py-5 lg:py-10 gap-4">
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={instagram} alt="" />
+                    <img className="w-[30px] lg:w-12" src={instagram} alt="" />
                   </Link>
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={facbook} alt="" />
+                    <img className="w-[30px] lg:w-12" src={facbook} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={twitter} alt="" />
+                    <img className="w-[30px] lg:w-12" src={twitter} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={linkedin} alt="" />
+                    <img className="w-[30px] lg:w-12" src={linkedin} alt="" />
                   </Link>
                 </div>
               </div>

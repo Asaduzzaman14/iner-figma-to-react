@@ -246,16 +246,22 @@ border-color: #8888 !important;
 }
 
 
+/* ********************* */
+/* **********form********** */
+/* ********************* */
+
+
+
 @media only screen and (max-width:475px) {
   .slick-next {
     right: -15px;
-    top:40%;
+    top:42%;
   
   }
   
   .slick-prev {
     left: -15px;
-    top:40%;
+    top:42%;
   
   }
 }
@@ -279,12 +285,12 @@ border-color: #8888 !important;
 
 @media only screen and (min-width:1024px) {
   .slick-next {
-    right: -25px;
+    right: -30px;
     top:30%;
   }
 
   .slick-prev {
-    left: -25px;
+    left: -30px;
     top:30%;
 
   }
@@ -323,10 +329,14 @@ border-color: #8888 !important;
   
   .slick-next {
     right: -80px;
+    top:50%;
+
   }
 
   .slick-prev {
     left: -80px;
+    top:50%;
+
   }
 
 }

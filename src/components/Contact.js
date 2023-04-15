@@ -128,14 +128,14 @@ const Contact = () => {
 
               <form
                 onSubmit={handelContactForm}
-                className="flex flex-col justify-items-stretch  lg:flex-row gap-5"
+                className="form max-w-full lg:flex flex-col  lg:flex-row gap-5"
               >
                 {/* first cols */}
                 <div className="text-center max-w-full mx-auto">
                   <div>
                     <div>
                       <div class="flex justify-start">
-                        <div class="relative opacity-60 max-w-full w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                        <div class="relative opacity-60 max-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                           <input
                             type="text"
                             name="fullName"
@@ -163,7 +163,7 @@ const Contact = () => {
 
                   <div>
                     <div class="numberinput flex justify-start mb-7">
-                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-60 ps-2 mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-60 ps-2 mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <PhoneInput
                           name="number"
                           className="phoneHeight text-sm flex justify-start h-full align-bottom focus:outline-none"
@@ -180,7 +180,7 @@ const Contact = () => {
                     </div>
 
                     <div class="flex stage justify-center max-w-fit">
-                      <div class="relative mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
                           styles={style}
@@ -215,7 +215,7 @@ const Contact = () => {
                         <input
                           value={"Submit"}
                           type="submit"
-                          className="text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                          className="text-center cursor-pointer w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                         ></input>
                       </div>
                     </div>
@@ -223,10 +223,10 @@ const Contact = () => {
                 </div>
 
                 {/*  2nd cols */}
-                <div className="mx-auto">
+                <div className="mx-auto mt-5 lg:mt-0">
                   <div>
                     <div class="flex justify-centr">
-                      <div class="relative opacity-60  w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative opacity-60  w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <input
                           onChange={(e) => setemail(e.target.value)}
                           type="email"
@@ -249,7 +249,7 @@ const Contact = () => {
                     </p>
                   </div>
                   <div class="flex justify-start mb-7">
-                    <div class="relative rounded border-[#888888] mb-3 w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                    <div class="relative rounded border-[#888888] mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                       <Select
                         styles={style}
                         type="text"
@@ -307,7 +307,7 @@ const Contact = () => {
                       <input
                         value={"Submit"}
                         type="submit"
-                        className="text-center cursor-pointer w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px] border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                        className="text-center cursor-pointer w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px] border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                       ></input>
                     </div>
                   </div>
@@ -316,9 +316,9 @@ const Contact = () => {
             </div>
 
             {/* image */}
-            <div className="w-[350px]">
+            <div className="max-w-full md:w-[350px]">
               <img
-                className=" w-[360px] 2xl:w-[447px] mx-auto  lg:mb-0"
+                className="max-w-full md:w-[300px] 2xl:w-[447px] mx-auto  lg:mb-0"
                 src={image}
                 alt=""
               />

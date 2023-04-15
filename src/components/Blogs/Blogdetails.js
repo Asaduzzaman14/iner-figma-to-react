@@ -23,23 +23,23 @@ import OtherBlogs from "./OtherBlogs";
 const BlogDetails = () => {
   const naviagate = useNavigate();
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
       <div className="mt-5 lg:mt-[70px] text-center px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
         <div className="text-start">
-          <p className="text-base lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
+          <p className="text-base lg:text-[20px] pb-5 text-[#1A1A1A] flex items-center gap-4">
             <div onClick={() => naviagate(-1)}>
-              <img src={leftArrow} alt="" />
+              <img className="h-4 w-18" src={leftArrow} alt="" />
             </div>
             Application of Blockchain in real estate industry
           </p>
 
           <img
-            className="w-[360px] h-[270px] lg:w-fit xl:w-[1462px] mx-auto"
+            className="w-[360px]  h-[270px] lg:h-auto lg:w-fit xl:w-[1462px] mx-auto"
             src={blogDetail1}
             alt=""
           />
@@ -266,16 +266,16 @@ const BlogDetails = () => {
                 </p>
                 <div className="flex text-start py-5 lg:py-10 gap-4">
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={instagram} alt="" />
+                    <img className="w-[30px] lg:w-12" src={instagram} alt="" />
                   </Link>
                   <Link to="www.facebook.com">
-                    <img className="w-12" src={facbook} alt="" />
+                    <img className="w-[30px] lg:w-12" src={facbook} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={twitter} alt="" />
+                    <img className="w-[30px] lg:w-12" src={twitter} alt="" />
                   </Link>
                   <Link to="/">
-                    <img className="w-12" src={linkedin} alt="" />
+                    <img className="w-[30px] lg:w-12" src={linkedin} alt="" />
                   </Link>
                 </div>
               </div>

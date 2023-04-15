@@ -67,9 +67,9 @@ const OurOfferings = () => {
             <li onClick={() => setShow(2)} role="presentation">
               <a
                 href="#tabs-messages"
-                class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
+                class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${
                   show === 2 ? "h-16 px-5 w-52" : "w-16 h-16"
-                } flex items-center justify-center  border-transparent 
+                } flex items-center justify-center border-transparent 
                                 data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
                 data-te-toggle="pill"
                 data-te-target="#tabs-messages"
@@ -78,7 +78,7 @@ const OurOfferings = () => {
                 aria-controls="tabs-messages"
                 aria-selected="true"
               >
-                <div className="flex items-center justify-center gap-2 lg:gap-5 py-5">
+                <div className="flex items-center justify-center gap-2 lg:gap-5">
                   <span className="number w-0 h-0 pr-2 flex items-center">
                     2{show === 2 && "."}{" "}
                   </span>
@@ -179,7 +179,7 @@ const OurOfferings = () => {
                 aria-controls="tabs-profile"
                 aria-selected="false"
               >
-                <div className="h-[100px] flex items-center justify-center gap-5 lg:text-2xl text-center py-5">
+                <div className="h-[100px] flex items-center justify-center gap-5 px-3 lg:text-2xl text-center py-5">
                   <span className="number">3</span>
                   <span className="normal-text hidden text-start lg:block font-semibold lg:text-2xl">
                     Post-Registration{" "}
