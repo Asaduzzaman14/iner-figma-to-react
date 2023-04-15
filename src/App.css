@@ -23,14 +23,9 @@
 
 }
 
+
 .slick-track{
   margin-bottom: 2px;
-  /* display: flex;
-  justify-self: end;
-  height: auto;
-  align-items: stretch !important;
-  min-height: fit-content !important; */
-
 }
 .slick-track
 {
@@ -319,4 +314,15 @@
     left: -80px;
   }
 
+}
+
+.slick-slide {
+  /* display: flex !important; */
+  /* flex-direction: column; */
+  /* width: ; */
+  /* height:100% !important; */
+}
+
+.slick-list{
+  /* width: 100%; */
 }

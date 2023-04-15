@@ -10,19 +10,6 @@ const ContactUs = () => {
       </div>
 
       <Contact />
-
-      <div className="border py-4 gap-3 flex ">
-        <div className="py-6 px-5 border">1</div>
-        <h2 className="border">aaa</h2>
-        <div className="py-2 px-5 border">
-          2lore Lorem ipsum dolor sit amet.
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div>
-        <div className="py-6 px-5 border">3</div>
-      </div>
     </div>
   );
 };
