@@ -18,7 +18,7 @@ const Footer = () => {
   const [showb, setShowb] = useState(false);
 
   return (
-    <div className="bg-[#002550] pb-[19px] px-[30px] px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+    <div className="bg-[#002550] pb-[19px] px-[30px]  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-3 text-white pt-[38px] text-start">
         <div className="pb-[60px]">
           <Link to="/">

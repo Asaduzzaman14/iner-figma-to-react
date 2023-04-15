@@ -4,7 +4,7 @@ import bannerImage from "../../asset/blog/bannerImage.png";
 const BlogBanner = () => {
   return (
     <div className=" bg-[#E6EAEE] ">
-      <div className="py-[35px] px-3 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+      <div className="py-[35px] px-3 lg:px-10 xl:px-[100px] 2xl:px-[200px]">
         <div className=" bg-[#F2F4F6] w-[360px] lg:w-full mx-auto p-4 md:p-6 lg:p-7 grid grid-cols-1 lg:grid-cols-2 items-center content-center  gap-4">
           <div>
             <img

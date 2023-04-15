@@ -29,7 +29,7 @@ const BlogDetails = () => {
 
   return (
     <>
-      <div className="mt-5 lg:mt-[70px] text-center px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+      <div className="mt-5 lg:mt-[70px] text-center px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
         <div className="text-start">
           <p className="text-base lg:text-[20px] pb-5 text-[#1A1A1A] flex items-center gap-4">
             <div onClick={() => naviagate(-1)}>
@@ -104,7 +104,7 @@ const BlogDetails = () => {
               </p>
             </div>
 
-            <div className="ms-3">
+            <div className="">
               <div className="pt-3">
                 <div className="flex gap-1">
                   <span>1. </span>

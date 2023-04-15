@@ -75,31 +75,6 @@ const Contact = () => {
     }),
   };
 
-  // const customStyles: StylesConfig = {
-  //     control: (provided: Record<string, unknown>, state: any) => ({
-  //       ...provided,
-  //       height: 52,
-  //       border: state.isFocused ? "1px solid #ff8b67" : "1px solid #cccccc",
-  //       boxShadow: state.isFocused ? "0px 0px 6px #ff8b67" : "none",
-  //       // "&": {
-  //       //   border: "1px solid #cccccc",
-  //       //   boxShadow: "none"
-  //       // },
-  //       "&:hover": {
-  //         border: "1px solid #ff8b67",
-  //         boxShadow: "0px 0px 6px #ff8b67"
-  //       }
-  //       // "&:focus": {
-  //       //   border: "1px solid #ff8b67",
-  //       //   boxShadow: "0px 0px 6px #ff8b67"
-  //       // },
-  //       // "&:acitve": {
-  //       //   border: "1px solid #ff8b67",
-  //       //   boxShadow: "0px 0px 6px #ff8b67"
-  //       // }
-  //     })
-  //   };
-
   const handelContactForm = (e) => {
     e.preventDefault();
     // console.log('hello', e.target.fullName.value);
@@ -131,11 +106,11 @@ const Contact = () => {
                 className="form max-w-full lg:flex flex-col  lg:flex-row gap-5"
               >
                 {/* first cols */}
-                <div className="text-center max-w-full mx-auto">
+                <div className="text-center max-w-full  mx-auto">
                   <div>
                     <div>
                       <div class="flex justify-start">
-                        <div class="relative opacity-60 max-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                        <div class="relative opacity-60 min-w-full  w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                           <input
                             type="text"
                             name="fullName"
@@ -163,7 +138,7 @@ const Contact = () => {
 
                   <div>
                     <div class="numberinput flex justify-start mb-7">
-                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-60 ps-2 mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-60 ps-2 mb-3 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <PhoneInput
                           name="number"
                           className="phoneHeight text-sm flex justify-start h-full align-bottom focus:outline-none"
@@ -179,12 +154,12 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div class="flex stage justify-center max-w-fit">
-                      <div class="relative mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                    <div class="flex stage justify-center min-w-full">
+                      <div class="relative mb-3 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <Select
                           name="stages"
                           styles={style}
-                          className="text-[#888888] h-[48px]  w-full hover:bg-white rounded border-[1.5px] border-[#888888]"
+                          className="text-[#888888] h-[48px]   w-full hover:bg-white rounded border-[1.5px] border-[#888888]"
                           options={options1}
                           defaultValue={{
                             label: "I have booked but registration is not done",
@@ -215,7 +190,7 @@ const Contact = () => {
                         <input
                           value={"Submit"}
                           type="submit"
-                          className="text-center cursor-pointer w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                          className="text-center cursor-pointer min-w-full w-[350px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]  border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                         ></input>
                       </div>
                     </div>
@@ -226,7 +201,7 @@ const Contact = () => {
                 <div className="mx-auto mt-5 lg:mt-0">
                   <div>
                     <div class="flex justify-centr">
-                      <div class="relative opacity-60  w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                      <div class="relative opacity-60 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <input
                           onChange={(e) => setemail(e.target.value)}
                           type="email"

@@ -40,7 +40,9 @@ const OurOfferings = () => {
               <a
                 href="#tabs-home"
                 class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
-                  show === 1 ? "h-16 lg:h-[100px] w-52 px-5" : "w-16 h-16 "
+                  show === 1
+                    ? "h-16 lg:h-[100px] mx-w-full w-52 px-2"
+                    : "w-16 h-16 "
                 } flex items-center justify-center  border-transparent 
                                 data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
                 data-te-target="#tabs-home"

@@ -49,7 +49,7 @@ const Blogs = () => {
       <BlogBanner />
 
       <div className="mt-6 lg:mt-9">
-        <div className="px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+        <div className="px-5 lg:px-10 xl:px-[100px] 2xl:px-[200px]">
           {/* <div className='grid gap-[46px] grid-cols-2 lg:grid-cols-2 '> */}
           <Slider {...settings} className="">
             <div className="">

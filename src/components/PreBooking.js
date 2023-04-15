@@ -41,7 +41,7 @@ const PreBooking = () => {
     <div>
       <div className="hidden lg:block">
         <div className=" grid gap-[46px] grid-cols-1 lg:grid-cols-2 ">
-          <div className="card w-[360px] md:w-[711px] p-4 lg:p-6">
+          <div className="card max-w-full w-[360px] md:w-[711px] p-4 lg:p-6">
             <div className="text-start">
               <img className="w-[663px] mx-auto" src={iamge1} alt="" />
               <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5  text-xl xl:text-[28px]">

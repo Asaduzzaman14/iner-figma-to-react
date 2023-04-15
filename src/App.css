@@ -254,13 +254,13 @@ border-color: #8888 !important;
 
 @media only screen and (max-width:475px) {
   .slick-next {
-    right: -15px;
+    right: -10px;
     top:42%;
   
   }
   
   .slick-prev {
-    left: -15px;
+    left: -10px;
     top:42%;
   
   }
@@ -285,13 +285,13 @@ border-color: #8888 !important;
 
 @media only screen and (min-width:1024px) {
   .slick-next {
-    right: -30px;
-    top:30%;
+    right: -20px;
+    top:50%;
   }
 
   .slick-prev {
-    left: -30px;
-    top:30%;
+    left: -20px;
+    top:50%;
 
   }
 
@@ -321,22 +321,24 @@ border-color: #8888 !important;
 }
 @media only screen and (min-width:1440px) {
   .slick-slider .slick-slide {
-    padding: 0 10px;
+    padding: 0 5px;
   }
   .slick-list{
-    margin: 0 -10px;
+    margin: 0 -5px;
   }
   
-  .slick-next {
+  /* .slick-next {
     right: -80px;
     top:50%;
 
+  } */
+
+  .slick-slider .slick-slide {
+    padding: 0 5px;
   }
-
-  .slick-prev {
-    left: -80px;
-    top:50%;
-
+  .slick-list{
+    margin: 0px -5px;
+  
   }
 
 }

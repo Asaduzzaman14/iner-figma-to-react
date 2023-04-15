@@ -45,7 +45,7 @@ const OurTeampage = () => {
         {/* <About /> */}
         {/* ************************** */}
 
-        <div className="font-sans py-[35px]  px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+        <div className="font-sans py-[35px]  px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
           <div className="w-[360px] md:w-full mx-auto bg-[#F2F4F6] p-4 md:p-6 lg:p-7 grid grid-cols-1 lg:grid-cols-2 items-center content-center gap-[10px] lg:gap-[30px]">
             <div>
               <img
@@ -92,7 +92,7 @@ const OurTeampage = () => {
         </div>
       </div>
 
-      <div className="hidden lg:block px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+      <div className="hidden lg:block px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
         <div className="pt-4 pb-9">
           <div className="grid lg:grid-flow-row gap-[36px] grid-cols-1 ">
             <div className="card bg-[#F2F4F6] w-[360px] lg:w-full  p-4 lg:p-12">

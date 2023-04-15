@@ -46,7 +46,7 @@ const OtherBlogs = () => {
 
         {/* slider */}
 
-        <div className="px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
+        <div className="px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
           <Slider {...settings}>
             {/* <div className="grid gap-[46px] grid-cols-1 lg:grid-cols-3 "> */}
             <div>
