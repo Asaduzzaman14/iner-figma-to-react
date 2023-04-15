@@ -112,6 +112,11 @@
   border: 0 !important;
 
 }
+
+.css-3y3ko2-control {
+  min-height: 48px !important;
+}
+
 .css-lm8j94-menu,.css-1mjcdke-singleValue{
   /* text-align: start;
   color: #cecbcb88 !important; */
@@ -314,15 +319,4 @@
     left: -80px;
   }
 
-}
-
-.slick-slide {
-  /* display: flex !important; */
-  /* flex-direction: column; */
-  /* width: ; */
-  /* height:100% !important; */
-}
-
-.slick-list{
-  /* width: 100%; */
 }
