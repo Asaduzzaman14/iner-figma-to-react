@@ -32,7 +32,7 @@ const OurTeam = () => {
   };
 
   return (
-    <div className="team px-5 lg:px-10 xl:px-[200px]">
+    <div className="team px-5 lg:px-10 xl:px-[100px] 2xl:px-[200px]">
       <div className="relative text-center pb-[20px]">
         <h2 className="title text-base lg:text-[32px] pt-0 pb-[5px] lg:pb-2.5 lg:pt-[10px]">
           Our Team Members
@@ -63,7 +63,7 @@ const OurTeam = () => {
               <div className="text-end">
                 <Link
                   to="/ourTeam"
-                  className="font-semibold text-end pt-4  text-[#1A1A1A]  lg:font-normal text-[16px] opacity-60  cursor-pointer"
+                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
                 >
                   {" "}
                   View More
@@ -92,7 +92,7 @@ const OurTeam = () => {
               <div className="text-end">
                 <Link
                   to="/ourTeam"
-                  className="font-semibold text-end pt-4  text-[#1A1A1A]  lg:font-normal text-[16px] opacity-60 cursor-pointer"
+                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
                 >
                   {" "}
                   View More
@@ -121,7 +121,7 @@ const OurTeam = () => {
               <div className="text-end">
                 <Link
                   to="/ourTeam"
-                  className="font-semibold  pt-4 text-[#1A1A1A]  lg:font-normal text-[16px] opacity-60 cursor-pointer"
+                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
                 >
                   {" "}
                   View More

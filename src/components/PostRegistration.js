@@ -49,7 +49,7 @@ const PostRegistration = () => {
               src={iamge1}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title  py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Virtual Site Visit
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -84,7 +84,7 @@ const PostRegistration = () => {
               src={iamge2}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title  py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Khata Transfer
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -117,7 +117,7 @@ const PostRegistration = () => {
               src={iamge3}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title  py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               BESCOM Transfer
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -150,7 +150,7 @@ const PostRegistration = () => {
               src={iamge4}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title  py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Property Tax Transfer
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">

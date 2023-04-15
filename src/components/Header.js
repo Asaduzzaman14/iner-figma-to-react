@@ -34,7 +34,7 @@ const Header = () => {
   return (
     <>
       <div className=" shadow-md z-50 w-full  relative top-0 left-0">
-        <div className=" lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-[107px] px-5 py-0 lg:py-2 lg:px-20 items-end lg:pb-[11px] bg-white">
+        <div className=" lg:flex flex-col-reverse lg:flex-row justify-between h-[58px]  lg:h-[107px] px-5 py-0 lg:py-2 lg:px-[40px] 2xl:px-20 items-end lg:pb-[11px] bg-white">
           <div className="hidden lg:block relative  lg:flex-basis-1/4 lg:py-2 ">
             <Link to="/" class=" ">
               <img className="w-[68px] h-[63px] " src={logo} alt="" />

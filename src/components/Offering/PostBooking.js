@@ -54,7 +54,7 @@ const PostBooking = () => {
                 src={image1}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 Title Diligence
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -95,7 +95,7 @@ const PostBooking = () => {
                 src={image2}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 Sustainable Marketability Of Title
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -137,7 +137,7 @@ const PostBooking = () => {
                 src={image3}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 Virtual Site Visit
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -179,7 +179,7 @@ const PostBooking = () => {
                 src={image4}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 Hassle Free Registration{" "}
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -221,7 +221,7 @@ const PostBooking = () => {
                 src={image5}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 TDS & Capital Gain
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -263,7 +263,7 @@ const PostBooking = () => {
                 src={image6}
                 alt=""
               />
-              <h2 className="cart-title text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
                 Pre-Delivery Inspection
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">

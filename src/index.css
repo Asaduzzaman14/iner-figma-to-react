@@ -22,7 +22,7 @@
     }
 
     .cart-title {
-        @apply pt-5 pb-5 text-[28px] text-[#002550] font-semibold;
+        @apply pt-2.5 pb-2.5 text-[28px] text-[#002550] font-semibold;
     }
 
     .cart-desc {

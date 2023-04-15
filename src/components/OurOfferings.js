@@ -10,7 +10,7 @@ const OurOfferings = () => {
   console.log(true);
 
   return (
-    <div className="px-5 lg:px-10 xl:px-[200px]">
+    <div className="px-5 lg:px-10 xl:px-[100px] 2xl:px-[200px]">
       <div className="relative">
         <h2 className="title text-base lg:text-[32px] pt-[25px] lg:pt-[35px] pb-1 lg:pb-[10px]">
           Our Offerings

@@ -53,7 +53,7 @@ const PostBooking = () => {
               src={iamge1}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title  py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Title Diligence
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -92,7 +92,7 @@ const PostBooking = () => {
               src={iamge2}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Sustainable Marketability Of Title
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -127,7 +127,7 @@ const PostBooking = () => {
               src={iamge3}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Virtual Site Visit
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -161,7 +161,7 @@ const PostBooking = () => {
               src={iamge4}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Hassle Free Registration{" "}
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -195,7 +195,7 @@ const PostBooking = () => {
               src={iamge5}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               TDS & Capital Gain
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
@@ -228,7 +228,7 @@ const PostBooking = () => {
               src={iamge6}
               alt=""
             />
-            <h2 className="cart-title text-xl xl:text-[28px]">
+            <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
               Pre-Delivery Inspection
             </h2>
             <p className="cart-desc text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">

@@ -18,7 +18,7 @@ const Footer = () => {
   const [showb, setShowb] = useState(false);
 
   return (
-    <div className="bg-[#002550] pb-[19px] px-[30px] px-lg:10 xl:px-[200px]">
+    <div className="bg-[#002550] pb-[19px] px-[30px] px-lg:10 xl:px-[100px] 2xl:px-[200px]">
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-3 text-white pt-[38px] text-start">
         <div className="pb-[60px]">
           <Link to="/">
@@ -147,40 +147,48 @@ const Footer = () => {
 
       <div className="flex flex-col-reverse lg:flex-row  lg:justify-between text-white lg:font-semibold pt-5 lg:pt-10">
         <div>
-          <p className="pt-[35px] text-[#CCD3DC] lg:text-white lg:opacity-100  lg:text-lg opacity-60 lg:pt-auto text-start lg:text-center">
+          <p className="pt-[35px]  text-[#CCD3DC] lg:text-white lg:opacity-100  lg:text-lg opacity-60 lg:pt-auto text-start lg:text-center">
             Copyright 2023. Designed by INRE Global
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row gap-6 lg:gap-12 text-xl ">
+        <div className="flex flex-col lg:flex-row gap-6 lg:gpa-6 2xl:gap-12 text-xl ">
           <Link
             to="http://linkedin.com/"
-            className="flex cursor-pointer items-center gap-2"
+            className="flex cursor-pointer items-center lg:items-end gap-2"
           >
-            <span className="text-xl">
+            <span className="text-xl lg:pb-1">
               {" "}
               <AiOutlineLinkedin />{" "}
             </span>{" "}
             LinkedIn
           </Link>
-          <Link to="http://facebook.com/" className="flex items-center gap-2">
-            <span className="text-xl">
+
+          <Link
+            to="http://facebook.com/"
+            className="flex items-center lg:items-end gap-2"
+          >
+            <span className="text-xl lg:pb-1">
               {" "}
               <AiOutlineFacebook />{" "}
             </span>{" "}
             Facebook
           </Link>
-          <Link to={"http://twitter.com/"} className="flex items-center gap-2">
-            <span className="text-xl">
+          <Link
+            to={"http://twitter.com/"}
+            className="flex items-center lg:items-end gap-2"
+          >
+            <span className="text-xl lg:pb-1">
               {" "}
               <AiOutlineTwitter />{" "}
             </span>{" "}
             Twitter
           </Link>
+
           <Link
             to={"http://instagram.com/"}
-            className="flex items-center gap-2"
+            className="flex items-center lg:items-end gap-2"
           >
-            <span className="text-xl">
+            <span className="text-xl lg:pb-1">
               {" "}
               <IoLogoInstagram />{" "}
             </span>{" "}

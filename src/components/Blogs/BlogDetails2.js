@@ -29,7 +29,7 @@ const BlogDetails2 = () => {
 
   return (
     <>
-      <div className="mt-5 lg:mt-[70px] text-center px-5 px-lg:10 xl:px-[200px]">
+      <div className="mt-5 lg:mt-[70px] text-center px-5 px-lg:10 xl:px-[100px] 2xl:px-[200px]">
         <div className="text-start">
           <p className="text-xs lg:text-[20px] pb-5 text-[#1A1A1A] flex gap-4">
             <div onClick={() => naviagate(-1)}>

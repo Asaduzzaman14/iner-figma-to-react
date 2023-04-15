@@ -109,7 +109,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-4 max-w-full px-lg:10 xl:px-[200px] py-5 lg:py-7">
+    <div className="px-4 max-w-full lg:px-10 xl:px-[100px] 2xl:px-[200px] py-5 lg:py-7">
       <div className="shadow-lg px-4 lg:px-16 ">
         <div>
           {/* image and from  */}
@@ -265,7 +265,7 @@ const Contact = () => {
                           colors: {
                             ...theme.colors,
                             primary25: "#F2F4F6",
-                            primary: "#F2F4F6",
+                            primary: "#707171",
                             neutral80: "#707171", // active text color
                             neutral90: "#707171", // active text color
                           },

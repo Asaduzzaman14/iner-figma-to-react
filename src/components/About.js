@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="font-sans mt-6 lg:mt-[35px] px-[15px] lg:px-10 xl:px-[200px]">
+    <div className="font-sans mt-6 lg:mt-[35px] px-[15px] lg:px-10 xl:px-[100px] 2xl:px-[100px] 2xl:px-[200px]">
       <div className="max-w-full w-[360px] md:w-full mx-auto bg-[#E6EAEE] p-[10px] md:p-6 lg:p-7 grid grid-cols-1 lg:grid-cols-2 items-center content-center gap-[10px] lg:gap-[30px]">
         <div>
           <img className="w-[340px] md:w-full mx-auto" src={aboutImg} alt="" />

@@ -44,7 +44,7 @@ const PreBooking = () => {
           <div className="card w-[360px] md:w-[711px] p-4 lg:p-6">
             <div className="text-start">
               <img className="w-[663px] mx-auto" src={iamge1} alt="" />
-              <h2 className="cart-title py-2.5 text-xl xl:text-[28px]">
+              <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5  text-xl xl:text-[28px]">
                 {" "}
                 Background Verification
               </h2>
@@ -83,7 +83,7 @@ const PreBooking = () => {
           <div className="card w-[360px] md:w-[711px] p-4 lg:p-6">
             <div className="text-start">
               <img className="w-[663px] mx-auto" src={iamge2} alt="" />
-              <h2 className="cart-title py-2.5 text-xl xl:text-[28px]">
+              <h2 className="cart-title py-2.5  xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
                 {" "}
                 Pre-booking Virtual site visit
               </h2>
@@ -127,7 +127,7 @@ const PreBooking = () => {
             <div className="card w-[360px] md:w-[711px] p-4 lg:p-6">
               <div className="text-start">
                 <img className="w-[663px] mx-auto" src={iamge1} alt="" />
-                <h2 className="cart-title py-2.5 text-xl xl:text-[28px]">
+                <h2 className="cart-title  xl:pt-[30px] xl:pb-5  xl:py-5 text-xl xl:text-[28px]">
                   {" "}
                   Background Verification
                 </h2>
@@ -166,7 +166,7 @@ const PreBooking = () => {
             <div className="card w-[360px] md:w-[711px] p-4 lg:p-6">
               <div className="text-start">
                 <img className="w-[663px] mx-auto" src={iamge2} alt="" />
-                <h2 className="cart-title py-2.5 text-xl xl:text-[28px]">
+                <h2 className="cart-title py-2.5   xl:pt-[30px] xl:pb-5 text-xl xl:text-[28px]">
                   {" "}
                   Pre-booking Virtual site visit
                 </h2>

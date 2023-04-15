@@ -39,10 +39,10 @@ const Blog = () => {
           <h2 className="title text-base lg:text-[32px] mt-0 pt-0 pb-[5px] lg:pb-2.5">
             Blogs
           </h2>
-          <div className=" border-2 rounded-full h-[2px] w-[31px]  inset-x-0 mx-auto border-[#002550] absolute bottom"></div>
+          <div className=" border-2 rounded-full h-[2px] w-[31px] lg:w-[54px] inset-x-0 mx-auto border-[#002550] absolute bottom"></div>
         </div>
 
-        <div className="pt-[20px] lg:pt-[35px] px-5 lg:px-10 xl:px-[200px]">
+        <div className="pt-[20px] lg:pt-[35px] px-5 lg:px-10 xl:px-[100px] 2xl:px-[200px]">
           <Slider {...settings} className="grid  place-items-stretch h-auto">
             <div className="">
               <div className="card rounded-[10px] w-[360px] lg:w-[455px] p-4 lg:p-6">
@@ -56,7 +56,7 @@ const Blog = () => {
                     <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
+                  <h2 className="pb-4 text-xl  xl:text-2xl  leading-7 text-[#002550] font-semibold">
                     Application of Blockchain in real estate industry
                   </h2>
 
@@ -69,7 +69,7 @@ const Blog = () => {
                 <div className="card-button pt-0 pb-0 text-[#002550]">
                   <Link
                     to="/blogDetails"
-                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-md mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
                   >
                     View More
                     <span>
@@ -92,7 +92,7 @@ const Blog = () => {
                     <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px]  leading-7 text-[#002550] font-semibold">
+                  <h2 className="pb-4 text-xl  xl:text-2xl  leading-7 text-[#002550] font-semibold">
                     Real estate Purchase Challenges in Bengaluru
                   </h2>
 
@@ -105,7 +105,7 @@ const Blog = () => {
                 <div className="card-button pt-0 pb-0 text-[#002550]">
                   <Link
                     to="/blogDetails3"
-                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border  text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border  text-[#002550] font-semibold rounded-md mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
                   >
                     View More
                     <span>
@@ -128,7 +128,7 @@ const Blog = () => {
                     <span className="opacity-50 lg:opacity-100">By Admin</span>
                   </div>
 
-                  <h2 className="pb-4 text-xl  xl:text-[28px] leading-7 text-[#002550] font-semibold">
+                  <h2 className="pb-4 text-xl  xl:text-2xl leading-7 text-[#002550] font-semibold">
                     Artificial Intelligence in <br /> Realty
                   </h2>
 
@@ -141,7 +141,7 @@ const Blog = () => {
                 <div className="card-button pt-0 pb-0 text-[#002550]">
                   <Link
                     to="/artificial-Intelligence-in-Realty"
-                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-sm mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
+                    className="w-full lg:w-fit lg:py-[18px] lg:px-[32px] btn border text-[#002550] font-semibold rounded-md mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
                   >
                     View More
                     <span>
