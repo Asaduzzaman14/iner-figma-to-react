@@ -113,8 +113,15 @@
 
 }
 
+.css-113hzja-control {
+border-color: #8888 !important;
+}
 .css-3y3ko2-control {
   min-height: 48px !important;
+  border-color: #8888 !important;
+}
+.css-3y3ko2-control:focus{
+  border-color: red !important;
 }
 
 .css-lm8j94-menu,.css-1mjcdke-singleValue{
