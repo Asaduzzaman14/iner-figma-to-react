@@ -95,7 +95,7 @@ const PostBooking = () => {
                 src={image2}
                 alt=""
               />
-              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] text-blue">
+              <h2 className="cart-title xl:py-5 text-xl xl:text-[28px] leading-9 text-blue">
                 Sustainable Marketability Of Title
               </h2>
               <p className="cart-desc pt-0 mb-0 text-[#1A1A1A] opacity-60 text-sm lg:text-lg text-justify">
