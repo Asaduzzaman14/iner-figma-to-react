@@ -89,7 +89,7 @@ const Contact = () => {
         <div>
           {/* image and from  */}
           {/* <div className='flex flex-col-reverse lg:flex-row gap-5 lg:justify-between '> */}
-          <div className="flex flex-col-reverse lg:flex-row gap-5 py-5 lg:py-10 lg:justify-between items-center ">
+          <div className="flex flex-col-reverse lg:flex-row gap-5 py-5 xl:gap-[60px] lg:py-10 lg:justify-between items-center ">
             {/* forms */}
             <div className=" mx-auto w-cal()">
               <div className="text-start">
@@ -224,7 +224,7 @@ const Contact = () => {
                     </p>
                   </div>
                   <div class="flex justify-start mb-7">
-                    <div class="relative rounded border-[#888888] mb-3 w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
+                    <div class="relative rounded border-[#888888] mb-3 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                       <Select
                         styles={style}
                         type="text"
@@ -282,7 +282,7 @@ const Contact = () => {
                       <input
                         value={"Submit"}
                         type="submit"
-                        className="text-center cursor-pointer w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px] border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
+                        className="text-center cursor-pointer  min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px] border bg-[#002550] rounded-md font-semibold text-white text-lg p-2"
                       ></input>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ const Contact = () => {
             </div>
 
             {/* image */}
-            <div className="max-w-full md:w-[350px]">
+            <div className="max-w-full md:w-[350px] 2xl:w-[557px]">
               <img
                 className="max-w-full md:w-[300px] 2xl:w-[447px] mx-auto  lg:mb-0"
                 src={image}

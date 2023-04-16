@@ -27,18 +27,38 @@
 .slick-track{
   margin-bottom: 2px;
 }
-.slick-track
-{
-    display: flex !important;
+
+
+/* that must not be ignored */
+.slick-slide {
+  height: auto !important; 
+}
+.slick-track .items{
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important; 
+  align-items: stretch !important;
 }
 
-.slick-slide
-{
-    height: inherit !important;
+
+.slick-slide {
+  height: auto !important;
 }
-.card{
-  height: inherit;
+
+.slick-track {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: stretch !important;
 }
+
+
+
+
+
+
+
+
 .PhoneInputInput {
   width: 200px !important;
   height: 100% !important;
@@ -342,3 +362,5 @@ border-color: #8888 !important;
   }
 
 }
+
+

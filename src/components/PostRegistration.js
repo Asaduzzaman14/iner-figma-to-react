@@ -22,7 +22,7 @@ const PostRegistration = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           // dots: true,
@@ -42,10 +42,10 @@ const PostRegistration = () => {
     // <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '>
     <Slider {...settings}>
       <div>
-        <div className="card w-[360px] lg:w-[711px] p-4 lg:p-6">
+        <div className="card lg:h-[790px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[711px] p-4 lg:p-6">
           <div>
             <img
-              className="w-[330px] h-[245px]  lg:w-full lg:h-full"
+              className="w-[330px] h-[245px]  lg:w-full lg:h-[94%]"
               src={iamge1}
               alt=""
             />
@@ -60,7 +60,6 @@ const PostRegistration = () => {
               streaming and...
             </p>
 
-            <ContactBtn />
             {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
@@ -72,12 +71,13 @@ const PostRegistration = () => {
                 </span>
               </Link>
             </div> */}
-          </div>
+          </div>{" "}
+          <ContactBtn />
         </div>
       </div>
 
       <div>
-        <div className="card w-[360px] lg:w-[711px] p-4 lg:p-6">
+        <div className="card lg:h-[790px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[711px] p-4 lg:p-6">
           <div>
             <img
               className="w-[330px] h-[245px]  lg:w-full lg:h-full"
@@ -93,7 +93,6 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-            <ContactBtn />
             {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
@@ -105,12 +104,13 @@ const PostRegistration = () => {
                 </span>
               </Link>
             </div> */}
-          </div>
+          </div>{" "}
+          <ContactBtn />
         </div>
       </div>
 
       <div>
-        <div className="card w-[360px] lg:w-[711px] p-4 lg:p-6">
+        <div className="card lg:h-[790px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[711px] p-4 lg:p-6">
           <div>
             <img
               className="w-[330px] h-[245px]  lg:w-full lg:h-full"
@@ -126,7 +126,6 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-            <ContactBtn />
             {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
@@ -138,12 +137,13 @@ const PostRegistration = () => {
                 </span>
               </Link>
             </div> */}
-          </div>
+          </div>{" "}
+          <ContactBtn />
         </div>
       </div>
 
       <div>
-        <div className="card w-[360px] lg:w-[711px] p-4 lg:p-6">
+        <div className="card lg:h-[790px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[711px] p-4 lg:p-6">
           <div>
             <img
               className="w-[330px] h-[245px]  lg:w-full lg:h-full"
@@ -159,7 +159,6 @@ const PostRegistration = () => {
               with those at nominal costs ensuring fast and transparent
               delivery.
             </p>
-            <ContactBtn />
             {/* <div className="card-button pb-0 text-[#002550]">
               <Link
                 to="/contactUs"
@@ -172,6 +171,7 @@ const PostRegistration = () => {
               </Link>
             </div> */}
           </div>
+          <ContactBtn />
         </div>
       </div>
     </Slider>

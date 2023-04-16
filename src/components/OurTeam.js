@@ -11,6 +11,7 @@ const OurTeam = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    adaptiveHeight: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -18,6 +19,7 @@ const OurTeam = () => {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          adaptiveHeight: false,
         },
       },
       {
@@ -43,14 +45,14 @@ const OurTeam = () => {
       <div>
         {/* <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
         <Slider className="" {...settings}>
-          <div className="">
-            <div className="card w-[360px] lg:w-[455px] p-4 lg:p-6">
-              <div className="text-start">
+          <div className="items">
+            <div className="card  flex flex-col justify-between lg:h-[630px] xl:h-[690px] w-[360px] lg:w-[455px] p-4 lg:p-6 ">
+              <div className="text-start ">
                 <img className="w-[330px] lg:w-[407px]" src={image1} alt="" />
                 <h2 className="pt-5 lg:pb-3 text-xl text-[#002550] font-semibold">
                   Brajesh Pathak
                 </h2>
-                <div className="py-3 lg:hidden">
+                <div className="py-3 ">
                   <span className="text-[#1A1A1A] opacity-40 ">Co-Founder</span>
                 </div>
                 <p className="cart-desc text-sm lg:text-lg text-[#1A1A1A] opacity-60 text-justify">
@@ -60,28 +62,28 @@ const OurTeam = () => {
                   He has also been...
                 </p>
               </div>
-              <div className="text-end">
-                <Link
-                  to="/ourTeam"
-                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
-                >
-                  {" "}
-                  View More
-                </Link>
-              </div>
+              <Link
+                to="/ourTeam"
+                className="text-end font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
+              >
+                {" "}
+                View More
+              </Link>
             </div>
           </div>
 
-          <div>
-            <div className="card w-[360px] lg:w-[455px] p-4 lg:p-6">
-              <div className="text-start">
+          <div className="items">
+            <div className="card flex flex-col justify-between w-[360px] lg:h-[630px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
+              <div className="text-start  ">
                 <img className="w-[330px] lg:w-[407px]" src={image2} alt="" />
                 <h2 className="pt-5 pb-3 text-xl text-[#002550] font-semibold">
                   Deepak Shukla
                 </h2>
-                {/* <div className='py-3'>
-                                <span className='text-[#1A1A1A] opacity-40 pb-3'>Co-Founder</span>
-                            </div> */}
+                <div className="py-3">
+                  <span className="text-[#1A1A1A] opacity-40 pb-3">
+                    Co-Founder
+                  </span>
+                </div>
                 <p className="cart-desc text-sm lg:text-lg text-[#1A1A1A] opacity-60 text-justify">
                   Deepak Shukla has completed his B.Tech (hons.) from the Indian
                   Institute of Technology (IIT) Kharagpur and obtained an MBA
@@ -89,28 +91,28 @@ const OurTeam = () => {
                   India. He has an...
                 </p>
               </div>
-              <div className="text-end">
-                <Link
-                  to="/ourTeam"
-                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
-                >
-                  {" "}
-                  View More
-                </Link>
-              </div>
+              <Link
+                to="/ourTeam"
+                className="text-end font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
+              >
+                {" "}
+                View More
+              </Link>
             </div>
           </div>
 
-          <div>
-            <div className="card w-[360px] lg:w-[455px] p-4 lg:p-6">
+          <div className="items">
+            <div className="card  flex flex-col justify-between w-[360px] lg:h-[630px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
               <div className="text-start">
                 <img className="w-[330px] lg:w-[407px]" src={image3} alt="" />
                 <h2 className="pt-5 pb-3 text-xl text-[#002550] font-semibold">
                   Alok Kumar Singh
                 </h2>
-                {/* <div className='py-3'>
-                                <span className='text-[#1A1A1A] opacity-40 pb-3'>Advisor</span>
-                            </div> */}
+                <div className="py-3">
+                  <span className="text-[#1A1A1A] opacity-40 pb-3">
+                    Advisor
+                  </span>
+                </div>
                 <p className="cart-desc text-sm lg:text-lg text-[#1A1A1A] opacity-60 text-justify">
                   Entrepreneur with pedigree from IIT-BHU and IIML, and more
                   than 25 years of experience in management responsibilities in
@@ -118,15 +120,13 @@ const OurTeam = () => {
                   Capital...
                 </p>
               </div>
-              <div className="text-end">
-                <Link
-                  to="/ourTeam"
-                  className="font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
-                >
-                  {" "}
-                  View More
-                </Link>
-              </div>
+              <Link
+                to="/ourTeam"
+                className="text-end font-semibold  pt-4 text-[#1A1A1A]   lg:text-blue lg:font-normal text-[16px] opacity-60 lg:opacity-100 cursor-pointer"
+              >
+                {" "}
+                View More
+              </Link>
             </div>
           </div>
         </Slider>

@@ -47,7 +47,7 @@ const PostBooking = () => {
       {/* <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
       <Slider {...settings} className="">
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px]  p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -67,10 +67,9 @@ const PostBooking = () => {
                 context, We using Ai enabled platform has eased out the
                 process...
               </p>
-              <PriceBtn />
 
               {/* <div className="flex pt-2.5 items-center justify-between ">
-                <div className="card-button py-0 text-[#002550]">
+                <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]">
                   <Link
                     to="/contactUs"
                     className="py-[18px] px-[32px] btn border text-[#002550] font-semibold rounded-sm  outline outline-1 text-lg p-2 flex justify-center items-center gap-1"
@@ -83,12 +82,13 @@ const PostBooking = () => {
                 </div>
                 <span className="text-blue">INR 3000/Project</span>
               </div> */}
-            </div>
+            </div>{" "}
+            <PriceBtn />
           </div>
         </div>
 
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px] p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -109,11 +109,10 @@ const PostBooking = () => {
                 ensures that...
               </p>
 
-              <ContactBtn />
               {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
-                  className="card-button py-0 text-[#002550]"
+                  className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]"
                 >
                   <Link
                     to="/contactUs"
@@ -126,11 +125,12 @@ const PostBooking = () => {
                   </Link>
                 </Link>
               </div> */}
-            </div>
+            </div>{" "}
+            <ContactBtn />
           </div>
         </div>
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px] p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -149,12 +149,11 @@ const PostBooking = () => {
                 the overall development of the project at the maximum possible
                 heights could be observed. This can replace or complement...
               </p>
-              <ContactBtn />
 
               {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
-                  className="card-button py-0 text-[#002550]"
+                  className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]"
                 >
                   <Link
                     to="/contactUs"
@@ -167,12 +166,13 @@ const PostBooking = () => {
                   </Link>
                 </Link>
               </div> */}
-            </div>
+            </div>{" "}
+            <ContactBtn />
           </div>
         </div>
 
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px] p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -192,11 +192,10 @@ const PostBooking = () => {
                 registration process. To prevent these unnecessary travel times
                 and ...
               </p>
-              <ContactBtn />
               {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
-                  className="card-button py-0 text-[#002550]"
+                  className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]"
                 >
                   <Link
                     to="/contactUs"
@@ -209,12 +208,13 @@ const PostBooking = () => {
                   </Link>
                 </Link>
               </div> */}
-            </div>
+            </div>{" "}
+            <ContactBtn />
           </div>
         </div>
 
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px] p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -234,11 +234,10 @@ const PostBooking = () => {
                 supplemented with a legal opinion report by the expert. This
                 ensures that...
               </p>
-              <ContactBtn />
               {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
-                  className="card-button py-0 text-[#002550]"
+                  className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]"
                 >
                   <Link
                     to="/contactUs"
@@ -251,12 +250,13 @@ const PostBooking = () => {
                   </Link>
                 </Link>
               </div> */}
-            </div>
+            </div>{" "}
+            <ContactBtn />
           </div>
         </div>
 
         <div>
-          <div className="card w-[360px] lg:w-[455px] p-4">
+          <div className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between  w-[360px] lg:w-[455px] p-4">
             <div className="text-start">
               <img
                 className="w-[360px] lg:w-[407px] h-[245px] mx-auto"
@@ -276,11 +276,10 @@ const PostBooking = () => {
                 government of India within the due date, the applicable monthly
                 interest rate is 1%{" "}
               </p>
-              <ContactBtn />
               {/* <div className="flex pt-2.5 items-center justify-between ">
                 <Link
                   to="/contactUs"
-                  className="card-button py-0 text-[#002550]"
+                  className="card lg:h-[890px] xl:h-[800px] flex flex-col justify-between -button py-0 text-[#002550]"
                 >
                   <Link
                     to="/contactUs"
@@ -293,7 +292,8 @@ const PostBooking = () => {
                   </Link>
                 </Link>
               </div> */}
-            </div>
+            </div>{" "}
+            <ContactBtn />
           </div>
         </div>
       </Slider>
