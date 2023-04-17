@@ -12,11 +12,13 @@ const OurOfferings = () => {
 
   return (
     <div className="px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
-      <div className="relative pt-5 pb-2.5 mb-[35px] lg:pt-[70px]">
-        <h2 className="title text-base lg:text-[32px] pt-0 pb-6">
-          Our Offerings
-        </h2>
-        <div className=" border-2 rounded-full h-[2px] w-[103px] lg:w-[200px] inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+      <div className=" py-5  lg:pt-[70px] lg:pb-[35px]">
+        <div className="relative ">
+          <h2 className="title pt-0 text-base lg:text-[32px] lg:leading-10 pb-[5px] lg:pb-[10px]">
+            Our Offerings
+          </h2>
+          <div className=" border-2 rounded-full h-[2px] w-[103px] lg:w-[200px] inset-x-0 mx-auto border-[#002550] absolute bottom-0"></div>
+        </div>
       </div>
 
       <div className="lg:hidden">

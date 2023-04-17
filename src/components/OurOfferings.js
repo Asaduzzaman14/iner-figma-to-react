@@ -16,7 +16,7 @@ const OurOfferings = () => {
         <h2 className="title text-base lg:text-[32px] pt-[25px] lg:pt-[35px] pb-1 lg:pb-[10px]">
           Our Offerings
         </h2>
-        <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[103px]  inset-x-0 mx-auto border-[#002550] absolute "></div>
+        <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[200px]  inset-x-0 mx-auto border-[#002550] absolute "></div>
       </div>
       <p className="normal-text text-sm lg:text-base font-normal text-[#1A1A1A] py-[10px] lg:pt-5  lg:pb-8">
         This whole purchase journey can be divided into three stages. For more

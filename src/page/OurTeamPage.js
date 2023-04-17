@@ -41,11 +41,13 @@ const OurTeampage = () => {
   return (
     <div className="mb-[25px]">
       <div className="bg-[#E6EAEE] pb-2 mb-[25px] lg:mb-[35px]">
-        <div className="relative pt-5 pb-6 lg:pt-[70px] lg:mb-7">
-          <h2 className="title text-base lg:text-[32px] pt-0 pb-[10px] ">
-            Our Team
-          </h2>
-          <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[133px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+        <div className=" py-5  lg:pt-[70px] lg:pb-[35px]">
+          <div className="relative ">
+            <h2 className="title pt-0 text-base lg:text-[32px] lg:leading-10 pb-[5px] lg:pb-[10px]">
+              Our Team
+            </h2>
+            <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[133px] inset-x-0 mx-auto border-[#002550] absolute bottom-0"></div>
+          </div>
         </div>
 
         {/* ************************** */}
