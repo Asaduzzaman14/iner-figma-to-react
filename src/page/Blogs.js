@@ -42,7 +42,9 @@ const Blogs = () => {
   return (
     <div className="pb-10 lg:pb-20">
       <div className="relative lg:hidden mb-4 pb-1.5 text-center">
-        <h2 className="title mt-0 py-[20px] ">Blogs</h2>
+        <h2 className="title text-base lg:text-[28px] mt-0 py-[20px] ">
+          Blogs
+        </h2>
         <div className=" border-2 rounded-full h-[2px] w-[26px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
       </div>
 

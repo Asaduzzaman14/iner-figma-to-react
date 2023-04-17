@@ -12,7 +12,9 @@ const OurOfferings = () => {
   return (
     <div className="px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
       <div className="relative pt-6 lg:pt-[70px]">
-        <h2 className="title pt-0 pb-6">Our Offerings</h2>
+        <h2 className="title text-base lg:text[32px] pt-0 pb-6">
+          Our Offerings
+        </h2>
         <div className=" border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
       </div>
 
