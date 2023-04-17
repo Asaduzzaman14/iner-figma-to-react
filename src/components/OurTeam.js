@@ -46,7 +46,7 @@ const OurTeam = () => {
         {/* <div className='grid gap-[46px] grid-cols-1 lg:grid-cols-3 '> */}
         <Slider className="" {...settings}>
           <div className="items">
-            <div className="card  flex flex-col justify-between lg:h-[630px] xl:h-[690px] w-[360px] lg:w-[455px] p-4 lg:p-6 ">
+            <div className="card  flex flex-col justify-between lg:h-[650px] xl:h-[690px] w-[360px] lg:w-[455px] p-4 lg:p-6 ">
               <div className="text-start ">
                 <img className="w-[330px] lg:w-[407px]" src={image1} alt="" />
                 <h2 className="pt-5 lg:pb-3 text-xl text-[#002550] font-semibold">
@@ -73,7 +73,7 @@ const OurTeam = () => {
           </div>
 
           <div className="items">
-            <div className="card flex flex-col justify-between w-[360px] lg:h-[630px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
+            <div className="card flex flex-col justify-between w-[360px] lg:h-[650px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
               <div className="text-start  ">
                 <img className="w-[330px] lg:w-[407px]" src={image2} alt="" />
                 <h2 className="pt-5 pb-3 text-xl text-[#002550] font-semibold">
@@ -102,7 +102,7 @@ const OurTeam = () => {
           </div>
 
           <div className="items">
-            <div className="card  flex flex-col justify-between w-[360px] lg:h-[630px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
+            <div className="card  flex flex-col justify-between w-[360px] lg:h-[650px] xl:h-[690px] lg:w-[455px] p-4 lg:p-6 ">
               <div className="text-start">
                 <img className="w-[330px] lg:w-[407px]" src={image3} alt="" />
                 <h2 className="pt-5 pb-3 text-xl text-[#002550] font-semibold">
