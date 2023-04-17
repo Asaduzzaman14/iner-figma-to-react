@@ -39,12 +39,10 @@ const OurOfferings = () => {
             <li onClick={() => setShow(1)} role="presentation">
               <a
                 href="#tabs-home"
-                class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
-                  show === 1
-                    ? "h-16 lg:h-[100px] mx-w-full w-52 px-2"
-                    : "w-16 h-16 "
+                class={` lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
+                  show == 1 ? "h-16 w-[206px] lg:h-[100px]  px-5" : "w-16 h-16 "
                 } flex items-center justify-center  border-transparent 
-                                data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
+                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
                 data-te-target="#tabs-home"
                 data-te-toggle="pill"
                 role="tab"
@@ -69,10 +67,10 @@ const OurOfferings = () => {
             <li onClick={() => setShow(2)} role="presentation">
               <a
                 href="#tabs-messages"
-                class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${
+                class={` block lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
                   show === 2 ? "h-16 px-5 w-52" : "w-16 h-16"
-                } flex items-center justify-center border-transparent 
-                                data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
+                } flex items-center justify-center  border-transparent 
+                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
                 data-te-toggle="pill"
                 data-te-target="#tabs-messages"
                 data-te-nav-active
@@ -99,10 +97,10 @@ const OurOfferings = () => {
             <li onClick={() => setShow(3)} role="presentation">
               <a
                 href="#tabs-profile"
-                class={`my-2 block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${
-                  show === 3 ? "h-16 px-5 w-52" : "w-16 h-16"
+                class={` block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${
+                  show === 3 ? "h-16 w-[206px]" : "w-16 h-16"
                 } flex items-center justify-center border-transparent 
-                                data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate border-b-2 border-white data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
+                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
                 data-te-toggle="pill"
                 data-te-target="#tabs-profile"
                 role="tab"
@@ -133,17 +131,25 @@ const OurOfferings = () => {
             <li role="presentation">
               <a
                 href="#tabs-home"
-                class="my-2 block border-transparent 
-                                data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase border-b-2 border-white leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
+                class={` lg:w-[100%] xl:w-[467px] lg:h-[100px] ${
+                  show == 1 ? "h-16 w-[206px] lg:h-[100px]  px-5" : "w-16 h-16 "
+                } flex items-center justify-center  border-transparent 
+                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
                 data-te-toggle="pill"
                 data-te-target="#tabs-home"
                 role="tab"
                 aria-controls="tabs-home"
                 aria-selected="true"
               >
-                <div className="h-[100px] flex items-center justify-center gap-5 lg:text-2xl text-center ">
-                  <span className="number ">1</span>
-                  <span className="normal-text lg:text-2xl hidden lg:block">
+                <div className="py-5 flex items-center justify-center gap-1 lg:gap-5 text-center ">
+                  <span className="number w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  ">
+                    1
+                  </span>
+                  <span
+                    className={`normal-text font-semibold lg:block text-sm lg:text-xl ${
+                      show == 1 ? "block text-start" : "hidden"
+                    }`}
+                  >
                     Pre-Booking
                   </span>
                 </div>
@@ -153,7 +159,7 @@ const OurOfferings = () => {
             <li role="presentation">
               <a
                 href="#tabs-messages"
-                class="my-2 block border-b-2 border-white border-transparent 
+                class="block border-b-2 border-white border-transparent 
                                 data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                 data-te-toggle="pill"
                 data-te-target="#tabs-messages"
@@ -173,7 +179,7 @@ const OurOfferings = () => {
             <li role="presentation">
               <a
                 href="#tabs-profile"
-                class="my-2 block border-b-2 border-white border-transparent 
+                class=" block border-b-2 border-white border-transparent 
                                 data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
                 data-te-toggle="pill"
                 data-te-target="#tabs-profile"

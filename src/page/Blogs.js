@@ -40,7 +40,7 @@ const Blogs = () => {
   };
 
   return (
-    <div className="pb-10 lg:pb-20">
+    <div className="pb-[42px] lg:pb-20">
       <div className="relative lg:hidden mb-4 pb-1.5 text-center">
         <h2 className="title text-base lg:text-[28px] mt-0 py-[20px] ">
           Blogs

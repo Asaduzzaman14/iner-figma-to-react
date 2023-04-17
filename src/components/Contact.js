@@ -112,6 +112,7 @@ const Contact = () => {
                       <div class="flex justify-start">
                         <div class="relative opacity-60 min-w-full  w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                           <input
+                            autocomplete="false"
                             type="text"
                             name="fullName"
                             class="peer  block min-h-[auto] w-full h-full  text-sm rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
@@ -140,6 +141,7 @@ const Contact = () => {
                     <div class="numberinput flex justify-start mb-7">
                       <div class="relative  border-[1.5px] text-sm rounded border-[#888888] opacity-60 ps-2 mb-3 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <PhoneInput
+                          autocomplete="false"
                           name="number"
                           className="phoneHeight text-sm flex justify-start h-full align-bottom focus:outline-none"
                           value={value}
@@ -203,17 +205,13 @@ const Contact = () => {
                     <div class="flex justify-centr">
                       <div class="relative opacity-60 min-w-full w-[300px] md:w-[350px] lg:w-[280px] 2xl:w-[350px] h-[48px]">
                         <input
+                          autocomplete="false"
                           onChange={(e) => setemail(e.target.value)}
                           type="email"
                           name="email"
-                          class="peer text-sm block min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888] bg-transparent py-0 px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-[#888888] dark:placeholder:text-[#888888] [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                          id="exampleFormControlInputText"
-                          placeholder="Example label"
+                          class=" text-sm bg-white bg-inherit  min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888]  py-0 px-3 leading-[1.6] outline-none transition-all duration-200  "
                         />
-                        <label
-                          for="exampleFormControlInputText"
-                          class="pointer-events-none text-xs absolute px-2 -top-2.5  left-2  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out bg-white"
-                        >
+                        <label class="pointer-events-none  bg-transparent text-xs absolute px-2 -top-2.5  left-2  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out bg-white">
                           Email address
                         </label>
                       </div>
