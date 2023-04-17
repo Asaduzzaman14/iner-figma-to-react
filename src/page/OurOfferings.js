@@ -41,7 +41,7 @@ const OurOfferings = () => {
                   1{" "}
                 </span>
                 <span
-                  className={`normal-text  lg:block text-sm lg:text-xl ${
+                  className={`normal-text font-semibold lg:block text-sm lg:text-xl ${
                     show == 1 ? "block text-start" : "hidden"
                   }`}
                 >
@@ -69,7 +69,7 @@ const OurOfferings = () => {
                   2{show === 2 && "."}{" "}
                 </span>
                 <span
-                  className={`normal-text text-start lg:block text-sm lg:text-xl ${
+                  className={`normal-text font-semibold text-start lg:block text-sm lg:text-xl ${
                     show === 2 ? "block" : "hidden"
                   }`}
                 >
@@ -96,7 +96,7 @@ const OurOfferings = () => {
               <div className="flex items-center text-blue font-semibold justify-center gap-2 lg:gap-5 text-center py-5">
                 <span className="number w-0 h-0 ">3</span>
                 <span
-                  className={`normal-text  lg:block text-sm lg:text-xl text-blue ${
+                  className={`normal-text font-semibold lg:block text-sm lg:text-xl text-blue ${
                     show === 3 ? "block" : "hidden"
                   }`}
                 >
@@ -129,7 +129,7 @@ const OurOfferings = () => {
               >
                 <div className="h-[100px] flex items-center justify-center gap-5 lg:text-2xl text-center ">
                   <span className="number ">1</span>
-                  <span className="normal-text lg:text-2xl hidden lg:block">
+                  <span className="normal-text font-semibold lg:text-2xl hidden lg:block">
                     Pre-Booking
                   </span>
                 </div>
@@ -149,7 +149,7 @@ const OurOfferings = () => {
               >
                 <div className="flex min-h-[100px] items-center justify-center gap-5 lg:text-2xl text-center py-5">
                   <span className="number ">2</span>
-                  <span className="normal-text lg:text-2xl hidden lg:block">
+                  <span className="normal-text font-semibold lg:text-2xl hidden lg:block">
                     Post-Booking & <br /> Pre-Registration
                   </span>
                 </div>
@@ -170,7 +170,7 @@ const OurOfferings = () => {
                 {" "}
                 <div className="h-[100px] flex items-center justify-center gap-5 lg:text-2xl text-center py-5">
                   <span className="number">3</span>
-                  <span className="normal-text hidden lg:block font-semibold lg:text-2xl">
+                  <span className="normal-text font-semibold hidden lg:block font-semibold lg:text-2xl">
                     Post-Registration{" "}
                   </span>
                 </div>
