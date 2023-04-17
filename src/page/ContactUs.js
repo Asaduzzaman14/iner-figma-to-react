@@ -6,10 +6,10 @@ const ContactUs = () => {
     <div className="lg:pt-[70px] lg:mb-[83px]">
       <div className="">
         <div className="relative text-center">
-          <h2 className="title pt-5 lg:pt-1 text-base lg:text-[32px] -pt-1 mt-0  lg:pb-[35px]">
+          <h2 className="title pt-5 lg:pt-1 text-base lg:text-[32px] -pt-1 mt-0  lg:pb-2.5">
             Contact Us
           </h2>
-          <div className=" border-2 rounded-full h-[2px] w-[54px]  inset-x-0 mx-auto border-[#002550] absolute -bottom-[5px]"></div>
+          <div className=" border-2 rounded-full h-[2px] w-[54px] lg:w-[133px] inset-x-0 mx-auto border-[#002550] absolute -bottom-[5px]"></div>
         </div>
       </div>
 

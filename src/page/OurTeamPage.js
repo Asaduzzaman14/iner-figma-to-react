@@ -45,7 +45,7 @@ const OurTeampage = () => {
           <h2 className="title text-base lg:text-[32px] pt-0 pb-[10px] ">
             Our Team
           </h2>
-          <div className=" border-2 rounded-full h-[2px] w-[81px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+          <div className=" border-2 rounded-full h-[2px] w-[81px] lg:w-[133px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
         </div>
 
         {/* ************************** */}

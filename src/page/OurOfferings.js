@@ -16,7 +16,7 @@ const OurOfferings = () => {
         <h2 className="title text-base lg:text-[32px] pt-0 pb-6">
           Our Offerings
         </h2>
-        <div className=" border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+        <div className=" border-2 rounded-full h-[2px] w-[103px] lg:w-[200px] inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
       </div>
 
       <div className="lg:hidden">
