@@ -120,7 +120,7 @@ const Contact = () => {
                               setName(e.target.value);
                             }}
                           />
-                          <label class="pointer-events-none px-1 text-xs absolute -top-2.5 bg-white bg-transparent left-3 max-w-[350px]  leading-[1.6] text-[#888888] transition-all duration-200 ease-out">
+                          <label class="pointer-events-none px-1 text-xs absolute -top-2.5 bg-white bg-transparent left-5 max-w-[350px]  leading-[1.6] text-[#888888] transition-all duration-200 ease-out">
                             Full name
                           </label>
                         </div>
@@ -149,7 +149,7 @@ const Contact = () => {
                         />
                         <label
                           for="exampleFormControlInputText"
-                          class="pointer-events-none text-xs absolute -top-5 bg-white px-2 left-2  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[1.4rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
+                          class="pointer-events-none text-xs absolute -top-5 bg-white px-2 left-5  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[1.4rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white"
                         >
                           Mobile Number
                         </label>
@@ -181,7 +181,7 @@ const Contact = () => {
                             },
                           })}
                         />
-                        <span className="absolute text-xs left-2 -top-2 bg-white px-2 text-[#888888]">
+                        <span className="absolute text-xs left-5 -top-2 bg-white px-2 text-[#888888]">
                           Stages
                         </span>
                       </div>
@@ -211,7 +211,7 @@ const Contact = () => {
                           name="email"
                           class=" text-sm bg-white bg-inherit  min-h-[auto] w-full h-full rounded border-[1.5px] border-[#888888]  py-0 px-3 leading-[1.6] outline-none transition-all duration-200  "
                         />
-                        <label class="pointer-events-none  bg-transparent text-xs absolute px-2 -top-2.5  left-2  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out bg-white">
+                        <label class="pointer-events-none  bg-transparent text-xs absolute px-2 -top-2.5  left-5  mb-0 max-w-[350px] origin-[0_0] truncate leading-[1.6] text-[#888888] transition-all duration-200 ease-out bg-white">
                           Email address
                         </label>
                       </div>
