@@ -84,12 +84,12 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-4 max-w-full lg:px-10 xl:px-[100px] 2xl:px-[200px] py-5 lg:py-7">
+    <div className=" max-w-full lg:px-10 xl:px-[100px] 2xl:px-[200px] py-5 lg:py-7">
       <div className="shadow-lg px-4 lg:px-16 ">
         <div>
           {/* image and from  */}
           {/* <div className='flex flex-col-reverse lg:flex-row gap-5 lg:justify-between '> */}
-          <div className="flex flex-col-reverse lg:flex-row gap-5 py-5 xl:gap-[60px] lg:py-10 lg:justify-between items-center ">
+          <div className="flex flex-col-reverse lg:flex-row gap-5  xl:gap-[60px] lg:py-10 lg:justify-between items-center ">
             {/* forms */}
             <div className=" mx-auto w-cal()">
               <div className="text-start">
@@ -293,7 +293,7 @@ const Contact = () => {
             {/* image */}
             <div className="max-w-full md:w-[350px] 2xl:w-[557px]">
               <img
-                className="max-w-full md:w-[300px] 2xl:w-[447px] mx-auto  lg:mb-0"
+                className="max-w-full rounded-md md:w-[300px] 2xl:w-[447px] mx-auto  lg:mb-0"
                 src={image}
                 alt=""
               />

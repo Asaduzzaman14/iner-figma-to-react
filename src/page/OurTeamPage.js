@@ -40,12 +40,17 @@ const OurTeampage = () => {
 
   return (
     <div className="mb-[25px]">
-      <div className="bg-[#E6EAEE] mb-[25px] lg:mb-[35px]">
+      <div className="bg-[#E6EAEE] pb-2 mb-[25px] lg:mb-[35px]">
+        <div className="relative pt-5 pb-6 lg:pt-[70px]">
+          <h2 className="title text-base lg:text[32px] pt-0 ">Our Team</h2>
+          <div className=" border-2 rounded-full h-[2px] w-[81px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
+        </div>
+
         {/* ************************** */}
         {/* <About /> */}
         {/* ************************** */}
 
-        <div className="font-sans py-[35px]  px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
+        <div className="font-sans px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
           <div className="w-[360px] md:w-full mx-auto bg-[#F2F4F6] p-4 md:p-6 lg:p-7 grid grid-cols-1 lg:grid-cols-2 items-center content-center gap-[10px] lg:gap-[30px]">
             <div>
               <img

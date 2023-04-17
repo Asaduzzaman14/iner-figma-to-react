@@ -358,3 +358,12 @@ border-color: #8888 !important;
 }
 
 
+
+
+
+.ourTeam .slick-slider .slick-slide {
+  padding: 0 0px !important;
+}
+.ourTeam .slick-list{
+  margin: 0 0px !important;
+}
