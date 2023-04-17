@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PreBooking from "./PreBooking";
 import PostBooking from "../components/Offering/PostBooking";
 import PostRegistration from "./PostRegistration";
+import LargeTab from "./Offering/LargeTab";
 
 const OurOfferings = () => {
   const [show, setShow] = useState(2);
@@ -97,7 +98,7 @@ const OurOfferings = () => {
             <li onClick={() => setShow(3)} role="presentation">
               <a
                 href="#tabs-profile"
-                class={` block lg:w-[100%] xl:w-[467px] lg:h-[100px]  ${
+                class={` block lg:w-[100%]  lg:h-[100px]  ${
                   show === 3 ? "h-16 w-[206px]" : "w-16 h-16"
                 } flex items-center justify-center border-transparent 
                               data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
@@ -122,7 +123,7 @@ const OurOfferings = () => {
           </ul>
         </div>
 
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <ul
             class="grid grid-cols-3 lg:grid-cols-3 gap-[10px] lg:gap-[30px] pb-[10px] md:pb-[34px] list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
             role="tablist"
@@ -141,15 +142,9 @@ const OurOfferings = () => {
                 aria-controls="tabs-home"
                 aria-selected="true"
               >
-                <div className="py-5 flex items-center justify-center gap-1 lg:gap-5 text-center ">
-                  <span className="number w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  ">
-                    1
-                  </span>
-                  <span
-                    className={`normal-text font-semibold lg:block text-sm lg:text-xl ${
-                      show == 1 ? "block text-start" : "hidden"
-                    }`}
-                  >
+                <div className="h-[100px] flex items-center justify-center gap-5 px-3 lg:text-2xl text-center py-5">
+                  <span className="number">1</span>
+                  <span className="normal-text hidden text-start lg:block font-semibold lg:text-2xl">
                     Pre-Booking
                   </span>
                 </div>
@@ -196,7 +191,9 @@ const OurOfferings = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
+
+        <LargeTab />
 
         <div class="mb-6">
           <div

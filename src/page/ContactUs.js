@@ -3,7 +3,7 @@ import Contact from "../components/Contact";
 
 const ContactUs = () => {
   return (
-    <div className="lg:pt-[65px] lg:mb-[83px]">
+    <div className="lg:pt-[70px] lg:mb-[83px]">
       <div className="">
         <div className="relative text-center">
           <h2 className="title pt-5 lg:pt-1 text-base lg:text-[32px] -pt-1 mt-0  lg:pb-[35px]">

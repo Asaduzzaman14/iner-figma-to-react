@@ -5,14 +5,15 @@ import PreBooking from "../components/PreBooking";
 import PostRegistration from "../components/PostRegistration";
 import PostBooking from "../components/PostBooking";
 import { useState } from "react";
+import LargeTab from "../components/Offering/LargeTab";
 
 const OurOfferings = () => {
   const [show, setShow] = useState("1");
 
   return (
     <div className="px-5  lg:px-10  xl:px-[100px] 2xl:px-[200px]">
-      <div className="relative pt-5 lg:pt-[70px]">
-        <h2 className="title text-base lg:text[32px] pt-0 pb-6">
+      <div className="relative pt-5 pb-2.5 mb-[35px] lg:pt-[70px]">
+        <h2 className="title text-base lg:text-[32px] pt-0 pb-6">
           Our Offerings
         </h2>
         <div className=" border-2 rounded-full h-[2px] w-[103px]  inset-x-0 mx-auto border-[#002550] absolute bottom-4"></div>
@@ -111,7 +112,7 @@ const OurOfferings = () => {
       </div>
 
       <div className="">
-        <div className="hidden lg:block">
+        {/* <div className="hidden lg:block">
           <ul
             class="  grid grid-cols-1 lg:grid-cols-3 gap-7 mb-5  list-none flex-col flex-wrap border-b-0 pl-0 md:flex-row"
             role="tablist"
@@ -179,8 +180,9 @@ const OurOfferings = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
+        <LargeTab />
         <div class="mb-6">
           <div
             class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
