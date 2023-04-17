@@ -50,7 +50,7 @@ const OtherBlogs = () => {
           <Slider {...settings}>
             {/* <div className="grid gap-[46px] grid-cols-1 lg:grid-cols-3 "> */}
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card lg:h-[700px] 2xl:h-[750px] flex flex-col justify-between  w-[360px]  lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className="w-full" src={blog1} alt="" />
                   <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
@@ -87,7 +87,7 @@ const OtherBlogs = () => {
             </div>
 
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card  lg:h-[700px] 2xl:h-[750px] flex flex-col justify-between  w-[360px]  lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className="w-full" src={blog2} alt="" />
                   <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
@@ -123,7 +123,7 @@ const OtherBlogs = () => {
             </div>
 
             <div>
-              <div className="card w-[360px]  lg:w-[455px] p-4 lg:p-6">
+              <div className="card  lg:h-[700px] 2xl:h-[750px] flex flex-col justify-between  w-[360px]  lg:w-[455px] p-4 lg:p-6">
                 <div className="text-start">
                   <img className="w-full" src={blog3} alt="" />
                   <h2 className="py-5 lg:pt-[30px] text-base pb-7 text-[#1A1A1A] lg:font-bold">
@@ -143,7 +143,7 @@ const OtherBlogs = () => {
                     recent years, with a growing number of developers and
                   </p>
                 </div>
-                <div className="card-button py-0 text-[#002550]">
+                <div className="card-button py-0 mt-5 text-[#002550]">
                   <Link
                     to="/artificial-Intelligence-in-Realty"
                     className="h-[48px] xl:h-[61px]  py-[18px] px-[32px] w-full lg:w-fit   btn border text-[#002550] font-semibold rounded-md mt-4 outline outline-1 text-lg p-2 flex justify-center items-center gap-2 "
