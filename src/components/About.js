@@ -21,7 +21,8 @@ const About = () => {
             <h2 className="font-sans text-xl md:text-xl text-blue lg:text-black lg:text-[36px] font-semibold pb-[10px] lg:pb-[35px]">
               Who We Are
             </h2>
-            <p className="text-sm lg:text-lg normal-text text-[#1A1A1A]  opacity-60 text-justify">
+
+            <p className="text-sm lg:text-lg leading-6 normal-text text-[#1A1A1A]  opacity-60 text-justify">
               The Indian real estate sector is resilient despite global
               headwinds. Returns are impressive and the sector is expected to
               reach US$ 1 trillion in market size by 2030 (Niti Aayog report,

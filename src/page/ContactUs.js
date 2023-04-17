@@ -4,7 +4,7 @@ import Contact from "../components/Contact";
 const ContactUs = () => {
   return (
     <div className=" lg:mb-[83px]">
-      <div className=" py-5  lg:pt-[70px] lg:pb-[35px]">
+      <div className=" py-5  lg:pt-[70px] ">
         <div className="relative ">
           <h2 className="title pt-0 text-base lg:text-[32px] lg:leading-10 pb-[5px] lg:pb-[10px]">
             Contact Us

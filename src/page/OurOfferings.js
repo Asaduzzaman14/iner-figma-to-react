@@ -21,7 +21,7 @@ const OurOfferings = () => {
         </div>
       </div>
 
-      <div className="lg:hidden">
+      <div className="lg:hidden pb-3">
         <ul
           class="flex content-center gap-2.5 lg:gap-[30px]  md:pb-[34px] justify-center flex-row"
           role="tablist"

@@ -15,10 +15,8 @@ const LargeTab = () => {
         <li role="presentation">
           <a
             href="#tabs-home"
-            class={` lg:w-[100%] 2xl:w-[467px] lg:h-[100px] ${
-              show == 1 ? "h-16 w-[206px] lg:h-[100px]  px-5" : "w-16 h-16 "
-            } flex items-center justify-center  border-transparent 
-                      data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2  data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
+            class="block border-b-2 border-white border-transparent 
+            data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
             data-te-toggle="pill"
             data-te-target="#tabs-home"
             role="tab"
@@ -38,7 +36,7 @@ const LargeTab = () => {
           <a
             href="#tabs-messages"
             class="block border-b-2 border-white border-transparent 
-                        data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]  text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
+            data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-transparent data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]"
             data-te-toggle="pill"
             data-te-target="#tabs-messages"
             data-te-nav-active
@@ -67,7 +65,7 @@ const LargeTab = () => {
           >
             <div className="h-[100px] flex items-center justify-center gap-5 px-3 lg:text-2xl text-center py-5">
               <span className="number">3</span>
-              <span className="normal-text hidden text-start lg:block font-semibold lg:text-2xl">
+              <span className="normal-text hidden text-start lg:block  lg:text-2xl">
                 Post-Registration{" "}
               </span>
             </div>

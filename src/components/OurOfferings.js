@@ -31,7 +31,7 @@ const OurOfferings = () => {
             ===================================*/}
 
       <div>
-        <div className="lg:hidden">
+        <div className="lg:hidden pb-[10px]">
           <ul
             class="flex content-center gap-2.5 lg:gap-[30px] pb-[20px] md:pb-[34px] justify-center flex-row"
             role="tablist"
@@ -51,7 +51,7 @@ const OurOfferings = () => {
                 aria-selected="false"
               >
                 <div className="flex items-center justify-center gap-1 lg:gap-5 text-center ">
-                  <span className="number w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  ">
+                  <span className="number font-semibold w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  ">
                     1{" "}
                   </span>
                   <span
@@ -80,7 +80,7 @@ const OurOfferings = () => {
                 aria-selected="true"
               >
                 <div className="flex items-center justify-center gap-2 lg:gap-5">
-                  <span className="number w-0 h-0 pr-2 flex items-center">
+                  <span className="number font-semibold w-0 h-0 pr-2 flex items-center">
                     2{show === 2 && "."}{" "}
                   </span>
                   <span
@@ -109,13 +109,13 @@ const OurOfferings = () => {
                 aria-selected="false"
               >
                 <div className="flex items-center text-blue justify-center gap-2 lg:gap-5 text-center py-5">
-                  <span className="number w-0 h-0 ">3</span>
+                  <span className="number font-semibold w-0 h-0 ">3</span>
                   <span
-                    className={`normal-text  lg:block text-sm lg:text-xl text-blue ${
+                    className={`normal-text text-center lg:block text-sm lg:text-xl text-blue ${
                       show === 3 ? "block" : "hidden"
                     }`}
                   >
-                    . Post-Registration{" "}
+                    . Post-Registration
                   </span>
                 </div>
               </a>
@@ -195,7 +195,7 @@ const OurOfferings = () => {
 
         <LargeTab />
 
-        <div class="mb-6">
+        <div class="mb-6 ">
           <div
             class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[te-tab-active]:block"
             id="tabs-home"

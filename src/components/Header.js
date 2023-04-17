@@ -12,7 +12,6 @@ const Header = () => {
 
   console.log(location.pathname);
   let [open, setOpen] = useState(true);
-  console.log(open);
 
   if (!open) {
     // document.body.style.shadow = "red";

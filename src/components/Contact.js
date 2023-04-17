@@ -77,10 +77,10 @@ const Contact = () => {
 
   const handelContactForm = (e) => {
     e.preventDefault();
-    // console.log('hello', e.target.fullName.value);
-    // console.log('hello', e.target.number.value);
-    // console.log('hello', e.target.stages.value);
-    // console.log('hello', countryValue.label);
+    console.log("hello", e.target.fullName.value);
+    console.log("hello", e.target.number.value);
+    console.log("hello", e.target.stages.value);
+    console.log("hello", countryValue.label);
   };
 
   return (
