@@ -3,6 +3,7 @@ import PreBooking from "./PreBooking";
 import PostBooking from "../components/Offering/PostBooking";
 import PostRegistration from "./PostRegistration";
 import LargeTab from "./Offering/LargeTab";
+import SmallTab from "./Offering/SmallTab";
 
 const OurOfferings = () => {
   const [show, setShow] = useState(2);
@@ -31,7 +32,9 @@ const OurOfferings = () => {
             ===================================*/}
 
       <div>
-        <div className="lg:hidden pb-[10px]">
+        <SmallTab />
+
+        {/* <div className="lg:hidden pb-[10px]">
           <ul
             class="flex content-center gap-2.5 lg:gap-[30px] pb-[20px] md:pb-[34px] justify-center flex-row"
             role="tablist"
@@ -100,8 +103,8 @@ const OurOfferings = () => {
                 href="#tabs-profile"
                 class={` block lg:w-[100%]  lg:h-[100px]  ${
                   show === 3 ? "h-16 w-[206px]" : "w-16 h-16"
-                } flex items-center justify-center border-transparent 
-                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[##1A1A1A]`}
+                } flex items-center justify-center border-transparent border-b-2 border-white
+                              data-[te-nav-active]:shadow-[0px_0px_10px_rgba(0,0,0,0.3)]   text-xs font-medium uppercase leading-tight bg-[#F2F4F6] text-[#1A1A1A] hover:isolate hover:border-transparent  focus:isolate focus:border-b-2 data-[te-nav-active]:border-[#000000] data-[te-nav-active]:bg-[#CCD3DC] data-[te-nav-active]:text-[#1A1A1A]   dark:data-[te-nav-active]:border-[#000000] dark:data-[te-nav-active]:text-[#1A1A1A]`}
                 data-te-toggle="pill"
                 data-te-target="#tabs-profile"
                 role="tab"
@@ -109,19 +112,21 @@ const OurOfferings = () => {
                 aria-selected="false"
               >
                 <div className="flex items-center text-blue justify-center gap-2 lg:gap-5 text-center py-5">
-                  <span className="number font-semibold w-0 h-0 ">3</span>
+                  <span className="number font-semibold w-0 h-0 lg:w-10 lg:h-10 pr-2 lg:p-0  ">
+                    3{show === 3 && "."}{" "}
+                  </span>
                   <span
                     className={`normal-text text-center lg:block text-sm lg:text-xl text-blue ${
                       show === 3 ? "block" : "hidden"
                     }`}
                   >
-                    . Post-Registration
+                    Post-Registration
                   </span>
                 </div>
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* <div className="hidden lg:block">
           <ul

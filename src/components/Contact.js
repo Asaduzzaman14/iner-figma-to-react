@@ -246,9 +246,7 @@ const Contact = () => {
                           option: (provided, state) => ({
                             ...provided,
                             color: "#707171",
-                            backgroundColor: state.isSelected
-                              ? "#707171"
-                              : "inherit",
+                            backgroundColor: state.isSelected ? "#707171" : "",
                             "&:hover": {
                               backgroundColor: state.isSelected
                                 ? "#707171"
@@ -269,7 +267,7 @@ const Contact = () => {
                           }),
                         })}
                       />
-                      <label class="pointer-events-none text-xs absolute -top-5 px-2 bg-white left-3  mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white">
+                      <label class="pointer-events-none text-xs absolute -top-5  left-5  px-2 bg-white mb-0 max-w-[350px] origin-[0_0] truncate mt-[10px] leading-[1.6] text-[#888888] transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[1.4rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-[#888888] dark:peer-focus:text-[#888888] dark:peer-focus:bg-white">
                         Country
                       </label>
                     </div>
